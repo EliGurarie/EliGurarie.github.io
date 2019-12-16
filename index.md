@@ -3,11 +3,10 @@ title: About me
 excerpt: "index"
 layout: page
 image:
-    feature: banner_large.jpg
+    feature: "/images/banner_large.jpg"
 ---
 
 I am a quantitative ecologist interested in exploring various aspects of movement, abundance, survival and behavior of animals, both aquatic and terrestrial. I apply statistical and mathematical tools to explore behavioral complexity in movement data, responses to environmental cues, memory effects, and to model encounter rates. I try to develop theory on one side, inform analysis of data on the other, and bring the two together whenever possible.
-
 
 Lately, I have been focused mainly on a suite of research projects related to the {migrations}, survival and demographics of caribou in Canada and Alaska. 
 
