@@ -23,6 +23,7 @@ kramdown:
   enable_coderay: false
 
 theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.17.2"
 
 # Site owner
 owner:
