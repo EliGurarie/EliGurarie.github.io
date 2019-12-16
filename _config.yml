@@ -5,25 +5,24 @@ subtitle:        Quantitative Ecologist
 locale:          en_US
 url:
 
-
 # Jekyll configuration
 
 permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: rouge
+plugins:
+  - jekyll-sitemap
 sass:
   sass_dir: _sass
-  style: compressed
-gems:
-  - jekyll-sitemap
-
+    
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  enable_coderay: false
 
+theme: minimal-mistakes-jekyll
 
 # Site owner
 owner:
@@ -32,27 +31,9 @@ owner:
   # bio: "Describe your self."
   email: egurarie@umd.edu
   disqus-shortname:
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-  twitter: 
   github: EliGurarie
   google_scholar: d_G0tbAAAAAJ
-  instagram: #
-  xing: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
+
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
