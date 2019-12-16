@@ -1,9 +1,8 @@
-# alisonketz.github.io
-Alison Ketz Research Scientist
+# ThisIsElie.github.io
+Elie Gurarie Research Scientist
 
 
 This site is based on the **[Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)** theme, a two-column responsive Jekyll theme perfect for powering your GitHub hosted blog.
-
 
 ## License
 
