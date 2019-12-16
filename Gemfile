@@ -10,4 +10,4 @@ git_source(:github) {|repo_name| "https://github.com/EliGurarie/ThisIsElie/githu
 # gem "rails"
 gem "jekyll", "~> 3.5"
 gem "github-pages", group: :jekyll_plugins
-gem "minimal-mistakes-jekyll"
+gem "minimal-mistakes-jekyll", :github => "mmistakes/minimal-mistakes"
