@@ -3,7 +3,7 @@ layout: page
 title: Research
 excerpt: "research"
 image:
-    feature: 141106_elkheli-326_web.jpg
+    feature: banner_large.jpg
 ---
 
 #### Statistical Ecology
