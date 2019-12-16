@@ -1,28 +1,30 @@
-# Site wide configuration
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
 
-title:           Elie Gurarie
-subtitle:        Quantitative Ecologist
-locale:          en_US
-url:
+# remote_theme             : "mmistakes/minimal-mistakes"
+theme             : "minimal-mistakes-jekyll"
+minimal_mistakes_skin    : "plum" #contrast" # default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-# Jekyll configuration
+# Site Settings
+locale                   : "en-US"
+title                    : "Eli(e) Gurarie"
+title_separator          : "-"
+subtitle                 : "Quantitative Ecologist"
+name                     : &name "Eli(e) Gurarie" # &name is a YAML anchor which can be *referenced later
+description              : &description "Professional internet outfacing face page"
+url                      : https://GitHub.com/EliGurarie # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "GitHub/EliGurarie"
+#teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+#logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
+# breadcrumbs            : false # true, false (default)
+words_per_minute         : 200
 
-permalink:   /:categories/:title/
-markdown:    kramdown
-highlighter: rouge
-plugins:
-  - jekyll-sitemap
-sass:
-  sass_dir: _sass
-    
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
-
-remote_theme: "mmistakes/minimal-mistakes@4.17.2"
 
 # Site owner
 owner:
@@ -30,10 +32,59 @@ owner:
   avatar: elivodlosmall.jpg
   # bio: "Describe your self."
   email: egurarie@umd.edu
-  disqus-shortname:
+  # disqus-shortname:
   github: EliGurarie
   google_scholar: d_G0tbAAAAAJ
 
+plugins:
+  - jekyll-sitemap
+  
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+keep_files:
+  - .git
+encoding: "utf-8"
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+
