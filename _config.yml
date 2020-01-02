@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title:           This is Eli(e)
+title:           Elie Gurarie
 locale:          en_US
 url:             https://eligurarie.github.io/ThisIsElie.github.io/
 email:           egurarie@umd.edu
@@ -60,7 +60,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Elie Gurarie"
+  name   : "Research Scientist"
   avatar : "/assets/images/elivodlosmall.jpg"
   email: egurarie@umd.edu
   google_scholar: d_G0tbAAAAAJ
