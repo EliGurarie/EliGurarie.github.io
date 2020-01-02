@@ -1,16 +1,27 @@
-# ThisIsElie.github.io
-[Elie Gurarie Research Scientist](https://eligurarie.github.io/ThisIsElie.github.io/)
+# Minimal Mistakes remote theme starter
 
+Fork this repo for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
 
-This site is based on the **[Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)** theme, crudely adapted from [Alison Ketz](https://alisonketz.github.io/), who, in turn, adapted it from [Dieuwke Hupkes](https://dieuwkehupkes.github.io), beyond which the origins are obscure. As it should be. 
+Contains basic configuration to get you a site with:
 
-It is - emphatically - NOT YET FUNCTIONING. 
+- Sample posts.
+- Sample top navigation.
+- Sample author sidebar with social links.
+- Sample footer links.
+- Paginated home page.
+- Archive pages for posts grouped by year, category, and tag.
+- Sample about page.
+- Sample 404 page.
+- Site wide search.
 
-## License
+Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
 
-Feel free to adapt this theme to your site without linking back to me or including a disclaimer
+---
 
-## To run it locally
-```
-bundle exec jekyll serve --watch --port 4000
-```
+## Troubleshooting
+
+If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+
+- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
+- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
+- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.

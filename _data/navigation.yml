@@ -1,25 +1,21 @@
 # site navigation links
 
-- title: About
-  url: /"/"/
+main: 
+  - title: About
+    url: "index.html"
+  - title: Research
+    url: "_pages/research/"
+  - title: Teaching
+    url: "_pages/teaching/"
+  - title: Publications
+    url: "_pages/publications/"
+  - title: R packages
+    url: "_pages/Rpackages/"
+  - title: CV
+    url: "_pages/cv/"
+#  - title: Blog
+#    url: /blog/
 
-# - title: Research
-#   url: /research/
-
-- title: Research
-  url: /research/
-
-- title: Publications
-  url: /publications/
-
-# - title: Projects
-#  url: /projects/
-
-- title: CV
-  url: /cv/
-
-# - title: News
-#   url: /news/
-
-# - title: Posts
-#   url: /posts/
+# sidelinks:
+#   - title: 'University of Maryland<br>[Department of Biology](http://biology.umd.edu/)<br>College Park, MD 20472<br><br>University of Wisconsin<br>Department of Forest and Wildlife Ecology<br>Madison, WI 53706'
+#    url: /"/"/

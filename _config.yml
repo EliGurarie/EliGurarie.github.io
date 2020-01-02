@@ -1,90 +1,96 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# remote_theme             : "mmistakes/minimal-mistakes"
-theme             : "minimal-mistakes-jekyll"
-minimal_mistakes_skin    : "default" #  # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-# Site Settings
-locale                   : "en-US"
-title                    : "Eli(e) Gurarie"
-title_separator          : "-"
-subtitle                 : "Quantitative Ecologist"
-name                     : &name "Eli(e) Gurarie" # &name is a YAML anchor which can be *referenced later
-description              : &description "Professional internet outfacing face page"
-url                      : https://GitHub.com/EliGurarie # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "GitHub/EliGurarie"
-#teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-#logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+title:           This is Eli(e)
+locale:          en_US
+url:             https://eligurarie.github.io/ThisIsElie.github.io/
+email:           egurarie@umd.edu
 
+description: >- # this means to ignore newlines until "baseurl:"
+  Research and teaching hub for my scattered labors. 
+github_username: EliGurarie
+minimal_mistakes_skin: default
+search: true
 
-# Site owner
-owner:
-  name: Elie Gurarie
-  avatar: elivodlosmall.jpg
-  # bio: "Describe your self."
-  email: egurarie@umd.edu
-  # disqus-shortname:
-  github: EliGurarie
-  google_scholar: d_G0tbAAAAAJ
-
-plugins:
-  - jekyll-sitemap
-  
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - Rakefile
-  - README
-  - tmp
-keep_files:
-  - .git
-encoding: "utf-8"
-
-
-# Conversion
+# Build settings
 markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /blog/page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-# Markdown Processing
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
+include:
+  - _pages
 
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+   - Gemfile
+   - Gemfile.lock
+   - node_modules
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
+   - .Rproj.user
 
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+author:
+  name   : "Elie Gurarie"
+  avatar : "/assets/images/elivodlosmall.jpg"
+  email: egurarie@umd.edu
+  google_scholar: d_G0tbAAAAAJ
+  bio    : "University of Maryland<br>[Department of Biology](http://biology.umd.edu/)<br>College Park, MD 20472<br><br>University of Wisconsin<br>Department of Forest and Wildlife Ecology<br>Madison, WI 53706"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/EliGurarie"
+    - label: "Google scholar" 
+      icon: "fab ai ai-google-scholar-square"
+      url: "https://scholar.google.com/citations?user=d_G0tbAAAAAJ&hl=en"
+    
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: splash
+    values:
+      layout: splash
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar: 
+        nav: "sidelinks"
+    
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
