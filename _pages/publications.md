@@ -5,7 +5,7 @@ author_profile: true
 header:
   overlay_color: "#000"
   overlay_filter: "0"
-  overlay_image: /assets/images/banner_large.jpg
+  overlay_image: /assets/images/banner_pribilof.jpg
   caption: 'Pribilof Reindeer'
 ---
   
