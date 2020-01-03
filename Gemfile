@@ -6,6 +6,7 @@ gem "tzinfo-data"
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 gem "minimal-mistakes-jekyll"
 gem "jekyll", "~> 3.5"
+gem "activesupport", ">= 4.1.11"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
