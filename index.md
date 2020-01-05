@@ -1,21 +1,21 @@
 ---
-title: About me
+title: Quantitative wildlife ecologist ...
 layout: home_nopage
 author_profile: true
 sidebar: true
 header:
   overlay_color: "#000"
   overlay_filter: "0"
-  overlay_image: /assets/images/banner_large.jpg
+  overlay_image: /assets/images/banner_pribilof.jpg
   caption: 'Pribilof Reindeer'
-  excerpt: "I am a quantitative ecologist ..."
+excerpt: ""
 ---
 
-... interested in exploring various aspects of movement, abundance, survival and behavior of animals, both aquatic and terrestrial. I apply statistical and mathematical tools to explore behavioral complexity in movement data, responses to environmental cues, memory effects, and to model encounter rates. I try to develop theory on one side, inform analysis of data on the other, and bring the two together whenever possible.
+... interested in exploring various aspects of movement, abundance, survival and behavior of animals.  I apply statistical and mathematical tools to explore behavioral complexity in movement data, responses to environmental variables, and the role of cognition and memory, and - ultimately - population processes.  There is much to be learned from all kinds of observations - movement, survival, surveys, camera traps, remotely sensed - and terrific opportunities to learn about complex processes by bringing different kinds of information together.  The opportunities are matched with equally terrific challenged. To that end, I try to develop statistical and mathematical tools to maximally inform the interpretation in data, working closely with biologists, students and resource managers across a wide range of systems.
 
-Lately, I have been focused mainly on a suite of research projects related to the migrations, survival and demographics of caribou in Canada and Alaska. 
+Lately, the greatest chunk of my energy has been focused on a suite of research projects related to the migrations, survival and demographics of caribou in Canada and Alaska.  Second place is on-going work on wolves in Finland.  Third - unrelated to animals - is a large-scale analysis of phenological events across northern Eurasia. 
 
-I've worked on a variety of animals (mostly in cold places), including Pacific salmon, [Steller sea lions in Russia](https://terpconnect.umd.edu/~egurarie/webprojects/2005_raykokegallery/sivuchi/sivuchi.html#sivuchi01), wolves, reindeer and moose in Finland, [Antarctic seals](http://en.wikipedia.org/wiki/Lobodontini), invasive sea lamprey in the Great Lakes. Miscellenous projects have also included management of invasive [willow](https://en.wikipedia.org/wiki/Salix_cinerea) in Australia,  [large-scale phenological data from Russian boreal forests](http://www.helsinki.fi/science/metapop/EBFB/), Giant Panda reintroductions to wildlife reserves in Sichuan, China, Persian leopard and Asiatic cheetah movements in Iran, [great bustard](https://upload.wikimedia.org/wikipedia/commons/9/90/Drop_f%C3%BAzat%C3%BD_%28Otis_tarda%29_%282416576086%29.jpg) habitat selection in Spain, and more.
+Previously, I've worked on a variety of other systems (mostly in similarly cold places), including Pacific salmon migrations, [Steller sea lions](https://terpconnect.umd.edu/~egurarie/webprojects/2005_raykokegallery/sivuchi/sivuchi.html#sivuchi01),  Miscellenous projects have also included management of invasive [willow](https://en.wikipedia.org/wiki/Salix_cinerea) in Australia, Giant Panda reintroductions to wildlife reserves in Sichuan, China, Persian leopard and Asiatic cheetah movements in Iran, and much more.
 
 ### Formal education
 

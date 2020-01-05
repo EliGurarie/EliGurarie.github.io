@@ -4,30 +4,34 @@ layout: home_nopage
 author_profile: true
 header:
   overlay_color: "#000"
-  overlay_filter: "0"
-  overlay_image: /assets/images/banner_large.jpg
-  caption: 'Pribilof Reindeer'
+  overlay_filter: "0.2"
+  overlay_image: /assets/images/banner_tundra_large.jpg
+  caption: 'Kugluktuk'
 ---
   
 I've authored / co-authored several R packages, which have - it seems - been used by people other than myself:
 
 
-## **[`cyclomort`](https://github.com/EliGurarie/cyclomort)** 
+## **`cyclomort`** 
+([Github](https://github.com/EliGurarie/cyclomort))
 
 {:sg: style="color:gray; font-size: 80%;"}
 A tool for modeling and analysis of periodic mortality (or other time-to event) processes from right-censored data inspired by the need to characterize seasonal patterns in mortality of wildlife. 
 {: sg}
 
-## **[`above`](https://github.com/EliGurarie/above)** 
+## **`above`** 
+([Github](https://github.com/EliGurarie/above))
 
 {:sg: style="color:gray; font-size: 80%;"}
-A suite of pseudo-"in-house" functions for the large-scale loading, processing and visualizing of [Movebank](www.movebank.org) data for the *ABoVE: Animals on the Move* project.  
+A suite of pseudo-"in-house" functions for the large-scale loading, processing and visualizing of [Movebank](www.movebank.org) data for the *Arctic Boreal Vulnerability Experiment: Animals on the Move* project.  
 {: sg}
 
-## **[`smoove`](https://github.com/EliGurarie/smoove)**
+## **`smoove`**
+([Github](https://github.com/EliGurarie/smoove))
 
 {:sg: style="color:gray; font-size: 80%;"}
-Fitting continuous time correlated velocity models with and without advection and rotation, including behavioral changes.  *NOTE: THIS DOES EVERYTHING `bcpa` DOES, BUT BETTER!* 
+Fitting continuous time correlated velocity models with and without advection and rotation, including behavioral changes.  
+> NOTE: THIS DOES EVERYTHING `bcpa` DOES, BUT BETTER!* 
 {: sg}
 
 ## **`marcher`** 

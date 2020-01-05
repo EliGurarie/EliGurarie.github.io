@@ -1,4 +1,5 @@
 # Elie Gurarie's Homepage
+https://eligurarie.github.io/
 
 Using the [minimal mistakes jekyll theme](https://mmistakes.github.io/minimal-mistakes/).
 
