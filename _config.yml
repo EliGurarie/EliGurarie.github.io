@@ -31,11 +31,12 @@ remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
-paginate_path: /blog/page:num/
+paginate_path: /posts/page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
+  - _posts
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -49,6 +50,10 @@ exclude:
    - vendor/gems/
    - vendor/ruby/
    - .Rproj.user
+   - .Rhistory
+   - dontbuild/
+   - blog/
+   - ignore/
 
 # Plugins (previously gems:)
 plugins:
@@ -58,6 +63,10 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  
+collections:
+  posts:
+    output          : true
 
 author:
   name   : "Research Scientist"
@@ -75,6 +84,12 @@ author:
     
 defaults:
   # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      read_time: false
+      layout: splash
   - scope:
       path: ""
       type: splash

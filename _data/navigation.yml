@@ -13,8 +13,8 @@ main:
     url: "_pages/Rpackages/"
   - title: CV
     url: "_pages/cv/"
-#  - title: Blog
-#    url: /blog/
+  - title: Blog
+    url: "posts/"
 
 # sidelinks:
 #   - title: 'University of Maryland<br>[Department of Biology](http://biology.umd.edu/)<br>College Park, MD 20472<br><br>University of Wisconsin<br>Department of Forest and Wildlife Ecology<br>Madison, WI 53706'
