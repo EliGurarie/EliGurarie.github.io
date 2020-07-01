@@ -32,9 +32,24 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /posts/page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago
+
+author:
+  name   : "Research Scientist"
+  avatar : "/assets/images/elivodlosmall.jpg"
+  email: egurarie@umd.edu
+  google_scholar: d_G0tbAAAAAJ
+  bio    : "University of Maryland<br>[Department of Biology](http://biology.umd.edu/)<br>College Park, MD 20472<br><br>University of Wisconsin<br>Department of Forest and Wildlife Ecology<br>Madison, WI 53706"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/EliGurarie"
+    - label: "Google scholar" 
+      icon: "fab ai ai-google-scholar-square"
+      url: "https://scholar.google.com/citations?user=d_G0tbAAAAAJ&hl=en"
 
 include:
+  - .htaccess
   - _pages
   - _posts
 
@@ -51,10 +66,38 @@ exclude:
    - vendor/ruby/
    - .Rproj.user
    - .Rhistory
-   - dontbuild/
-   - blog/
-   - ignore/
+   - /dontbuild/
+   - /blog/
+   - /ignore/
 
+
+  
+#collections:
+#  posts:
+#    output: true
+
+defaults:
+  # _posts
+#  - scope:
+#      path: ""
+#      type: posts
+#    values:
+#      read_time: false
+#      layout: splash
+#      sidebar: 
+#        nav: "sidelinks"
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: posts_eg
+      author_profile: true
+      comments: true
+      share: true
+      related: true
+      sidebar: 
+        nav: "sidelinks"
+        
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
@@ -64,49 +107,20 @@ plugins:
   - jemoji
   - jekyll-include-cache
   
-collections:
-  posts:
-    output          : true
-
-author:
-  name   : "Research Scientist"
-  avatar : "/assets/images/elivodlosmall.jpg"
-  email: egurarie@umd.edu
-  google_scholar: d_G0tbAAAAAJ
-  bio    : "University of Maryland<br>[Department of Biology](http://biology.umd.edu/)<br>College Park, MD 20472<br><br>University of Wisconsin<br>Department of Forest and Wildlife Ecology<br>Madison, WI 53706"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/EliGurarie"
-    - label: "Google scholar" 
-      icon: "fab ai ai-google-scholar-square"
-      url: "https://scholar.google.com/citations?user=d_G0tbAAAAAJ&hl=en"
-    
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      read_time: false
-      layout: splash
-      sidebar: 
-        nav: "sidelinks"
-  - scope:
-      path: ""
-      type: splash
-    values:
-      layout: splash
-      author_profile: true
-      comments: true
-      share: true
-      related: true
-      sidebar: 
-        nav: "sidelinks"
-    
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /  
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
+

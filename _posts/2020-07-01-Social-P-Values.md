@@ -1,7 +1,6 @@
 ---
 title: "Putting P-values on Social Aggregations"
-categories:
-  - blog
+date: 2020-07-01 01:34:27
 tags:
   - hypothesis tests
   - caribou
@@ -9,9 +8,9 @@ tags:
   - spatial statistics
 ---
 
-This is my first blog post on this site.  It is therefore, in large part part, an experiment to see if this whole [blogging mechanism](https://medium.com/20percentwork/creating-your-blog-for-free-using-jekyll-github-pages-dba37272730a) works.  Foolishly, it is a long post, and an ambitious one (technically speaking).  Also - foolishly, it is laden with content and context.  
+This is my first blog post on this site.  It is therefore, in large part part, an experiment to see if this whole [blogging mechanism](https://mmistakes.github.io/minimal-mistakes/about/) works.  Foolishly, it is a long post, and an ambitious one (technically speaking).  Also - foolishly - it is laden with both content and context.  
 
-The context is that I've spent too much of the past few days trying to answer a question that I thought would be fairly straightforward.  Now that I have *a* solution (which is only mostly satisfactory), it seems it will make the overlong journey more worthwhile to record some of the twists and lessons along the way.  There are some fun themes here, of randomness, contructing null hypotheses, spatial point processes, and a teeny bit of R code.  In the end, I have a tool which (I hope) will be useful to getting real insights into animal behavior (in this case - caribou), but that might be of broader interest as well.  Perhaps - if I ever get comments to work on this platform - others can suggest better ways to get there.
+The context is that I've spent too much of the past few days trying to answer a question that I thought would be fairly straightforward.  Now that I have *a* solution - which is only mostly satisfactory, it seems it will make the overlong journey more worthwhile to record some of the twists and lessons along the way (*never mind that it took an* ***additional*** *few days trying to get this blog to post!*).  There are some fun themes here, of randomness, contructing null hypotheses, spatial point processes, and a teeny bit of R code.  In the end, I have a tool which (I hope) will be useful to getting real insights into animal behavior (in this case - caribou), but that might be of broader interest as well.  Perhaps others can suggest better ways to get there (assuming the comments feature below works!)
 
 ## The context 
 
