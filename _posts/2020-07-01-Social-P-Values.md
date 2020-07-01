@@ -157,6 +157,5 @@ It is likely, for example, that not all space within the "ranging area" is simil
 But, for now, I think the binomial aggregation distance test (BAD - for those of you with an effection for acronyms) is - well - not too bad for these purposes. 
 
 
-<script defer src="https://cdn.commento.io/js/commento.js"></script>
-<div id="commento"></div>
+
 
