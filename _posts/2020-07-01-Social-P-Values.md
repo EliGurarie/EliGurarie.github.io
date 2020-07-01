@@ -8,8 +8,6 @@ tags:
   - social aggregation
   - spatial statistics
 ---
-# {{ page.title }}
-
 
 This is my first blog post on this site.  It is therefore, in large part part, an experiment to see if this whole [blogging mechanism](https://medium.com/20percentwork/creating-your-blog-for-free-using-jekyll-github-pages-dba37272730a) works.  Foolishly, it is a long post, and an ambitious one (technically speaking).  Also - foolishly, it is laden with content and context.  
 
@@ -126,7 +124,7 @@ The expected value (mean) of both of these distributions is $\lambda$.
 
 A very tidy and simple result!  Let's compare these with our simulated result:
 
-![](../assets/post01/ComparingModels-1.png)<!-- -->
+![](../../assets/post01/ComparingModels-1.png)<!-- -->
 
 You can see pretty darned good correspondence (the binomial and Poisson models are indistinguishable), though there is a slight shift towards fewer observations than predicted.  In fact, the expected number of encounters (according to our model - with *n* = 32, r = 0.3, area = 32) is 4.38, whereas the actual (simulated) mean is somewhat lower at 4.21.  This is almost certainly because of edge effects: points closer to the edge of the area are somewhat less likely to have a close neighbor.  But, that seems like a minor effect (and certainly a very difficult one to correct for).  
 
@@ -159,5 +157,6 @@ It is likely, for example, that not all space within the "ranging area" is simil
 But, for now, I think the binomial aggregation distance test (BAD - for those of you with an effection for acronyms) is - well - not too bad for these purposes. 
 
 
-
+<script defer src="https://cdn.commento.io/js/commento.js"></script>
+<div id="commento"></div>
 

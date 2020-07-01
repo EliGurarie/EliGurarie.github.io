@@ -90,13 +90,14 @@ defaults:
     values:
       read_time: false
       layout: splash
+      sidebar: 
+        nav: "sidelinks"
   - scope:
       path: ""
       type: splash
     values:
       layout: splash
       author_profile: true
-      read_time: true
       comments: true
       share: true
       related: true
