@@ -26,13 +26,13 @@ I spend a lot of time studying movement data on caribou in North America.  Carib
 
 *(Image by K. Joly - from a recent [paper](https://www.mdpi.com/2072-6651/12/5/334) published, unexpectedly, in the journal* Toxins).
 
-Obviously caribou are social and aggregate. The question is: if we only observe onle very few of them, can we detect *significant* social aggregation? And - more relevantly - see how those aggregations vary over time? 
+Obviously caribou are social and aggregate. The question is: if we only observe only very few of them, can we detect *significant* social aggregation? And - more relevantly - see how those aggregations vary over time? 
 
 
 
 ## A super-straightforward estimate
 
-Let's take a look at a very straightford measure: how many really *close* encounters are there in some subset of data?  Below, a figure of the number of pair-wise distances among all caribou (from one particular herd, in one particular year) that are less than 200, 100 and 50 m. Note - the range size for this particular herd is on the otder 100's of km in a given dimension, so these distances are really quite small. 
+Let's take a look at a very straightford measure: how many really *close* encounters are there in some subset of data?  Below, a figure of the number of pair-wise distances among all caribou (from one particular herd, in one particular year) that are less than 200, 100 and 50 m. Note - the range size for this particular herd is on the order of 100's of km in a given dimension, so these distances are really quite small. 
 
 Ok, here's the graph:
 
@@ -50,9 +50,9 @@ Let's zoom in on just a 10 day period and see what's going on.  The red croses i
 
 ![](../../assets/post01/ZoomingIn-1.png)<!-- -->
 
-Two things to note:  The size of the blob stays pretty constant - and the number of individuals is the same.  But the number of encounters peaks at 27 on June 30 and crashes to 0 on July 7.   
+Two things to note:  The size of the blob stays pretty constant - and the number of individuals is the same.  But the number of encounters varies A LOT, peaking at 27 on June 30 and crashing to 0 a week later on July 7.   
 
-Again - there's a super interesting behavioral question here, and intriguing ecological hypotheses to explore.  But the main question here is statistical, namely: are those numbers of encounters MORE than expected?  Less than expected?  Can we get to that oh so hotly desired crutch of all inference ... a *p*-value from these observations?   
+Again - there's a super interesting behavioral question here, and intriguing ecological hypotheses to explore.  But the main question here is statistical, namely: are those numbers of encounters *more* than expected?  Are others *less* than expected?  Can we get to that oh so hotly desired crutch of all inference ... a *p*-value from these observations?   
 
 
 
@@ -60,7 +60,7 @@ Again - there's a super interesting behavioral question here, and intriguing eco
 
 ## Some point processes
 
-Before we get to a p-value, it's helpful to simulate data so we can really, really know what's going on.  I used various [random](https://www.rdocumentation.org/packages/spatstat/versions/1.64-1/topics/runifpoint) [point-generation](https://www.rdocumentation.org/packages/spatstat/versions/1.64-1/topics/rMatClust) [functions](https://www.rdocumentation.org/packages/spatstat/versions/1.64-1/topics/rSSI) in the package [`spatstat`](https://cran.r-project.org/web/packages/spatstat/index.html) to create three distributions of 32 points each, just as with the caribou data above:
+Before we get to a *p*-value, it's helpful to simulate data so we can really, really know what's going on.  I used various [random](https://www.rdocumentation.org/packages/spatstat/versions/1.64-1/topics/runifpoint) [point-generation](https://www.rdocumentation.org/packages/spatstat/versions/1.64-1/topics/rMatClust) [functions](https://www.rdocumentation.org/packages/spatstat/versions/1.64-1/topics/rSSI) in the package [`spatstat`](https://cran.r-project.org/web/packages/spatstat/index.html) to create three distributions of 32 points each, just as with the caribou data above:
 
 
 
@@ -155,7 +155,7 @@ It is likely, for example, that not all space within the "ranging area" is simil
 
 But, for now, I think the Binomial Aggregation Distance test (BAD - for those of you with an affection for terribly statistical acronyms) is - well - not *too* bad for these purposes. 
 
-(sorry for that)
+(Sorry about that.  I should quite while I'm ahead.)
 
 
 
