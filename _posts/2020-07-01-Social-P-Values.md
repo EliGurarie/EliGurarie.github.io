@@ -10,24 +10,24 @@ tags:
 
 This is my first blog post on this site.  It is therefore, in large part part, an experiment to see if this whole [blogging mechanism](https://mmistakes.github.io/minimal-mistakes/about/) works.  Foolishly, it is a long post, and an ambitious one (technically speaking).  Also - foolishly - it is laden with both content and context.  
 
-The context is that I've spent too much of the past few days trying to answer a question that I thought would be fairly straightforward.  Now that I have *a* solution - which is only mostly satisfactory, it seems it will make the overlong journey more worthwhile to record some of the twists and lessons along the way (*never mind that it took an* ***additional*** *few days trying to get this blog to post!*).  There are some fun themes here, of randomness, contructing null hypotheses, spatial point processes, and a teeny bit of R code.  In the end, I have a tool which (I hope) will be useful to getting real insights into animal behavior (in this case - caribou), but that might be of broader interest as well.  Perhaps others can suggest better ways to get there (assuming the comments feature below works!)
+The context is that I've spent too much of the past few days trying to answer a question that I thought would be fairly straightforward.  Now that I have *a* solution - which is only mostly satisfactory, it seems it will make the overlong journey more worthwhile to record some of the twists and lessons along the way (*never mind that it took an* ***additional*** *few days trying to get this blog to post!*).  There are some fun themes here, of randomness, contructing null hypotheses, spatial point processes, and a teeny bit of R code.  In the end, I have a tool which (I hope) will be useful to getting real insights into animal behavior (in this case - caribou), but that might be of broader interest as well.  Perhaps others can suggest better ways to get there (*assuming the comments feature below works!*)
 
 ## The context 
 
-I spend a lot of time studying movement data on caribou in North America.  Caribou are mysterious in many, many ways, and there are many unique challenges in analyzing their data - grist for many (almost surely never-to-be-written) blog posts.  Not least of these challenges is that in a herd that can contain many tens of 100's of thousands of animals - there are usually around 20 animals collared at a time.  At best - maybe 50. So broad inferences have to be made (carefully) from very small samples. 
+I spend a lot of time studying movement data on caribou in North America.  Caribou are mysterious in many, many ways, and there are many unique challenges in analyzing their data - grist for many (*almost surely never-to-be-written*) blog posts.  Not least of these challenges is that in a herd that can contain many tens of 100's of thousands of animals - there are usually around 20 animals collared at a time.  At best - 50-ish. So broad inferences have to be made (carefully) from very small samples. 
 
-**This is what congregating caribou look like:** <br>
+**This, for the record, is what 50 (red) points out of 100,000 looks like:** 
+
+![](../../assets/post01/SmallSample-1.png)
+
+**And this is what congregating caribou look like:** <br>
 
 ![](https://www.mdpi.com/toxins/toxins-12-00334/article_deploy/html/images/toxins-12-00334-g002-550.jpg)
 
 *(Image by K. Joly - from a recent [paper](https://www.mdpi.com/2072-6651/12/5/334) published, unexpectedly, in the journal* Toxins).
 
-
 Obviously caribou are social and aggregate. The question is: if we only observe onle very few of them, can we detect *significant* social aggregation? And - more relevantly - see how those aggregations vary over time? 
 
-**This, for the record, is what 50 (red) points out of 100,000 looks like:** 
-
-![](../../assets/post01/SmallSample-1.png)<!-- -->
 
 
 ## A super-straightforward estimate
@@ -50,7 +50,7 @@ Let's zoom in on just a 10 day period and see what's going on.  The red croses i
 
 ![](../../assets/post01/ZoomingIn-1.png)<!-- -->
 
-Two things to note:  The size of the blob stays pretty constant - and the number of individuals is the same.  But the number of <font color = "red"> encounters </font> peaks at 27 on June 30 and crashes to 0 on July 7.   
+Two things to note:  The size of the blob stays pretty constant - and the number of individuals is the same.  But the number of encounters peaks at 27 on June 30 and crashes to 0 on July 7.   
 
 Again - there's a super interesting behavioral question here, and intriguing ecological hypotheses to explore.  But the main question here is statistical, namely: are those numbers of encounters MORE than expected?  Less than expected?  Can we get to that oh so hotly desired crutch of all inference ... a *p*-value from these observations?   
 
@@ -60,7 +60,7 @@ Again - there's a super interesting behavioral question here, and intriguing eco
 
 ## Some point processes
 
-Before we get to a p-value, it's helpful to simulate data so we can really, really know what's going on.  I used various [random](https://www.rdocumentation.org/packages/spatstat/versions/1.64-1/topics/runifpoint) [point-generation](https://www.rdocumentation.org/packages/spatstat/versions/1.64-1/topics/rMatClust) [functions](https://www.rdocumentation.org/packages/spatstat/versions/1.64-1/topics/rSSI) in the package [`spatstat`]https://cran.r-project.org/web/packages/spatstat/index.html) to create three distributions of 32 points each, just as with the caribou data above:
+Before we get to a p-value, it's helpful to simulate data so we can really, really know what's going on.  I used various [random](https://www.rdocumentation.org/packages/spatstat/versions/1.64-1/topics/runifpoint) [point-generation](https://www.rdocumentation.org/packages/spatstat/versions/1.64-1/topics/rMatClust) [functions](https://www.rdocumentation.org/packages/spatstat/versions/1.64-1/topics/rSSI) in the package [`spatstat`](https://cran.r-project.org/web/packages/spatstat/index.html) to create three distributions of 32 points each, just as with the caribou data above:
 
 
 
@@ -68,7 +68,7 @@ Before we get to a p-value, it's helpful to simulate data so we can really, real
 
 
 
-The "clustered" process looks like there are a bunch of aggregations. The "inhibited" process looks like everyone is socially distancing as much as possible (as is the trend these days).  The first one - is, well, perfectly random (which - maybe to many people - looks like it's all bunched up in funny ways, but that's to be attributed to our miserable human intuition for randomness).  
+The "clustered" process looks like there are a bunch of aggregations. The "inhibited" process looks like everyone is a superchamp social distancer.  The third one - is, well, perfectly random (which - maybe to many people - looks like it's bunched up in funny ways, but that's to be attributed to our miserable human intuition for randomness).  
 
 If we count the number of encounters - which we'll defined as the number of unique pairs less than 0.3 units distance of each other, we get the following results:
 
@@ -143,7 +143,7 @@ Here's how that looks:
 
 ## What to make of this!?
 
-There are a few things to unpack here.  The "ranging area" - as inferred from this group of individuals - fluctuates a LOT over these months, and the peak of encounters corresponds to a period in late June / early July when that area is particularly small (about 3000 km^2^ compared to over 30,000 km ^2^).  
+There are a few things to unpack here.  The "ranging area" - as inferred from this group of individuals - fluctuates a LOT over these months, and the peak of encounters corresponds to a period in late June / early July when that area is particularly small (about 3000 km$^2$ compared to over 30,000 km$^2$).  
 
 Most dramatically: the expected number of encounters is VERY VERY SMALL!  It never even reaches 0.1.  That means that even a single close encounter is going to be statistically significant, and 30 encounters is astronomical.  The variation in that curve, however, is very interesting, as it does reflect that shift in total range area, but they don't entirely line up - and that plummeting cliff in the number of encounters is unexplained by that variation. 
 
@@ -153,7 +153,9 @@ More relevant to this post, these results do strongly suggest that even a rather
 
 It is likely, for example, that not all space within the "ranging area" is similarly available and that there are topographic and geographic features which will tend to cluster the caribou.  I am a little bit familiar with the portions of the Canadiand Arctic that these animals hail from ... and, while there are NO mountains or valleys, there might be significant patches which are simply too barren to be of any use.  To account for that, we would need a good resource selection model as a foundation for the null distribution.  This is a whole step more complex but - in this context - perhaps a worthwhile direction to pursue. 
 
-But, for now, I think the binomial aggregation distance test (BAD - for those of you with an effection for acronyms) is - well - not too bad for these purposes. 
+But, for now, I think the Binomial Aggregation Distance test (BAD - for those of you with an affection for terribly statistical acronyms) is - well - not *too* bad for these purposes. 
+
+(sorry for that)
 
 
 
