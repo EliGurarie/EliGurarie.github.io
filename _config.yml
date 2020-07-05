@@ -91,7 +91,8 @@ defaults:
       type: posts
     values:
       layout: posts_eg
-      author_profile: true
+      author_profile: false
+      date: true
       comments: true
       share: true
       related: true

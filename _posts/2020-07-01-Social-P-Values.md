@@ -1,6 +1,6 @@
 ---
 title: "Putting *p*-values on social aggregations"
-date: 2020-07-01 01:34:27
+date: 2020-07-01
 toc: true
 tags:
   - hypothesis tests
