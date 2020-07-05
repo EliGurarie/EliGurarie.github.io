@@ -9,10 +9,7 @@ tags:
   - point processes
 ---
 
-
-## A question ...
-
-An interesting (off hand) question came up the other day from a colleague who is modeling the spatial interaction between two animals (caribou and muskox) whose ranges overlap in a study area in a portion of the Canadian Arctic.  She has fitted two resource selection functions (RSF's) - one for the caribou, one for the muskox - identified some relevant differences in their preferences for different elevations, vegetation types, distance from water, etc., and is now wondering if she can use those results to create a map of "co-occurrence" of the two species on the landscape.  This question is not entirely abstract - there is local concern in this particular region that the muskox (which had been extirpated and more recently reintroduced) are competing with the caribou, which are an important local resource for subsistence.  The socio-ecological context - as always - is interesting and complicated. But the statsy question itself is also interesting, as it forces us to think about what does an RSF really tell us, and what does co-occurrence really mean. 
+An interesting question came up the other day from a colleague who is modeling the spatial interaction between two animals (caribou and muskox) whose ranges overlap in a study area in a portion of the Canadian Arctic.  She has fitted two resource selection functions (RSF's) - one for the caribou, one for the muskox - identified some relevant differences in their preferences for different elevations, vegetation types, distance from water, etc., and is now wondering if she can use those results to create a map of "co-occurrence" of the two species on the landscape.  This question is not entirely abstract - there is local concern in this particular region that the muskox (which had been extirpated and more recently reintroduced) are competing with the caribou, which are an important local resource for subsistence.  The socio-ecological context - as always - is interesting and complicated. But the statsy question itself is also interesting, as it forces us to think about what does an RSF really tell us, and what does co-occurrence really mean. 
 
 **Muskox are amazing. When you see them, they look like paleolithic aliens that have been teleported from Pluto. Here are some that I saw on a caribou survey (photo: Dean Cluff).**
 
