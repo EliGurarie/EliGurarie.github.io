@@ -1,6 +1,6 @@
 ---
 title: "What is co-occurrence in continuous space?"
-date: 2020-07-03 01:34:27
+date: 2020-07-05 01:34:27
 toc: true
 tags:
   - caribou
@@ -17,7 +17,7 @@ An interesting (off hand) question came up the other day from a colleague who is
 
 ![](../../assets/post02/muskox_cluff.jpg)
 
-## ... an aside to grumble about RSFs.
+## An aside to grumble about RSFs
 
 To be honest, I have some (maybe many) issues with RSF's, even though I have dealt with them quite a bit ([here's even a link to a series on primers](https://terpconnect.umd.edu/~egurarie/research/NWT/)), especially when applied to movement data.  They can be useful for generating easy to interpret maps of habitat suitability, and for identifying some general patterns of preference or avoidance, and those maps have real value, both for communication and decision-making.  And, since movement data from GPS collared animals is one of the most commonly available kinds of data for "observing" animals in the wild, it is tempting to use those data to make habitat suitability maps - as well as some inferences on habitat-specific preference or avoidance.  
 
@@ -38,24 +38,13 @@ In theory - a point takes up zero space.  So the probability that two points "co
  
 So let's go back and think about points.  Below, we have two species, 100 individuals each, sharing 100 squared units of space.  The density of each is 1 animal per unit squared, but the spatial distribution is completely random. 
 
-
-```r
-par(eliepar)
-set.seed(1976)
-z1 <- runif(100, 0, 10) + 1i*runif(100, 0, 10)
-z2 <- runif(100, 0, 10) + 1i*runif(100, 0, 10)
-plot(z1, asp = 1, col = rgb(0,0,1,.5), pch = 19, cex = 0.5, xlab = "", ylab ="")
-points(z2, asp = 1, col = rgb(1,0,0,.5), pch = 19, cex = 0.5)
-legend("topright", col = c("red","blue"), pch = 19, legend = c("A", "B"), bty = "n")
-```
-
 ![](../../assets/post02/Fig1-1.png)<!-- -->
 
 This is the simplest (homogeneous) two-dimensional *[Poisson point process](https://en.wikipedia.org/wiki/Poisson_point_process)*.  Why Poisson - which many associate with a [discrete distribution](https://en.wikipedia.org/wiki/Poisson_point_process) frequently used to model count data?  Because if we subset the space equally, the number of these points per unit area will be distributed as a Poisson random variable.  Here's an illustration, where we took the data above and broke it down into 100 square units and counted the number of red and blue points in each. 
 
 ![](../../assets/post02/Fig2-1.png)<!-- -->
 
-Because the *intensity parameter* - in a 2D process, the density of points - is $\lambda = 1$, the resulting count distribution is a [Poisson distribution](https://en.wikipedia.org/wiki/Poisson_distribution) with intensity 1.  We can write that in terms of the density function as: $$P(A = k|\lambda_a) = {\lambda_a^k e^{-k} \over k!}$$. 
+Because the *intensity parameter* is equivalent to the mean density of points,  $\lambda = 1$ and the resulting count distribution is a [Poisson distribution](https://en.wikipedia.org/wiki/Poisson_distribution) with intensity 1.  We can write that in terms of the density function as: $$P(A = k|\lambda_a) = {\lambda_a^k e^{-k} \over k!}$$. 
 
 ## Co-occurring point processes
 
@@ -69,9 +58,9 @@ Even more conveniently, if $\lambda$ is very small (which would happen if, say, 
 
 ![](../../assets/post02/ExpLambda-1.png)<!-- -->
  
-That $\lambda$ - the *intensity* (i.e. density) of points captures - in a scale-free way - the general likelihood of an animal being somewhere.  It is "scale robust", because it is a nice, useful, meaningful measure despite the fact that the probability of being in any one (infinitesimally small) location is always 0, and being anywhere is 1.  
+The intensity / density parameter $\lambda$ captures the general likelihood of an animal being found in a general location.  It is "scale robust", because it is a nice, useful, meaningful measure despite the fact that the probability of being in any one (infinitesimally small) location is always 0, and being anywhere in the universe is 1.  
 
-So, *in a very similar way*, that $\lambda^2$ (which has weird units of density² - or, e.g., $n_A n_B/km^4$) is a legitimate measure of "co-occurrence intensity" that can be considered "scale-free" - or at least, "scale-robust". 
+So, *in a very similar way*, that $\lambda^2$ (which has weird units of density² - or, e.g., $n_A n_B/km^4$) is a legitimate measure of "co-occurrence intensity" that can be considered similarly "scale-robust" and meaningful for any location in space. 
   
  
 ## What does this have to do with RSF's?
