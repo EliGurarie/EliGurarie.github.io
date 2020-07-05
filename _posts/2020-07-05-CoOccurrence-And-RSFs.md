@@ -44,7 +44,8 @@ This is the simplest (homogeneous) two-dimensional *[Poisson point process](http
 
 ![](../../assets/post02/Fig2-1.png)<!-- -->
 
-Because the *intensity parameter* is equivalent to the mean density of points,  $\lambda = 1$ and the resulting count distribution is a [Poisson distribution](https://en.wikipedia.org/wiki/Poisson_distribution) with intensity 1.  We can write that in terms of the density function as: $$P(A = k|\lambda_a) = {\lambda_a^k e^{-k} \over k!}$$. 
+
+Because the *intensity parameter* is equivalent to the mean density of points,  $\lambda = 1$ and the resulting count distribution is a [Poisson distribution](https://en.wikipedia.org/wiki/Poisson_distribution) with intensity 1.  We can write that in terms of the density function as: $$P(A = k, \lambda_a) = {\lambda_a^k e^{-k} \over k!}$$. 
 
 ## Co-occurring point processes
 
