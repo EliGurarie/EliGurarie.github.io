@@ -2,6 +2,7 @@
 title: "Putting *p*-values on social aggregations"
 date: 2020-07-01
 toc: true
+toc_sticky: true
 tags:
   - hypothesis tests
   - caribou
