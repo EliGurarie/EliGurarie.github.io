@@ -1,6 +1,7 @@
 ---
-title: "Putting P-values on Social Aggregations"
+title: "Putting *p*-values on social aggregations"
 date: 2020-07-01 01:34:27
+toc: true
 tags:
   - hypothesis tests
   - caribou
@@ -153,9 +154,9 @@ More relevant to this post, these results do strongly suggest that even a rather
 
 It is likely, for example, that not all space within the "ranging area" is similarly available and that there are topographic and geographic features which will tend to cluster the caribou.  I am a little bit familiar with the portions of the Canadiand Arctic that these animals hail from ... and, while there are NO mountains or valleys, there might be significant patches which are simply too barren to be of any use.  To account for that, we would need a good resource selection model as a foundation for the null distribution.  This is a whole step more complex but - in this context - perhaps a worthwhile direction to pursue. 
 
-But, for now, I think the Binomial Aggregation Distance test (BAD - for those of you with an affection for terribly statistical acronyms) is - well - not *too* bad for these purposes. 
+But, for now, I think the Binomial Aggregation Distance test (BAD) is - well - not *too* bad for these purposes. 
 
-(Sorry about that.  I should quite while I'm ahead.)
+(Sorry about that.  I should quit while I'm ahead.)
 
 
 
