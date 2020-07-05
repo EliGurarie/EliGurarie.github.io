@@ -1,7 +1,6 @@
 ---
 title: "What is co-occurrence in continuous space?"
 date: 2020-07-05
-toc: true
 tags:
   - caribou
   - muskox
