@@ -77,20 +77,12 @@ exclude:
 #    output: true
 
 defaults:
-  # _posts
-#  - scope:
-#      path: ""
-#      type: posts
-#    values:
-#      read_time: false
-#      layout: splash
-#      sidebar: 
-#        nav: "sidelinks"
   - scope:
       path: ""
       type: posts
     values:
       layout: posts_eg
+      read_time: false
       author_profile: true
       comments: true
       share: true
@@ -123,4 +115,9 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-171736135-1"
+    anonymize_ip: false # default
 
