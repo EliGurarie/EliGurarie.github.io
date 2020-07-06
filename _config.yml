@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title:           Elie Gurarie
+title:           This is Elie
 locale:          en_US
 url:             https://eligurarie.github.io/ThisIsElie.github.io/
 email:           egurarie@umd.edu
@@ -35,7 +35,7 @@ paginate_path: /posts/page:num/
 timezone: America/Chicago
 
 author:
-  name   : "Research Scientist"
+  name   : "Elie Gurarie"
   avatar : "/assets/images/elivodlosmall.jpg"
   email: egurarie@umd.edu
   google_scholar: d_G0tbAAAAAJ
