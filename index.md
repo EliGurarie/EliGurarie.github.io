@@ -19,6 +19,8 @@ Previously, I've worked on a variety of other systems (mostly in similarly cold 
 
 My main academic home is in the lab of [Dr. Bill Fagan](www.clfs.umd.edu/biology/faganlab) at the University of Maryland, though I am currently physically located at the [Deparment of Wildlife and Forest Ecology, University of Wisconsin](https://forestandwildlifeecology.wisc.edu/).
 
+For a cv that was almost surely up-to-date once upon a time, click [here](../../assets/GurarieCV.pdf).
+
 ### Formal education
 
 - 2008 - Ph.D. in [Quantitive Ecology and Resource Management](https://quantitative.uw.edu/graduate/degree-programs/) at the University of Washington, Seattle, WA.  

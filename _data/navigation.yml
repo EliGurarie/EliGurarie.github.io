@@ -11,9 +11,7 @@ main:
     url: "_pages/publications/"
   - title: R packages
     url: "_pages/Rpackages/"
-  - title: CV
-    url: "_pages/cv/"
-  - title: Blog
+  - title: Snippets (a blog)
     url: "posts/"
 
 # sidelinks:
