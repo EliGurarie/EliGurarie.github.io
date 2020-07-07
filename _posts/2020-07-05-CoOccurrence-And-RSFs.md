@@ -81,16 +81,14 @@ $$w_i(x, \beta) = \exp(\beta_1 X_1 + \beta_2 X_2 + \beta_3 X_3 + ...)$$
 
 This has the advantage of being simpler to look at, but opens up the question of what *is* $w(x,\beta)$.  
 
-So, bypassing other interpretations, approaches and depated, the bit of weird, deep, almost magical insight is that if you give the "available" subset *arbitrarily large weights*, the function $w$ leads directly to a a good estimate of $\lambda(x)$!  Specifically:
+So, bypassing other interpretations, approaches and debates, the bit of weird, deep, almost magical insight is that if you give the "available" subset *arbitrarily large weights*, the function $w$ leads directly to a a good estimate of $\lambda(x)$!  Specifically:
 $$ \widehat{\lambda}(x) = {n \, w(x, \beta) \over \int_A w(x, \beta) \, dx}$$
 
-That denominator ... 
-
-Let's illustrate this.  We're going to simulate species $A$, but with a single covariate that just the $X$ coordinate, i.e. the points are more concentrated to the east than in the west: 
+Let's illustrate this.  We're going to simulate species $A$, but with a single covariate that's just the $X$ coordinate, i.e. the points are more concentrated to the east than in the west: 
 
 ![](../../assets/post02/Simulation1-1.png)<!-- -->
 
-Now, I *know* the density increases *linearly* with *x*, and to capture that we actually have to fit the logistic regression against $\log(x)$ as the covariate.  This is a strong argument, by the way, for *(nearly) always taking the log transform of any "distance-to" variable in an RSF!* if you want to model a linear relationship between densities and distances, AND if you want the density to be 0 at the 0 edge. Otherwise, that modeled relationship will always increase exponentially, which causes all sorts of problems.  
+Now, I *know* the density increases *linearly* with *x*, and to capture that we actually have to fit the logistic regression against $\log(x)$ as the covariate.  This is a strong argument, by the way, for taking the log transform of any "distance-to" variable in an RSF if you want to model a linear relationship between densities and distances, AND if you want the density to be 0 at the 0 edge. Otherwise, that modeled relationship will always increase exponentially, which causes all sorts of problems.  
 
 Below, in a few lines of code, I simulate the inhomogeneous point process and fit the model. NOTE the arbitratily high weight (1000) for the null locations, even though in reality I have the same number of both null and available: 
 
@@ -112,8 +110,9 @@ summary(fit1)$coef
 
 The estimated coefficient on the $\log(X)$ variable is 1.14 (se. 0.2).  By making the  equivalence between that (intercept free) exponential bit and the intensity function, the inhomogeneous intensity $\lambda$ (recall, *inhomogeneous* here just means *a function of x and y*):
 $$ \widehat{\lambda}(x,y) ={ n \, \exp(\beta  \log(x)) \over \int_0^{Y} \int_0 ^ {X} \exp(\beta  \log(x)) \, dx \, dy}$$
-where *X* and *Y* are the dimensions of the rectangular area.  For this particular log-distance model, the whole thing breaks down into the following result. 
-$$ \widehat{\lambda}(x,y) = { n \, x^\beta \over Y \int_0^X x^\beta \, dx} = {1 + \beta \over A} \left({x \over X}\right)^\beta n$$
+where *X* and *Y* are the dimensions of the rectangular area.  For this particular log-distance model, the whole thing breaks down into the following result: 
+
+$$\widehat{\lambda}(x,y) = { n \, x^\beta \over Y \int_0^X x^\beta \, dx} = {1 + \beta \over A} \left({x \over X}\right)^\beta n$$
 
 where $A$ is the overall area *XY*.[^2]   
 
@@ -131,7 +130,7 @@ It's a good model!  And it shows how to directly link an RSF result to an intens
 
 We're just about there. 
 
-Here's another - final - simulated data set.  In this version, there are two species: 100 muskAxe (A) and 400 cariBoo (B)[^3]. They have somewhat different responses to two covariates, which (for simplicity) are just the geogrphical coordinates X and Y.  Specifically, the muskaxes are more likely to be found towards the north and east, and the cariboos are concentrated near the south - in both cases in somewhat non-linear ways (quiet shout-out to the all-versatile [Beta distribution](https://en.wikipedia.org/wiki/Beta_distribution)).  We'll put these animals (as is somewhat typical) on a raster, which has 100 m x 100 m resolution over an area of 100x100 km². 
+Here's another - final - simulated data set.  In this version, there are two species: 100 muskAxe (A) and 400 cariBoo (B)[^3]. They have somewhat different responses to two covariates, which (for simplicity) are again just the geographical coordinates X and Y.  Specifically, the muskaxes are more likely to be found towards the north and east, and the cariboos are concentrated near the south - in both cases in somewhat non-linear ways (quiet shout-out to the all-versatile [Beta distribution](https://en.wikipedia.org/wiki/Beta_distribution)).  We'll put these animals on a raster, which has 100 m x 100 m resolution over an area of 100x100 km². 
 
 [^3]: Out of something resembling principle, I refuse to give simulated animals names of actual species!
 
@@ -186,7 +185,7 @@ Finally, we're ready to plot a *co-occurrence intensity* plot, and all we have t
 
 ![](../../assets/post02/CooccurrencePlot-1.png)<!-- -->
 
-This, then, is a map of the "intensity" of co-occurrence, which - again - is in weird units of ind² / km⁴, but is actually a fairly straightforward measure.  It says that per km², you can expect at most about 0.0016 muskox and caribou to share that unit of space (compared to an over-all co-occurrence density of 0.004).  Or - you can state that as a probability (and expand the geographic range) and say that in a 10x10 km² area, the probability of encountering at least one cariboo and muskax peaks at something like 16%. 
+This, then, is a map of the "intensity" of co-occurrence, which - again - is in weird units of ind² / km⁴, but is actually a fairly straightforward measure.  It says that per km², you can expect at most about 0.0016 muskax and cariboo to share that unit of space (compared to an over-all co-occurrence density of 0.004).  Or - you can state that as a probability (and expand the geographic range) and say that in a 10x10 km² area, the probability of encountering at least one cariboo and muskax peaks at something like 16%. 
 
 > Note that this co-occurrence intensity is weighted more towards the cariboo; a reflection of the fact that there are 4 times more caribou *in the data*.  However (and this is very important) presumably, what's of actual interest is co-occurrence *across the entire population*.  And for that, you need an important piece of information that is not always availble, namely  *the population estimate of each species*!
 

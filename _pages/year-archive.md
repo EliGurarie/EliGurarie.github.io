@@ -10,4 +10,4 @@ header:
   caption: 'Birches and pines in Miass'
 ---
 
-I started writing a few items up - mainly to explore some ideas related to animal movement analysis and spatial ecology.  We'll see if this expands into more general observations ...  
+I started writing a few items up - mainly to explore some ideas related to animal movement analysis and spatial ecology.  Perhaps it will expand into more general observations on nature, ecology, field work, etc.  But for now, one post at a time.   
