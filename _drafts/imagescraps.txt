@@ -1,0 +1,5 @@
+{:refdef: style="text-align: center;"}
+![hemlocks](../../assets/post03/beach.jpg){: height="300px" width="400px"}
+{: refdef}
+**Lake Myosotis**
+{: style="text-align: center; font-size: 80%"}

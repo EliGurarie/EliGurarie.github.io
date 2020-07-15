@@ -1,5 +1,5 @@
 ---
-title: "The snow will be our notebook, the trees will be our eyes"
+title: "The trees will be our eyes"
 date: 2020-07-14
 classes: wide
 tags:
