@@ -22,7 +22,7 @@ tags:
 {: style="text-align: center; font-size: 80%"}
 
 
-When I first set foot in the Edmund Niles Huyck Preserve (or, more precisely, set ski) it is on a clear day after several days of steady snowfall.  There’s nothing quite like being on new snow on a new day in a new place, the quiet of the forest brushed only by the swoosh of the skis, the never-quite-knowing what comes after the next curve. 
+When I first set foot in the Edmund Niles Huyck Preserve (or, more precisely, set ski) it is on a clear day in February after several days of steady snowfall.  There’s nothing quite like being on new snow on a new day in a new place, the quiet of the forest brushed only by the swoosh of the skis, the never-quite-knowing what comes after the next curve. 
 
 After a steep and woolly ascent along the waterfall and some bobbing through hardwoods, I find myself cutting across Lake Myosotis towards yellow cattail stems poking through the ice on the northern shore. Near the bank, my ski suddenly sticks, and – after a brief moment – I feel cold fingers of water tickling my ankles. Trying to steady myself, I topple.  Now my gloved hand is firmly shaking hands with the water below. This,the north end of the lake, is where the feeder creek flows in to the lake, and it hasn’t frozen quite as solidly as the rest.
 
