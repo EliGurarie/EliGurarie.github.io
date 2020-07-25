@@ -31,9 +31,10 @@ A suite of pseudo-"in-house" functions for the large-scale loading, processing a
 
 {:sg: style="color:gray; font-size: 80%;"}
 Fitting continuous time correlated velocity models with and without advection and rotation, including behavioral changes.  
+{: sg}
+
 > NOTE: THIS DOES EVERYTHING `bcpa` DOES, BUT BETTER!* 
 
-{: sg}
 
 ## **`marcher`** 
 ([CRAN](http://cran.r-project.org/web/packages/marcher/index.html) | [Github](https://github.com/EliGurarie/marcher))
