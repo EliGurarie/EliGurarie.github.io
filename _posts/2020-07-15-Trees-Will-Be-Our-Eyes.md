@@ -2,6 +2,7 @@
 title: "The trees will be our eyes"
 date: 2020-07-14
 classes: wide
+excerpt: Tales told in tracks in the snowy woods. 
 tags:
   - field work
   - Huyck Preserve
