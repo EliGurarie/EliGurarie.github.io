@@ -9,9 +9,14 @@ header:
   caption: 'Pribilof Reindeer'
 ---
   
-Below, a list of some of my more favorite ones, but my [Google Scholar profile](https://scholar.google.com/citations?user=d_G0tbAAAAAJ&hl=en) does a better job of being up to date.
+Below, a list of some of my more favorite ones, but my [Google Scholar profile](https://scholar.google.com/citations?user=d_G0tbAAAAAJ&hl=en) does a far, far, better job of being up to date.
 
 {:smallgrey: style="color:gray; font-size: 80%;"}
+
+*Barry, T.*<sup>\*</sup>, **E. Gurarie**<sup>\*</sup>, I. Kojola, *F. Cheraghi* and W.F. Fagan. (2020) Does dispersal make the heart grow bolder? Gray wolf habitat use before, during, and after dispersal. *Animal Behavior* 166, 219-231. (\* co-first author; *NSF grant acknowledged*).
+
+Joly, K., *O. Couriot*, M.D. Cameron, **E. Gurarie.** (2020) Behavioral, Physiological, Demographic and Ecological Impacts of Hematophagous and Endoparasitic Insects on an Arctic Ungulate. *Toxins*, 12 (5), 334
+
 * **Gurarie, E.**, Hebblewhite, M., Joly, K., Kelly, A.P., Adamczewski, J., Davidson, S.C., Davison, T., Gunn, A., Suitor, M.J., Fagan, W.F. and Boelman, N., (2019). Tactical departures and strategic arrivals: Divergent effects of climate and weather on caribou spring migrations. _Ecosphere_, 10(12).
 * Joly, K., **Gurarie, E.**, Sorum, M.S., Kaczensky, P., Cameron, M.D., Jakes, A.F., Borg, B.L., Nandintsetseg, D., Hopcraft, J.G.C., Buuveibaatar, B. and Jones, P.F., (2019). Longest terrestrial migrations and movements around the world. _Scientific reports_, 9(1), pp.1-10.
 * **Gurarie, E.**, Thompson, P., Kelly, A. P., Larter, N. C., Fagan, W. F., & Joly, K. (2019). For Everything There is a Season: Analyzing periodic mortality patterns with the cyclomort R package. *Methods in Ecology and Evolution*.
