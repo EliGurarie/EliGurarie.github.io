@@ -84,7 +84,7 @@ defaults:
       layout: posts_eg
       read_time: false
       author_profile: true
-      comments: true
+      comments: false
       share: true
       related: true
       sidebar: 
