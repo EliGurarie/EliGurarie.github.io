@@ -13,7 +13,7 @@ I've authored / co-authored several R packages, which have - it seems - been use
 
 
 ## **`cyclomort`** 
-([CRAN](http://cran.r-project.org/web/packages/cyclomort/index.html) |([Github](https://github.com/EliGurarie/cyclomort))
+([CRAN](http://cran.r-project.org/web/packages/cyclomort/index.html) |[Github](https://github.com/EliGurarie/cyclomort))
 
 {:sg: style="color:gray; font-size: 80%;"}
 A tool for modeling and analysis of periodic mortality (or other time-to event) processes from right-censored data inspired by the need to characterize seasonal patterns in mortality of wildlife. 
