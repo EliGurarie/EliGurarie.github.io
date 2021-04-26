@@ -24,7 +24,7 @@ I spend a lot of time studying movement data on caribou in North America.  Carib
 
 **And this is what congregating caribou look like:** <br>
 
-![](https://www.mdpi.com/toxins/toxins-12-00334/article_deploy/html/images/toxins-12-00334-g002-550.jpg)
+![](../../assets/post01/Joly1.png)
 
 *(Image by K. Joly - from a recent [paper](https://www.mdpi.com/2072-6651/12/5/334) published, unexpectedly, in the journal* Toxins).
 
