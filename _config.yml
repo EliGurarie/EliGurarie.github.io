@@ -17,7 +17,7 @@
 title:           This is Elie
 locale:          en_US
 url:             https://eligurarie.github.io
-email:           egurarie@umd.edu
+email:           egurarie@esf.edu
 
 description: >- # this means to ignore newlines until "baseurl:"
   Research and teaching hub for my scattered labors. 
@@ -39,7 +39,7 @@ author:
   avatar : "/assets/images/elivodlosmall.jpg"
   email: egurarie@umd.edu
   google_scholar: d_G0tbAAAAAJ
-  bio    : "University of Maryland<br>[Department of Biology](http://biology.umd.edu/)<br>College Park, MD 20472<br><br>University of Wisconsin<br>Department of Forest and Wildlife Ecology<br>Madison, WI 53706"
+  bio    : "Assistant Professor<br>[Department of Environmental Biology](https://www.esf.edu/efb/)<br> SUNY - College of Environmental and Forest Sciences<br> 1 Forestry Drive <br> Syracuse, NY 13210 <br><br> **affiliations** <br>[Department of Biology](http://biology.umd.edu/)<br>University of Maryland, College Park MD<br><br>Department of Forest and Wildlife Ecology<br>University of Wisconsin, Madison WI<br>"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
