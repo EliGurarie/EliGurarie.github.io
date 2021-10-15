@@ -15,12 +15,13 @@ excerpt: ""
 
 (Soon to be) **Assistant Professor** at [SUNY College of Environmental and Forest Sciences](https://www.esf.edu/) in the [Department of Environmental Biology](https://www.esf.edu/efb/) .  
 
-**Interested graduate students or post-docs are encouraged to email me if they are interested in joining (building!) a dynamic and diverse research lab exploring fundamental features of wildlife ecology.**
+
+**<font color = "blue"> Interested graduate students or post-docs are encouraged to email me if they are interested in joining (building!) a dynamic and diverse research lab exploring fundamental features of wildlife ecology. </font>**
 
 
 ## Research Statement
 
-The world is incredibly complex and dynamic. This is true, too, for the particualr biotic and abiotic environments that all animals exist in.  Food resources alone can be patchy or cryptic, can appear and disappear, sometimes even run around themselves.  Yet, animals manage (mainly) to navigate, survive, reproduce, and persist.  At the broadest level, my research addresses the question: How!? 
+The world is incredibly complex and dynamic. This is true, too, for the particular biotic and abiotic environments that all animals exist in.  Food resources alone can be patchy or cryptic, can appear and disappear, sometimes even run around themselves.  Yet, animals manage (mainly) to navigate, survive, reproduce, and persist.  At the broadest level, my research addresses the question: How!? 
 
 To that end, and with countless collaborators & students, I apply a wide range of overlapping approaches.  I (we!) develop statistical tools for the analysis of animal movements, survival, and behavior.  We develop and explore theoretical models to frame questions and explore scenarios.  And - perhaps most importantly - we try to collect and analyze field data in insightful and creative ways to answer specific questions. 
 
