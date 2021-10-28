@@ -11,9 +11,11 @@ header:
   caption: 'Pribilof Reindeer'
 excerpt: ""
 ---
+
 ... interested in exploring various aspects of movement, abundance, survival and behavior of animals and ecosystems.
 
-(Soon to be) **Assistant Professor** at [SUNY College of Environmental and Forest Sciences](https://www.esf.edu/) in the [Department of Environmental Biology](https://www.esf.edu/efb/) .  
+
+**Assistant Professor** at [SUNY College of Environmental and Forest Sciences](https://www.esf.edu/) in the [Department of Environmental Biology](https://www.esf.edu/efb/) .  
 
 
 *<font color = "blue"> Potential graduate students or post-docs are encouraged to</font> [email me](mailto:egurarie@esf.edu) <font color = "blue"> if interested in joining (really: building!) a dynamic and diverse research lab exploring fundamental features of wildlife ecology. </font>*
