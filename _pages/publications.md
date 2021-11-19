@@ -1,6 +1,7 @@
 ---
 title: "Publications"
 layout: home_nopage
+classes: wide
 author_profile: true
 header:
   overlay_color: "#000"
