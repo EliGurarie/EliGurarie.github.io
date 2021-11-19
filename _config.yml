@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title:           This is Elie
+title:           Gurarie Lab
 locale:          en_US
 url:             https://eligurarie.github.io
 email:           egurarie@esf.edu
