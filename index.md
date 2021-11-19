@@ -20,7 +20,7 @@ I am newly an **Assistant Professor** at [SUNY College of Environmental and Fore
 
 For a cv that was almost surely up-to-date once upon a time, click [here](../../assets/GurarieCV.pdf).  My [Google Profile Page](https://scholar.google.com/citations?user=d_G0tbAAAAAJ&hl=en) has links to peer-reviewed publications.
 
-### Educatin
+### Education
 
 - 2008 - Ph.D. in [Quantitive Ecology and Resource Management](https://quantitative.uw.edu/graduate/degree-programs/) at the University of Washington, Seattle, WA.  
 - 2000 - Diplôme d'Etudes Approfondie (M.S. equivalent) in Environmental Geosciences at the [Centre Européen de Recherche et d'Enseignement des Géosciences de l'Environnement ](https://www.cerege.fr/fr) in Marseille, France
