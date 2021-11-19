@@ -2,6 +2,7 @@
 title: "Teaching"
 layout: home_nopage
 author_profile: true
+classes: wide
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
@@ -9,7 +10,13 @@ header:
   caption: 'Blackwater Reserve - Maryland'
 ---
 
-I very much enjoy teaching - in particular providing students interested in exploring the natural and human world the quantitative tools to really bring out the underlying structure in the rich and confounding soup of ecological and environmental data.
+- In Spring 2022, I will be co-teaching **Population Ecology** (EFB 370) with [Prof. Joshua Drew](https://www.esf.edu/faculty/drew/)
+
+- In Autumn 2023, I will be teaching **Wildlife Ecology and management** (EFB 390).  
+
+## Previous courses
+
+I have always enjoyed providing students interested in exploring the natural and human world the quantitative tools to really bring out the underlying structure in the rich and confounding soup of ecological and environmental data.  This has been the central theme of most of the courses I have taught in the past, with some links below. 
 
 {:smallgrey: style="color:gray; font-size: 80%;"}
 * [BIOL 709: Data Analysis and Modeling in Ecology and the Environmental Sciences](https://terpconnect.umd.edu/~egurarie/teaching/Biol709/) (University of Maryland - winter 2017)
