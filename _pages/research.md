@@ -11,8 +11,22 @@ header:
   
 ### Something like a philosophy  
   
-I apply statistical and mathematical tools to explore behavioral complexity in movement data, responses to environmental variables, and the role of cognition and memory, and - ultimately - population processes.  There is much to be learned from all kinds of observations - movement, survival, surveys, camera traps, remotely sensed - and terrific opportunities to learn about complex processes by bringing different kinds of information together.  The opportunities are matched with equally terrific challenges. To that end, I try to develop statistical and mathematical tools to maximally inform the interpretation in data while working closely with biologists, students and resource managers across a wide range of systems.   
-  
+The world is incredibly complex and dynamic. This is true, too, for the particular biotic and abiotic environments that all animals exist in.  Food resources alone can be patchy or cryptic, can appear and disappear, sometimes even run around themselves.  Yet, animals manage (mainly) to navigate, survive, reproduce, and persist.  At the broadest level, my research addresses the question: How!? 
+
+To that end, and with countless collaborators & students, I apply a wide range of overlapping approaches.  We develop statistical tools for the analysis of animal movements, survival, and behavior.  We develop and explore theoretical models to frame questions and explore scenarios.  And - perhaps most importantly - we try to collect and analyze field data in insightful and creative ways to answer specific questions. 
+
+I have been lucky enough to contribute to and work on a terrific diversity of fascinating projects: Steller sea lions and northern fur seals in the north Pacific, panda in southwest China, sea lamprey in the Great Lakes, Asiatic cheetah, manatee in Florida, Antarctic ice seals, armadillos in Brazil, invasive willows in Australia, continental-scaled analysis of plant phenology across northern Eurasia, and more.
+
 ### Projects ....
 
-(more details to come in time)
+1. **Fate of the caribou:**  Migratory caribou movements, behaviors and populations, with emphasis on the effects of climate change and human development across northern Canada and Alaska.  This work involves combining movement, survival and aerial survey data with next generation remote sensing - of snow and ice, of vegetation, of temperatures and winds - to ultimately draw links to the dramatic demographics of an iconic keystone species in the Arctic. 
+
+2. **Cognitive movement ecology:**  Exploring through theory, conceptual development, and innovative empirical analysis the role that spatial memory, learning, and sociality shape the way animals use space, with a particular focus on the Finnish population of wolves that I've worked with for many years.  See: https://www.frontiersin.org/research-topics/16075/cognitive-movement-ecology
+
+3. **Methodological developments for wildlife ecology:**  Developing innovative, creative, sophisticated, yet easy-to-use statistical tools to help wildlife practitioners maximize the quality and nuance of inference from all kinds of ecological data, especially movement data, survival data, camera trap observations.  See [Rpackages.html].   
+
+Other projects - either active or in the works - include: 
+
+- (a) modeling the potential role of selective predation, esp. of wolves, in potentially slowing the spread of Chronic Wasting Disease (CWD) in Wisconsin, 
+- (b) analyzing the movements and behaviors of critically endangered Sonoran pronghorn in Arizona, 
+- (c) more!
