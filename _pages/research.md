@@ -1,6 +1,7 @@
 ---
 title: "Research"
 layout: home_nopage
+classes: wide
 author_profile: true
 header:
   overlay_color: "#000"
@@ -17,7 +18,7 @@ To that end, and with countless collaborators & students, I apply a wide range o
 
 I have been lucky enough to contribute to and work on a terrific diversity of fascinating projects: Steller sea lions and northern fur seals in the north Pacific, panda in southwest China, sea lamprey in the Great Lakes, Asiatic cheetah, manatee in Florida, Antarctic ice seals, armadillos in Brazil, invasive willows in Australia, continental-scaled analysis of plant phenology across northern Eurasia, and more.
 
-### Projects ....
+### Projects:
 
 1. **Fate of the caribou:**  Migratory caribou movements, behaviors and populations, with emphasis on the effects of climate change and human development across northern Canada and Alaska.  This work involves combining movement, survival and aerial survey data with next generation remote sensing - of snow and ice, of vegetation, of temperatures and winds - to ultimately draw links to the dramatic demographics of an iconic keystone species in the Arctic. 
 
@@ -25,8 +26,9 @@ I have been lucky enough to contribute to and work on a terrific diversity of fa
 
 3. **Methodological developments for wildlife ecology:**  Developing innovative, creative, sophisticated, yet easy-to-use statistical tools to help wildlife practitioners maximize the quality and nuance of inference from all kinds of ecological data, especially movement data, survival data, camera trap observations.  See [Rpackages.html].   
 
-Other projects - either active or in the works - include: 
 
-- (a) modeling the potential role of selective predation, esp. of wolves, in potentially slowing the spread of Chronic Wasting Disease (CWD) in Wisconsin, 
-- (b) analyzing the movements and behaviors of critically endangered Sonoran pronghorn in Arizona, 
-- (c) more!
+Others - either active or in the works - include: 
+
+- (a) Modeling the potential role of selective predation, esp. of wolves, in potentially slowing the spread of Chronic Wasting Disease (CWD) in Wisconsin.
+- (b) Analyzing the movements and behaviors of critically endangered Sonoran pronghorn in Arizona.
+- (c) Large scale analysis of phenological data across northern Eurasia. 

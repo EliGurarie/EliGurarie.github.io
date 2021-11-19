@@ -31,11 +31,8 @@ For a cv that was almost surely up-to-date once upon a time, click [here](../../
 *<font color = "blue"> Potential graduate students or post-docs are encouraged to</font> [email me](mailto:egurarie@esf.edu) <font color = "blue"> if interested in joining (really: building!) a dynamic and diverse research lab exploring fundamental features of wildlife ecology. </font>*
 
 
-## Research Statement
+## Thumbnail research statement
 
-The world is incredibly complex and dynamic. This is true, too, for the particular biotic and abiotic environments that all animals exist in.  Food resources alone can be patchy or cryptic, can appear and disappear, sometimes even run around themselves.  Yet, animals manage (mainly) to navigate, survive, reproduce, and persist.  At the broadest level, my research addresses the question: How!? 
+The world is incredibly complex and dynamic. This is true, too, for the particular biotic and abiotic environments that all animals exist in.  Food resources alone can be patchy or cryptic, can appear and disappear, sometimes even run around themselves.  Yet, animals manage (mainly) to navigate, survive, reproduce, and persist.  At the broadest level, my research addresses the question: ***How!?***
 
-To that end, and with countless collaborators & students, I apply a wide range of overlapping approaches.  I (we!) develop statistical tools for the analysis of animal movements, survival, and behavior.  We develop and explore theoretical models to frame questions and explore scenarios.  And - perhaps most importantly - we try to collect and analyze field data in insightful and creative ways to answer specific questions. 
-
-I have been lucky enough to contribute to and work on a terrific diversity of fascinating projects: Steller sea lions and northern fur seals in the north Pacific, panda in southwest China, sea lamprey in the Great Lakes, Asiatic cheetah, manatee in Florida, Antarctic ice seals, armadillos in Brazil, invasive willows in Australia, continental-scaled analysis of plant phenology across northern Eurasia, and more.
-
+More details here: [Research.html]
