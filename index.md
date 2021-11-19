@@ -1,5 +1,5 @@
 ---
-title: Quantitative wildlife ecologist ...
+title: Gurarie Wildlife Ecology Lab
 layout: home_nopage
 author_profile: true
 sidebar: true
@@ -12,11 +12,23 @@ header:
 excerpt: ""
 ---
 
-... interested in exploring various aspects of movement, abundance, survival and behavior of animals and ecosystems.
+The Gurarie Lab (*catchier name - hopefully - pending*) works on fundamental questions of how animals navigate, survive, and persist in complex and dynamic environments. Our approach straddles theory, methodological innovation, the deep exploration of empirical data, and a diversity of knowledge modes - often with an eye on human-wildlife interactions, conservation, and stewardship.
 
+## About me
 
-**Assistant Professor** at [SUNY College of Environmental and Forest Sciences](https://www.esf.edu/) in the [Department of Environmental Biology](https://www.esf.edu/efb/) .  
+I am newly an **Assistant Professor** at [SUNY College of Environmental and Forest Sciences](https://www.esf.edu/) in the [Department of Environmental Biology](https://www.esf.edu/efb/).
 
+For a cv that was almost surely up-to-date once upon a time, click [here](../../assets/GurarieCV.pdf).
+
+My [Google Profile Page](https://scholar.google.com/citations?user=d_G0tbAAAAAJ&hl=en) has links to peer-reviewed publications.
+
+### Educatoin
+
+- 2008 - Ph.D. in [Quantitive Ecology and Resource Management](https://quantitative.uw.edu/graduate/degree-programs/) at the University of Washington, Seattle, WA.  
+- 2000 - Diplôme d'Etudes Approfondie (M.S. equivalent) in Environmental Geosciences at the [Centre Européen de Recherche et d'Enseignement des Géosciences de l'Environnement ](https://www.cerege.fr/fr) in Marseille, France
+- 1998 - B.S./B.A. Physics and Literature at Case Western Reserve University, Cleveland, OH. 
+
+## Join our research group!
 
 *<font color = "blue"> Potential graduate students or post-docs are encouraged to</font> [email me](mailto:egurarie@esf.edu) <font color = "blue"> if interested in joining (really: building!) a dynamic and diverse research lab exploring fundamental features of wildlife ecology. </font>*
 
@@ -35,28 +47,7 @@ Two major topics of I am currently working on are:
 
 2. **Cognitive movement ecology:**  Exploring through theory, conceptual development, and innovative empirical analysis the role that spatial memory, learning, and sociality shape the way animals use space, with a particular focus on the Finnish population of wolves that I've worked with for many years.
 
-Other projects - either active or in the works - include: (a) modeling the potential role of selective predation, esp. of wolves, in potentially slowing the spread of Chronic Wasting Disease (CWD) in Wisconsin, (b) analyzing the movements and behaviors of critically endangered Sonoran pronghorn, (c) developing tools for maximally combining snow-tracking and camera trap data for inferring abundance, and more.  
+3. **Methodological devolopments**
 
-My [Google Profile Page](https://scholar.google.com/citations?user=d_G0tbAAAAAJ&hl=en) has links to peer-reviewed publications.
+Other projects - either active or in the works - include: (a) modeling the potential role of selective predation, esp. of wolves, in potentially slowing the spread of Chronic Wasting Disease (CWD) in Wisconsin, (b) analyzing the movements and behaviors of critically endangered Sonoran pronghorn, (c) developing tools for maximally combining snow-tracking and camera trap data for inferring abundance, and many more.  
 
-
-For a cv that was almost surely up-to-date once upon a time, click [here](../../assets/GurarieCV.pdf).
-
-
-
-<!--
-## Research Overview
-
-A large portion of my current work is focused migrations, survival, demographics of caribou in Canada and Alaska. 
-
-
-Previously, I've worked on a variety of other systems (mostly in similarly cold places), including Pacific salmon, [Steller sea lions](https://terpconnect.umd.edu/~egurarie/webprojects/2005_raykokegallery/sivuchi/sivuchi.html#sivuchi01) and Northern fur seals in the North Pacific.  Miscellaneous projects have also included management of invasive [willow](https://en.wikipedia.org/wiki/Salix_cinerea) in Australia, Giant Panda reintroductions to wildlife reserves in Sichuan, China, Persian leopard and Asiatic cheetah movements in Iran, and much more.
-
-My main academic home is in the lab of [Dr. Bill Fagan](www.clfs.umd.edu/biology/faganlab) at the University of Maryland, though I am currently physically located at the [Deparment of Wildlife and Forest Ecology, University of Wisconsin](https://forestandwildlifeecology.wisc.edu/).
---> 
-
-### Formal education
-
-- 2008 - Ph.D. in [Quantitive Ecology and Resource Management](https://quantitative.uw.edu/graduate/degree-programs/) at the University of Washington, Seattle, WA.  
-- 2000 - Diplôme d'Etudes Approfondie (M.S. equivalent) in Environmental Geosciences at the [Centre Européen de Recherche et d'Enseignement des Géosciences de l'Environnement ](https://www.cerege.fr/fr) in Marseille, France
-- 1998 - B.S./B.A. Physics and Literature at Case Western Reserve University, Cleveland, OH. 
