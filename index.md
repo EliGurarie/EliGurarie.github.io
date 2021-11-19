@@ -12,7 +12,7 @@ header:
 excerpt: ""
 ---
 
-The Gurarie Lab (*catchier name - hopefully - pending*) works on fundamental questions of how animals navigate, survive, and persist in complex and dynamic environments. Our approach straddles theory, methodological innovation, the deep exploration of empirical data, and a diversity of knowledge modes - often with an eye on human-wildlife interactions, conservation, and stewardship.
+The Gurarie Wildlife Ecology Lab (*catchier name - hopefully - pending*) works on fundamental questions of how animals navigate, survive, and persist in complex and dynamic environments. Our approach straddles theory, methodological innovation, the deep exploration of empirical data, and a diversity of knowledge modes - often with an eye on human-wildlife interactions, conservation, and stewardship.
 
 ## About me
 
@@ -33,6 +33,4 @@ For a cv that was almost surely up-to-date once upon a time, click [here](../../
 
 ## Thumbnail research statement
 
-The world is incredibly complex and dynamic. This is true, too, for the particular biotic and abiotic environments that all animals exist in.  Food resources alone can be patchy or cryptic, can appear and disappear, sometimes even run around themselves.  Yet, animals manage (mainly) to navigate, survive, reproduce, and persist.  At the broadest level, my research addresses the question: ***How!?***
-
-More details here: [Research.html]
+The world is incredibly complex and dynamic. This is true, too, for the particular biotic and abiotic environments that all animals exist in.  Food resources alone can be patchy or cryptic, can appear and disappear, sometimes even run around themselves.  Yet, animals manage (mainly) to navigate, survive, reproduce, and persist.  At the broadest level, my research addresses the question: ***How!?***  More [here](Research.html)
