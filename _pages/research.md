@@ -24,7 +24,7 @@ I have been lucky enough to contribute to and work on a terrific diversity of fa
 
 2. **Cognitive movement ecology:**  Exploring through theory, conceptual development, and innovative empirical analysis the role that spatial memory, learning, and sociality shape the way animals use space, with a particular focus on the Finnish population of wolves that I've worked with for many years.  See [this special issue of *Frontiers in Ecology and Evolution*](https://www.frontiersin.org/research-topics/16075/cognitive-movement-ecology). 
 
-3. **Methodological developments for wildlife ecology:**  Developing innovative, creative, sophisticated, yet easy-to-use statistical tools to help wildlife practitioners maximize the quality and nuance of inference from all kinds of ecological data, especially movement data, survival data, camera trap observations.  See [a list of R packages we've developed here](../Rpackages.html).   
+3. **Methodological developments for wildlife ecology:**  Developing innovative, creative, sophisticated, yet easy-to-use statistical tools to help wildlife practitioners maximize the quality and nuance of inference from all kinds of ecological data, especially movement data, survival data, camera trap observations.  See [a list of R packages we've developed here](../Rpackages/).   
 
 Others - either active or in the works - include: 
 
