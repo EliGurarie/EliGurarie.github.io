@@ -22,7 +22,7 @@ The Gurarie Lab seeks outstanding PhD students beginning August 2022 to work on 
 
 Caribou are an ecological keystone and central to the material and spiritual culture of human communities throughout the Arctic. Many populations have also experienced a steady decline. Our work involves combining movement, survival and aerial survey data with next generation of remote sensing - of snow and ice, of vegetation, of temperatures and winds - to understand the behavioral and demographic impacts of climate chance and human development in the Arctic. Importantly, this work relies on close collaboration with local communities, who rely most directly on and have the most intimate knowledge of the caribou.
 
-Study topics include: (a) inferring spatial patterns of reproduction and mortality and their links to movement choices, (b) exploring the role of sociality and memory in caribou movements, © modeling inter-annal shifts in calving, summering and wintering ranges and migration corridors with respect to environmental covariates, (d) making strong links between on-the-ground local observations, long-term knowledge, and remote sensing including telemetry.
+Study topics include: (a) inferring spatial patterns of reproduction and mortality and their links to movement choices, (b) exploring the role of sociality and memory in caribou movements, (c) modeling inter-annal shifts in calving, summering and wintering ranges and migration corridors with respect to environmental covariates, (d) making strong links between on-the-ground local observations, long-term knowledge, and remote sensing including telemetry.
 
 ### Requirements
 
