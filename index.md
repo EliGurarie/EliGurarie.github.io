@@ -30,7 +30,7 @@ For a cv that was almost surely up-to-date once upon a time, click [here](../../
 
 *<font color = "blue"> Potential graduate students or post-docs are encouraged to</font> [email me](mailto:egurarie@esf.edu) <font color = "blue"> if interested in joining (really: building!) a dynamic and diverse research lab exploring fundamental features of wildlife ecology. </font>*
 
-(See some opportunities [here](../joinus/))
+See some specific opportunities [here](/_pages/joinus/), but there is no shortage of ideas and possible directions ... so do reach out!
 
 
 ## Thumbnail research statement

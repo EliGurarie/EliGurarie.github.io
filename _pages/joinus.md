@@ -3,7 +3,7 @@ title: "Join Us!"
 layout: home_nopage
 author_profile: true
 classes: wide
-sidebar: false
+author_profile: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
