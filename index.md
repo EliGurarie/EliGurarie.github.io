@@ -20,17 +20,12 @@ I am newly an **Assistant Professor** at [SUNY College of Environmental and Fore
 
 For a cv that was almost surely up-to-date once upon a time, click [here](../../assets/GurarieCV.pdf).  My [Google Profile Page](https://scholar.google.com/citations?user=d_G0tbAAAAAJ&hl=en) has links to peer-reviewed publications.
 
-### Education
 
-- 2008 - Ph.D. in [Quantitive Ecology and Resource Management](https://quantitative.uw.edu/graduate/degree-programs/) at the University of Washington, Seattle, WA.  
-- 2000 - Diplôme d'Etudes Approfondie (M.S. equivalent) in Environmental Geosciences at the [Centre Européen de Recherche et d'Enseignement des Géosciences de l'Environnement ](https://www.cerege.fr/fr) in Marseille, France
-- 1998 - B.S./B.A. Physics and Literature at Case Western Reserve University, Cleveland, OH. 
+# Potential students and post-docs...
 
-# JOIN OUR RESEARCH GROUP!
+*<font color = "blue"> ... are wecome to reach out to </font> [email me](mailto:egurarie@esf.edu) <font color = "blue"> about opportunities for research. </font>*
 
-*<font color = "blue"> Potential graduate students or post-docs are encouraged to</font> [email me](mailto:egurarie@esf.edu) <font color = "blue"> if interested in joining (really: building!) a dynamic and diverse research lab exploring fundamental features of wildlife ecology. </font>*
-
-See some specific opportunities [here](/_pages/joinus/), but there is no shortage of ideas and possible directions ... so do reach out!
+<!-- See some specific opportunities [here](/_pages/joinus/), but there is no shortage of ideas and possible directions ... so do reach out! --> 
 
 
 ## Thumbnail research statement
@@ -39,3 +34,10 @@ The world is incredibly complex and dynamic. This is true, too, for the particul
 
 
 (More [here](../Research/))
+
+
+### Education
+
+- 2008 - Ph.D. in [Quantitive Ecology and Resource Management](https://quantitative.uw.edu/graduate/degree-programs/) at the University of Washington, Seattle, WA.  
+- 2000 - Diplôme d'Etudes Approfondie (M.S. equivalent) in Environmental Geosciences at the [Centre Européen de Recherche et d'Enseignement des Géosciences de l'Environnement ](https://www.cerege.fr/fr) in Marseille, France
+- 1998 - B.S./B.A. Physics and Literature at Case Western Reserve University, Cleveland, OH. 
