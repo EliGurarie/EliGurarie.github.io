@@ -18,6 +18,8 @@ header:
 
 # Caribou Ecology
 
+<font color = "red"> ***Update: These positions have been filled.*** </font>
+
 The Gurarie Lab seeks outstanding PhD students beginning August 2022 to work on an NSF funded project on movements, behaviors and populations of migratory caribou across northern Canada and Alaska.
 
 Caribou are an ecological keystone and central to the material and spiritual culture of human communities throughout the Arctic. Many populations have also experienced a steady decline. Our work involves combining movement, survival and aerial survey data with next generation of remote sensing - of snow and ice, of vegetation, of temperatures and winds - to understand the behavioral and demographic impacts of climate chance and human development in the Arctic. Importantly, this work relies on close collaboration with local communities, who rely most directly on and have the most intimate knowledge of the caribou.
