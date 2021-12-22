@@ -23,7 +23,7 @@ For a cv that was almost surely up-to-date once upon a time, click [here](../../
 
 # Potential students and post-docs...
 
-*<font color = "blue"> ... are wecome to reach out to </font> [email me](mailto:egurarie@esf.edu) <font color = "blue"> about opportunities for research. </font>*
+*<font color = "blue"> ... are wecome to reach out (via </font> [email](mailto:egurarie@esf.edu) <font color = "blue">) about opportunities for research. </font>*
 
 <!-- See some specific opportunities [here](/_pages/joinus/), but there is no shortage of ideas and possible directions ... so do reach out! --> 
 
