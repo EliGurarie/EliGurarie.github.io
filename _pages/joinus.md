@@ -18,7 +18,7 @@ header:
 
 # Caribou Ecology
 
-<font color = "red"> ***Update: These positions have been filled.*** </font>
+***<font color = "red">Update: These positions have been filled.</font>***
 
 The Gurarie Lab seeks outstanding PhD students beginning August 2022 to work on an NSF funded project on movements, behaviors and populations of migratory caribou across northern Canada and Alaska.
 
