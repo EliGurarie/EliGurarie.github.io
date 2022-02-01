@@ -21,9 +21,7 @@ I am newly an **Assistant Professor** at [SUNY College of Environmental and Fore
 For a cv that was almost surely up-to-date once upon a time, click [here](../../assets/GurarieCV.pdf).  My [Google Profile Page](https://scholar.google.com/citations?user=d_G0tbAAAAAJ&hl=en) has links to peer-reviewed publications.
 
 
-# Potential students and post-docs...
-
-... are welcome to reach out via </font> [email](mailto:egurarie@esf.edu) regarding opportunities for research. 
+Potential students and post-docs are encouraged to reach out via [email](mailto:egurarie@esf.edu).
 
 <!-- See some specific opportunities [here](/_pages/joinus/), but there is no shortage of ideas and possible directions ... so do reach out! --> 
 
