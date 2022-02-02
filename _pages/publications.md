@@ -13,9 +13,13 @@ header:
 Below, a list of some of my more favorite ones, but my [Google Scholar](https://scholar.google.com/citations?user=d_G0tbAAAAAJ&hl=en) or [Researchgate](https://www.researchgate.net/profile/Eliezer_Gurarie/research) profiles do a far, far, better job of being up to date.
 
 {:smallgrey: style="color:gray; font-size: 80%;"}
-
-* **Gurarie, E.**, S. Potluri, G.C. Cosner, R.S .Cantrell, W.F. Fagan (2021) Memories of Migrations Past: Sociality and Cognition in Dynamic, Seasonal Environments
-*Front. Ecol. Evol.* 9: 742920. [link](https://www.frontiersin.org/articles/10.3389/fevo.2021.742920/full)
+* **E Gurarie**, C Bracis, A Brilliantova, I Kojola, J Suutarinen, O Ovaskainen, S Potluri, and W
+Fagan (in press). Spatial memory drives foraging strategies of wolves, but in highly individual ways.
+*Frontiers in Ecology and Evolution*.
+* Joly, K, **E Gurarie**, D Hansen, and M Cameron (2021). Seasonal patterns of spatial fidelity and
+temporal consistency in the distribution and movements of a migratory ungulate. *Ecology and
+Evolution*.
+* **Gurarie, E.**, S. Potluri, G.C. Cosner, R.S .Cantrell, W.F. Fagan (2021) Memories of Migrations Past: Sociality and Cognition in Dynamic, Seasonal Environments *Frontiers in Ecology and Evolution* 9: 742920. [link](https://www.frontiersin.org/articles/10.3389/fevo.2021.742920/full)
 * Barry, T.<sup>\*</sup>, **E. Gurarie**<sup>\*</sup>, I. Kojola, F. Cheraghi and W.F. Fagan. (2020) Does dispersal make the heart grow bolder? Gray wolf habitat use before, during, and after dispersal. *Animal Behavior* 166, 219-231. (\* co-first author).
 * Joly, K., O. Couriot, M.D. Cameron, **E. Gurarie.** (2020) Behavioral, Physiological, Demographic and Ecological Impacts of Hematophagous and Endoparasitic Insects on an Arctic Ungulate. *Toxins*, 12 (5), 334.
 * **Gurarie, E.**, Hebblewhite, M., Joly, K., Kelly, A.P., Adamczewski, J., Davidson, S.C., Davison, T., Gunn, A., Suitor, M.J., Fagan, W.F. and Boelman, N., (2019). Tactical departures and strategic arrivals: Divergent effects of climate and weather on caribou spring migrations. _Ecosphere_, 10(12).
