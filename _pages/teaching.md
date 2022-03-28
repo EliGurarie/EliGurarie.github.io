@@ -10,7 +10,7 @@ header:
   caption: 'Blackwater Reserve - Maryland'
 ---
 
-- In Spring 2022, I will be co-teaching **Population Ecology** (EFB 370) with [Prof. Joshua Drew](https://www.esf.edu/faculty/drew/)
+- Spring 2022, I an currently co-teaching [**Population Ecology** (EFB 370)](https://eligurarie.github.io/EFB370/) with [Prof. Joshua Drew](https://www.esf.edu/faculty/drew/). The course link leads to lectures, labs and simulation tools for learning about and exploring various models of population dynamics. 
 
 - In Autumn 2023, I will be teaching **Wildlife Ecology and management** (EFB 390).  
 
