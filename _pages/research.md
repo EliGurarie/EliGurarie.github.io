@@ -28,7 +28,7 @@ I have been lucky enough to contribute to and work on a terrific diversity of fa
 
 Others - either active or in the works - include: 
 
-- (a) Modeling the potential role of selective predation, esp. of wolves, in potentially slowing the spread of Chronic Wasting Disease (CWD) in Wisconsin.
-- (b) Analyzing the movements and behaviors of critically endangered Sonoran pronghorn in Arizona.
-- (c) Large scale analysis of phenological data across northern Eurasia. 
-- (d) More!
+- Modeling the potential role of selective predation, esp. of wolves, in potentially slowing the spread of Chronic Wasting Disease (CWD) in Wisconsin.
+- Analyzing the movements and behaviors of critically endangered Sonoran pronghorn in Arizona.
+- Large scale analysis of phenological data across northern Eurasia. 
+- More!

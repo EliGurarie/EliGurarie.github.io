@@ -12,18 +12,21 @@ header:
 excerpt: ""
 ---
 
-The Gurarie Wildlife Ecology Lab (*catchier name - hopefully - pending*) works on fundamental questions of how animals navigate, survive, and persist in complex and dynamic environments. Our approach straddles theory, methodological innovation, the deep exploration of empirical data, and a diversity of knowledge modes - often with an eye on human-wildlife interactions, conservation, and stewardship.
+The **Gurarie Wildlife Ecology** Lab  works on fundamental questions of how animals navigate, survive, and persist in complex and dynamic environments. Our approach straddles theory, methodological innovation, the deep exploration of empirical data, and a diversity of knowledge modes - often with an eye on human-wildlife interactions, conservation, and stewardship.
+
+A major current focus of our lab is the [**Fate of the Caribou**](fateofthecaribou.esf.edu) project, a collaborative research group focused on furthering our understanding of how caribou and the ecosystems and communities that rely on them are affected by climate change and human development.  See also [the Twitter link](https://twitter.com/FateOfCaribou) (I'm not on there, but the project is). 
 
 ## About me
 
-I am newly an **Assistant Professor** at [SUNY College of Environmental and Forest Sciences](https://www.esf.edu/) in the [Department of Environmental Biology](https://www.esf.edu/efb/).
+I am an **Assistant Professor** at [SUNY College of Environmental and Forest Sciences](https://www.esf.edu/) in the [Department of Environmental Biology](https://www.esf.edu/efb/).
 
 For a cv that was almost surely up-to-date once upon a time, click [here](../../assets/GurarieCV.pdf).  My [Google Profile Page](https://scholar.google.com/citations?user=d_G0tbAAAAAJ&hl=en) has links to peer-reviewed publications.
-
 
 Potential students and post-docs are encouraged to reach out via [email](mailto:egurarie@esf.edu).
 
 <!-- See some specific opportunities [here](/_pages/joinus/), but there is no shortage of ideas and possible directions ... so do reach out! --> 
+
+
 
 
 ## Thumbnail research statement
