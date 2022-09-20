@@ -10,13 +10,16 @@ header:
   caption: 'Blackwater Reserve - Maryland'
 ---
 
-- Spring 2022, I an currently co-teaching [**Population Ecology** (EFB 370)](https://eligurarie.github.io/EFB370/) with [Prof. Joshua Drew](https://www.esf.edu/faculty/drew/). The course link leads to lectures, labs and simulation tools for learning about and exploring various models of population dynamics. 
+- Fall 2022: [**Wildlife Ecology and management** (EFB 390)](https://eligurarie.github.io/EFB390/) - the link leads to lectures and other teaching materials.  
 
-- In Autumn 2023, I will be teaching **Wildlife Ecology and management** (EFB 390).  
+- Spring semester: [**Population Ecology** (EFB 370)](https://eligurarie.github.io/EFB370/) (co-taught with [Prof. Joshua Drew](https://www.esf.edu/faculty/drew/)). The link leads to lectures, labs and simulation tools for learning about and exploring various models of population dynamics. 
+
+- Coming soon: **Quantitative Tools in Spatial and Movement Ecology** (EFB 798)
+
 
 ## Previous courses
 
-I have always enjoyed providing students interested in exploring the natural and human world the quantitative tools to really bring out the underlying structure in the rich and confounding soup of ecological and environmental data.  This has been the central theme of most of the courses I have taught in the past, with some links below. 
+Courses I have taught in the past, with some links below. 
 
 {:smallgrey: style="color:gray; font-size: 80%;"}
 * [BIOL 709: Data Analysis and Modeling in Ecology and the Environmental Sciences](https://terpconnect.umd.edu/~egurarie/teaching/Biol709/) (University of Maryland - winter 2017)
