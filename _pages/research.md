@@ -26,9 +26,5 @@ I have been lucky enough to contribute to and work on a terrific diversity of fa
 
 3. **Methodological developments for wildlife ecology:**  Developing innovative, creative, sophisticated, yet easy-to-use statistical tools to help wildlife practitioners maximize the quality and nuance of inference from all kinds of ecological data, especially movement data, survival data, camera trap observations.  See [a list of R packages we've developed here](../Rpackages/).   
 
-Others - either active or in the works - include: 
+4. Modeling the potential role of selective predation, esp. of wolves, in potentially slowing the spread of Chronic Wasting Disease (CWD) in Wisconsin in partnership with 
 
-- Modeling the potential role of selective predation, esp. of wolves, in potentially slowing the spread of Chronic Wasting Disease (CWD) in Wisconsin.
-- Analyzing the movements and behaviors of critically endangered Sonoran pronghorn in Arizona.
-- Large scale analysis of phenological data across northern Eurasia. 
-- More!
