@@ -10,12 +10,11 @@ header:
   caption: 'Blackwater Reserve - Maryland'
 ---
 
-- Fall 2022: [**Wildlife Ecology and management** (EFB 390)](https://eligurarie.github.io/EFB390/) - the link leads to lectures and other teaching materials.  
+- [**Techniques and Concepts in Spatial and Movement Ecology (EFB 796)](https://eligurarie.github.io/MovementEcologyBook/) - Graduate level class on movement and spatial analysis - course materials in proto-book format. 
 
-- Spring semester: [**Population Ecology** (EFB 370)](https://eligurarie.github.io/EFB370/) (co-taught with [Prof. Joshua Drew](https://www.esf.edu/faculty/drew/)). The link leads to lectures, labs and simulation tools for learning about and exploring various models of population dynamics. 
+- [**Wildlife Ecology and management** (EFB 390)](https://eligurarie.github.io/EFB390/) - First core course for Wildlife Ecology majors.  The link leads to (some of) the lectures and other materials. 
 
-- Coming soon: **Quantitative Tools in Spatial and Movement Ecology** (EFB 798)
-
+- [**Population Ecology** (EFB 370)](https://eligurarie.github.io/EFB370/) (co-taught with [Prof. Joshua Drew](https://www.esf.edu/faculty/drew/)). The link leads to lectures, labs and simulation tools for learning about and exploring various models of population dynamics. 
 
 ## Previous courses
 
