@@ -3,7 +3,7 @@
 main: 
   - title: About
     url: "index.html"
-- title: Our team
+  - title: Our team
     url: "_pages/labmembers/"
   - title: Research
     url: "_pages/research/"
