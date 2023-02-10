@@ -13,7 +13,9 @@ editor_options:
     wrap: 72
 ---
 
-## Ophélie Couriot
+## Post-doctoral scholars
+
+### Dr. Ophélie Couriot
 
 <img src="/assets/people/ophelie.png" style="float:right" width = "400px"/>
 
@@ -29,7 +31,15 @@ the impacts of spatiotemporal variation in resource and risk
 distribution on movement and activity patterns of two large lowland
 herbivore species in Europe: roe deer and red deer.
 
-## Megan Perra
+### Dr. Nicole Barbour
+
+<img src="/assets/people/nicki.png" style="float:right" width = "400px"/>
+
+Is a movement ecologist, who studied turtles. 
+
+## Ph.D. Students
+
+### Megan Perra
 
 Megan is a PhD student in the Gurarie lab interested in how biological
 cues like soundscapes and interspecific vocalizations influence movement
@@ -38,7 +48,7 @@ soundscape to help them find good habitat patches? She completed her
 masters at the University of Alaska Fairbanks, where she studied caribou
 auditory physiology and the soundscapes of the Arctic Coastal Plain.
 
-## Chloe Beaupré
+### Chloe Beaupré
 
 Chloe is pursuing a PhD in Dr. Gurarie's lab. She is fascinated by
 movement ecology and her goal is to pursue research that fills
@@ -50,7 +60,9 @@ deer and elk and how many GPS collars to deploy to map migration and
 distribution at the population level for a slew of Colorado's ungulate
 species.
 
-## Ekaterina Khadonova
+##  Master's Students
+
+### Ekaterina Khadonova
 
 <img src="/assets/people/ekhadono.jpg" style="float:right" width = "300px"/>
 
@@ -78,14 +90,18 @@ for going to college and getting an education is to learn that the
 things you've believed in all your life aren't true, and that nothing is
 what it appears to be." ― Daniel Keyes, Flowers for Algernon
 
-## Sydney Opel
+### Sydney Opel
 
 Sydney is a Master's student with an interest in carnivore conservation
 and ecology. Her goal is to seek a better understanding of movement,
 behavior and trophic interactions of carnivores to aid in the protection
 and conservation of carnivores in their native habitats.
 
-## Anna Brose
+## Other ... and Invaluable
+
+### Anna Brose
+
+<img src="/assets/people/anna.png" style="float:right" width = "400px"/>
 
 Anna is a communications and program manager for the [Fate of the
 Caribou Project](fateofthecaribou.esf.edu). Anna grew up alongside
@@ -97,3 +113,4 @@ Wildlife Ecology at the University of Wisconsin - Madison in 2021, where
 she studied elk habitat use in northern Wisconsin. Anna is a self-taught
 science communicator and illustrator, and is a wildlife artist on the
 side.
+
