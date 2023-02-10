@@ -40,7 +40,7 @@ Is a movement ecologist, who studied turtles.
 
 ---
 
-<img src="/assets/people/megan.jpg" style="float:right" width = "150px"/>
+<img src="/assets/people/megan.jpg" style="float:left" width = "150px"/>
 
 # Ph.D. Students
 
