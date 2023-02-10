@@ -43,7 +43,7 @@ Is a movement ecologist, who studied turtles.
 # Ph.D. Students
 
 
-<img src="/assets/people/megan.jpg" style="float:left" width = "150px"/>
+<img src="/assets/people/megan.png" style="float:left" width = "150px"/>
 
 ## Megan Perra
 
