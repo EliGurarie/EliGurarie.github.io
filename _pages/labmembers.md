@@ -11,6 +11,7 @@ header:
 editor_options: 
   markdown: 
     wrap: 72
+toc: true
 ---
 
 ## Post-doctoral scholars
