@@ -15,9 +15,9 @@ editor_options:
 
 ## Post-doctoral scholars
 
-### Dr. Ophélie Couriot
-
 <img src="/assets/people/ophelie.png" style="float:right" width = "400px"/>
+
+### Dr. Ophélie Couriot
 
 Ophélie is a wildlife ecologist focusing on the response of wildlife to
 global change. In particular, changes in movement behaviour of animals
@@ -31,22 +31,20 @@ the impacts of spatiotemporal variation in resource and risk
 distribution on movement and activity patterns of two large lowland
 herbivore species in Europe: roe deer and red deer.
 
-### Dr. Nicole Barbour
-
 <img src="/assets/people/nicki.png" style="float:right" width = "400px"/>
 
+### Dr. Nicole Barbour
+
 Is a movement ecologist, who studied turtles. 
+
+---
 
 ## Ph.D. Students
 
 ### Megan Perra
 
-Megan is a PhD student in the Gurarie lab interested in how biological
-cues like soundscapes and interspecific vocalizations influence movement
-decision making in caribou. More simply: Do caribou eavesdrop on the
-soundscape to help them find good habitat patches? She completed her
-masters at the University of Alaska Fairbanks, where she studied caribou
-auditory physiology and the soundscapes of the Arctic Coastal Plain.
+Megan is interested in how biological cues like soundscapes and interspecific vocalizations influence movement decision making in caribou. More simply: Do caribou eavesdrop on the
+soundscape to help them find good habitat patches? She completed her masters at the University of Alaska Fairbanks, where she studied caribou auditory physiology and the soundscapes of the Arctic Coastal Plain.
 
 ### Chloe Beaupré
 
@@ -60,11 +58,14 @@ deer and elk and how many GPS collars to deploy to map migration and
 distribution at the population level for a slew of Colorado's ungulate
 species.
 
+---
+
 ##  Master's Students
+
+<img src="/assets/people/ekhadono.jpg" style="float:right" width = "300px"/>
 
 ### Ekaterina Khadonova
 
-<img src="/assets/people/ekhadono.jpg" style="float:right" width = "300px"/>
 
 I am currently a masters student in Dr. Gurarie's Wildlife Ecology lab
 exploring various aspects of environmental biology. Prior to commencing
@@ -97,11 +98,13 @@ and ecology. Her goal is to seek a better understanding of movement,
 behavior and trophic interactions of carnivores to aid in the protection
 and conservation of carnivores in their native habitats.
 
+---
+
 ## Other ... and Invaluable
 
-### Anna Brose
-
 <img src="/assets/people/anna.png" style="float:right" width = "400px"/>
+
+### Anna Brose
 
 Anna is a communications and program manager for the [Fate of the
 Caribou Project](fateofthecaribou.esf.edu). Anna grew up alongside
