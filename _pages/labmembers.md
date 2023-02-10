@@ -15,7 +15,7 @@ editor_options:
 
 ## Ophélie Couriot
 
-<img src="/assets/people/ophelie.png" style="float:right" width = "100px"/>
+<img src="/assets/people/ophelie.png" style="float:right" width = "400px"/>
 
 Ophélie is a wildlife ecologist focusing on the response of wildlife to
 global change. In particular, changes in movement behaviour of animals
@@ -52,7 +52,7 @@ species.
 
 ## Ekaterina Khadonova
 
-<img src="/assets/people/ekhadono.jpg" style="float:right" width = "100px"/>
+<img src="/assets/people/ekhadono.jpg" style="float:right" width = "300px"/>
 
 I am currently a masters student in Dr. Gurarie's Wildlife Ecology lab
 exploring various aspects of environmental biology. Prior to commencing
