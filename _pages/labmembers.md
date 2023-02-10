@@ -8,9 +8,14 @@ header:
   overlay_filter: "0.2"
   overlay_image: /assets/images/banner_pelicans_large.jpg
   caption: 'Blackwater Reserve - Maryland'
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
-## Ophélie Couriot 
+## Ophélie Couriot
+
+<img src="/assets/people/ophelie.png" style="float:right"/>
 
 Ophélie is a wildlife ecologist focusing on the response of wildlife to
 global change. In particular, changes in movement behaviour of animals
@@ -47,7 +52,10 @@ species.
 
 ## Ekaterina Khadonova
 
-I am currently a masters student in Dr. Gurarie\'s Wildlife Ecology lab
+<img src="/assets/people/ekhadona.jpg" style="float:right"/>
+
+
+I am currently a masters student in Dr. Gurarie's Wildlife Ecology lab
 exploring various aspects of environmental biology. Prior to commencing
 my SUNY ESF journey, I obtained my degree in Human Ecology from College
 of the Atlantic, where I got a chance to work across a variety of
@@ -59,29 +67,34 @@ which I attempt to accomplish through combining field research,
 modeling, policy, and public outreach for the projects I am involved
 with.
 
-**Graduate Research Topic**
-Examining the impacts of selective predation by wolves on the spread of
-chronic wasting disease (CWD) in white-tailed deer in the western Great
-Lakes Region by developing and analyzing a spatially explicit,
-predator-prey-disease model informed by monitoring and behavioral data
-on deer and wolves, including human interventions (e.g., harvest).
+**Graduate Research Topic** Examining the impacts of selective predation
+by wolves on the spread of chronic wasting disease (CWD) in white-tailed
+deer in the western Great Lakes Region by developing and analyzing a
+spatially explicit, predator-prey-disease model informed by monitoring
+and behavioral data on deer and wolves, including human interventions
+(e.g., harvest).
 
-**Favorite Quote**
-"Now I understand that one of the important reasons for going to college
-and getting an education is to learn that the things you\'ve believed in
-all your life aren\'t true, and that nothing is what it appears to be."
-― Daniel Keyes, Flowers for Algernon
+**Favorite Quote** "Now I understand that one of the important reasons
+for going to college and getting an education is to learn that the
+things you've believed in all your life aren't true, and that nothing is
+what it appears to be." ― Daniel Keyes, Flowers for Algernon
 
 ## Sydney Opel
 
-Sydney is a Master's student with an interest in
-carnivore conservation and ecology. Her goal is to seek a better
-understanding of movement, behavior and trophic interactions of
-carnivores to aid in the protection and conservation of carnivores in
-their native habitats.
+Sydney is a Master's student with an interest in carnivore conservation
+and ecology. Her goal is to seek a better understanding of movement,
+behavior and trophic interactions of carnivores to aid in the protection
+and conservation of carnivores in their native habitats.
 
-## Anna Brose 
+## Anna Brose
 
-Anna is a communications and program manager for the [Fate of the Caribou Project](fateofthecaribou.esf.edu).  Anna grew up alongside caribou in Alaska before receiving a bachelor's in Wildlife Biology at Colorado State University. With extensive field experience across the United States, she has worked for several state and federal agencies in various wildlife research positions. She completed her Master's in Wildlife Ecology at the University of Wisconsin - Madison in 2021, where she studied elk habitat use in northern Wisconsin. Anna is a self-taught science communicator and illustrator, and is a wildlife artist on the side.
-
-
+Anna is a communications and program manager for the [Fate of the
+Caribou Project](fateofthecaribou.esf.edu). Anna grew up alongside
+caribou in Alaska before receiving a bachelor's in Wildlife Biology at
+Colorado State University. With extensive field experience across the
+United States, she has worked for several state and federal agencies in
+various wildlife research positions. She completed her Master's in
+Wildlife Ecology at the University of Wisconsin - Madison in 2021, where
+she studied elk habitat use in northern Wisconsin. Anna is a self-taught
+science communicator and illustrator, and is a wildlife artist on the
+side.
