@@ -40,7 +40,7 @@ Is a movement ecologist, who studied turtles.
 
 ---
 
-<img src="/assets/people/megan.jpg" style="float:right" width = "400px"/>
+<img src="/assets/people/megan.jpg" style="float:right" width = "150px"/>
 
 # Ph.D. Students
 
@@ -49,7 +49,7 @@ Is a movement ecologist, who studied turtles.
 Megan is interested in how biological cues like soundscapes and interspecific vocalizations influence movement decision making in caribou. More simply: Do caribou eavesdrop on the
 soundscape to help them find good habitat patches? She completed her masters at the University of Alaska Fairbanks, where she studied caribou auditory physiology and the soundscapes of the Arctic Coastal Plain.
 
-<img src="/assets/people/chloe.jpg" style="float:right" width = "400px"/>
+<img src="/assets/people/chloe.jpg" style="float:right" width = "150px"/>
 
 
 ## Chloe Beaupré
