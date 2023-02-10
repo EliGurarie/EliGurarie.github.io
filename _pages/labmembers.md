@@ -48,8 +48,7 @@ soundscape to help them find good habitat patches? She completed her masters at 
 
 ### Chloe Beaupré
 
-Chloe is pursuing a PhD in Dr. Gurarie's lab. She is fascinated by
-movement ecology and her goal is to pursue research that fills
+Chloe is fascinated by movement ecology.  Her goal is to pursue research that fills
 information gaps and can be applied to important management actions.
 Chloe recently relocated to Syracuse from Colorado's Western Slope after
 finishing a dual degree (Master in Environmental Management, Master of
