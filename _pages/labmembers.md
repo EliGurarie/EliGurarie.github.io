@@ -14,11 +14,11 @@ editor_options:
 toc: true
 ---
 
-## Post-doctoral scholars
+# Post-doctoral scholars
 
 <img src="/assets/people/ophelie.png" style="float:right" width = "400px"/>
 
-### Dr. Ophélie Couriot
+## Dr. Ophélie Couriot
 
 Ophélie is a wildlife ecologist focusing on the response of wildlife to
 global change. In particular, changes in movement behaviour of animals
@@ -34,20 +34,20 @@ herbivore species in Europe: roe deer and red deer.
 
 <img src="/assets/people/nicki.png" style="float:right" width = "250px"/>
 
-### Dr. Nicole Barbour
+## Dr. Nicole Barbour
 
 Is a movement ecologist, who studied turtles. 
 
 ---
 
-## Ph.D. Students
+# Ph.D. Students
 
-### Megan Perra
+## Megan Perra
 
 Megan is interested in how biological cues like soundscapes and interspecific vocalizations influence movement decision making in caribou. More simply: Do caribou eavesdrop on the
 soundscape to help them find good habitat patches? She completed her masters at the University of Alaska Fairbanks, where she studied caribou auditory physiology and the soundscapes of the Arctic Coastal Plain.
 
-### Chloe Beaupré
+## Chloe Beaupré
 
 Chloe is fascinated by movement ecology.  Her goal is to pursue research that fills
 information gaps and can be applied to important management actions.
@@ -60,11 +60,11 @@ species.
 
 ---
 
-##  Master's Students
+#  Master's Students
 
 <img src="/assets/people/ekhadono.jpg" style="float:right" width = "300px"/>
 
-### Ekaterina Khadonova
+## Ekaterina Khadonova
 
 
 I am currently a masters student in Dr. Gurarie's Wildlife Ecology lab
@@ -100,11 +100,11 @@ and conservation of carnivores in their native habitats.
 
 ---
 
-## Other ... and Invaluable
+# Other ... (and Invaluable)
 
 <img src="/assets/people/anna.png" style="float:right" width = "400px"/>
 
-### Anna Brose
+## Anna Brose
 
 Anna is a communications and program manager for the [Fate of the
 Caribou Project](fateofthecaribou.esf.edu). Anna grew up alongside
