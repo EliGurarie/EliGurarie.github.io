@@ -31,7 +31,7 @@ the impacts of spatiotemporal variation in resource and risk
 distribution on movement and activity patterns of two large lowland
 herbivore species in Europe: roe deer and red deer.
 
-<img src="/assets/people/nicki.png" style="float:right" width = "400px"/>
+<img src="/assets/people/nicki.png" style="float:right" width = "250px"/>
 
 ### Dr. Nicole Barbour
 
