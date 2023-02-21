@@ -45,17 +45,17 @@ Nicki's dissertation work at the [University of Maryland Center for Environmenta
 # Ph.D. Students
 
 
-<img src="/assets/people/megan.png" style="float:left" width = "150px"/>
+<img src="/assets/people/megan.png" style="float:left" width = "200px"/>
 
 ## Megan Perra
 
 Megan is interested in how biological cues like soundscapes and interspecific vocalizations influence movement decision making in caribou. More simply: Do caribou eavesdrop on the
 soundscape to help them find good habitat patches? She completed her masters at the University of Alaska Fairbanks, where she studied caribou auditory physiology and the soundscapes of the Arctic Coastal Plain.
 
-<img src="/assets/people/chloe.jpg" style="float:right" width = "150px"/>
-
 
 ## Chloe Beaupré
+
+<img src="/assets/people/chloe.jpg" style="float:right" width = "200px"/>
 
 Chloe is fascinated by movement ecology.  Her goal is to pursue research that fills
 information gaps and can be applied to important management actions.
