@@ -39,6 +39,7 @@ herbivore species in Europe: roe deer and red deer.
 Nicki is a movement ecologist with interests in applying quantitative methods to a variety of mobile taxa to better understand their ecology and inform novel conservation tools and methods.
 
 Nicki's dissertation work at the [University of Maryland Center for Environmental Science](https://www.umces.edu/) and [U. Maryland Dep't of Biology](https://biology.umd.edu/) focused on the movement ecology of sea turtles in different age classes. She recently also had projects on Sonoran pronghorn spatial ecology and resource use, finfish offshore aquaculture placement in the U.S., dynamic management tools for leatherback turtles, and shellfish aquaculture ecolabeling. Nicki is always eager for new and interesting collaborations. See more about her work and contact information at: https://barb3800.github.io/WebsiteofNicki/.
+
 ---
 
 # Ph.D. Students
