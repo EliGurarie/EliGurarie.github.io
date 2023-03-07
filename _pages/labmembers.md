@@ -1,7 +1,7 @@
 ---
 title: "Lab members"
 layout: home_nopage
-author_profile: true
+author_profile: false
 classes: wide
 header:
   overlay_color: "#000"
