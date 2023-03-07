@@ -34,29 +34,6 @@ phds:
     alt: "Chloe Beaupré"
     title: "Chloe Beaupré"
     excerpt: "Chloe is fascinated by movement ecology.  Her goal is to pursue research that fills information gaps and can be applied to important management actions. Chloe recently relocated to Syracuse from Colorado's Western Slope after finishing a dual degree (Master in Environmental Management, Master of Science in Ecology), where she studied the influence of recreation on deer and elk and how many GPS collars to deploy to map migration and distribution at the population level for a slew of Colorado's ungulate species."
----
-
-# Post-doctoral scholars
-
-{% include feature_row id="postdocs" type="left" %}
-
-# Ph.D. students
-
-{% include feature_row id="phds" type="right" %}
-
-# Master's students
-
-{% include feature_row id="masters" type="center" %}
-
-# Other (& indispensible)
-
-{% include feature_row id="others" type="center" %}
-
-
-
-<!-- for raw splash code see https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/docs/_pages/splash-page.md 
-
-
 masters:
   - image_path: /assets/people/katya.jpg
     image_caption: "Katya thinks deep thoughts"
@@ -74,5 +51,25 @@ others:
     alt: "Anna Brose"
     title: "Anna Brose"
     excerpt: "Anna is a communications and program manager for the [Fate of the Caribou Project](fateofthecaribou.esf.edu). Anna grew up alongside caribou in Alaska before receiving a bachelor's in Wildlife Biology at Colorado State University. With extensive field experience across the United States, she has worked for several state and federal agencies in various wildlife research positions. She completed her Master's in Wildlife Ecology at the University of Wisconsin - Madison in 2021, where she studied elk habitat use in northern Wisconsin. Anna is a self-taught science communicator and illustrator, and is a wildlife artist on the side."
---> 
+---
+
+# Post-doctoral scholars
+
+{% include feature_row id="postdocs" type="left" %}
+
+# Ph.D. students
+
+{% include feature_row id="phds" type="right" %}
+
+# Master's students
+
+{% include feature_row id="masters" type="left" %}
+
+# Other (& indispensible)
+
+{% include feature_row id="others" type="center" %}
+
+
+
+<!-- for raw splash code see https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/docs/_pages/splash-page.md --> 
 
