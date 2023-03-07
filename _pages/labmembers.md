@@ -9,7 +9,6 @@ header:
   overlay_image: /assets/images/banner_pelicans_large.jpg
   caption: 'Blackwater Reserve - Maryland'
 excerpt: ""
-intro: 
 postdocs:
   - image_path: /assets/people/ophelie.png
     image_caption: "Ophélie in the snow"
