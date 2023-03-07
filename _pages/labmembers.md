@@ -15,20 +15,16 @@ feature_row:
     image_caption: "Ophélie in the snow"
     alt: "Ophélie Couriot"
     title: "Ophélie Couriot"
-    excerpt: "Ophélie is a wildlife ecologist focusing on the response of wildlife to global change. In particular, changes in movement behaviour of animals to human-induced changes to the climate and their environment. Ophélie investigates mechanisms across several scales: from the individual to the population, with a particular focus on barren-ground caribou in the North American Arctic.
-
-She completed her PhD at the University of Toulouse (France) studying the impacts of spatiotemporal variation in resource and risk distribution on movement and activity patterns of two large lowland herbivore species in Europe: roe deer and red deer."
+    excerpt: "Ophélie is a wildlife ecologist focusing on the response of wildlife to global change. In particular, changes in movement behaviour of animals to human-induced changes to the climate and their environment. Ophélie investigates mechanisms across several scales: from the individual to the population, with a particular focus on barren-ground caribou in the North American Arctic. She completed her PhD at the University of Toulouse (France) studying the impacts of spatiotemporal variation in resource and risk distribution on movement and activity patterns of two large lowland herbivore species in Europe: roe deer and red deer."
   - image_path: /assets/people/nicki.png
     image_caption: "Nicki with turtle"
     alt: "Nicki Barbour"
     title: "Nicki Barbour"
-    excerpt: "[Nicki](https://barb3800.github.io/WebsiteofNicki/) is a movement ecologist with interests in applying quantitative methods to a variety of mobile taxa to better understand their ecology and inform novel conservation tools and methods.
-
-Nicki's dissertation work at the [University of Maryland Center for Environmental Science](https://www.umces.edu/) and [U. Maryland Dep't of Biology](https://biology.umd.edu/) focused on the movement ecology of sea turtles in different age classes. She recently also had projects on Sonoran pronghorn spatial ecology and resource use, finfish offshore aquaculture placement in the U.S., dynamic management tools for leatherback turtles, and shellfish aquaculture ecolabeling. Nicki is always eager for new and interesting collaborations."
+    excerpt: "[Nicki](https://barb3800.github.io/WebsiteofNicki/) is a movement ecologist with interests in applying quantitative methods to a variety of mobile taxa to better understand their ecology and inform novel conservation tools and methods. Nicki's dissertation work at the [University of Maryland Center for Environmental Science](https://www.umces.edu/) and [U. Maryland Dep't of Biology](https://biology.umd.edu/) focused on the movement ecology of sea turtles in different age classes. She recently also had projects on Sonoran pronghorn spatial ecology and resource use, finfish offshore aquaculture placement in the U.S., dynamic management tools for leatherback turtles, and shellfish aquaculture ecolabeling. Nicki is always eager for new and interesting collaborations."
     url: "https://barb3800.github.io/WebsiteofNicki/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-feature_row:
+feature_row2:
   - image_path: /assets/people/megan.png
     image_caption: "Megan on water with dog"
     alt: "Megan Perra"
@@ -66,15 +62,15 @@ feature_row4:
 
 # Ph.D. students
 
-{% include feature_row id="Ph.D. students" type="left" %}
+{% include feature_row2 id="Ph.D. students" type="left" %}
 
 # Master's students
 
-{% include feature_row id="feature_row3" type="right" %}
+{% include feature_row3 id="feature_row3" type="right" %}
 
 # Other (& indispensible)
 
-{% include feature_row id="feature_row4" type="center" %}
+{% include feature_row4 id="feature_row4" type="center" %}
 
 
 
