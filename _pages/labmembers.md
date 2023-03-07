@@ -2,7 +2,6 @@
 title: "Lab members"
 layout: splash
 author_profile: false
-toc: true
 classes: wide
 header:
   overlay_color: "#000"
