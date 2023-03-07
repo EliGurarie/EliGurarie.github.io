@@ -57,11 +57,11 @@ feature_row4:
 
 # Post-doctoral scholars
 
-{% include feature_row id="postdocs" type="center" %}
+{% include feature_row id="postdocs" type="left" %}
 
 # Ph.D. students
 
-{% include feature_row id="phds" type="center" %}
+{% include feature_row id="phds" type="left" %}
 
 # Master's students
 
