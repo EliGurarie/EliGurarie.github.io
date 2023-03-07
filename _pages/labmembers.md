@@ -28,7 +28,6 @@ Nicki's dissertation work at the [University of Maryland Center for Environmenta
     url: "https://barb3800.github.io/WebsiteofNicki/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-    
 feature_row:
   - image_path: /assets/people/megan.png
     image_caption: "Megan on water with dog"
@@ -43,7 +42,6 @@ Check out her interview on [Quirks & Quarks](https://www.cbc.ca/listen/live-radi
     alt: "Chloe Beaupré"
     title: "Chloe Beaupré"
     excerpt: "Chloe is fascinated by movement ecology.  Her goal is to pursue research that fills information gaps and can be applied to important management actions. Chloe recently relocated to Syracuse from Colorado's Western Slope after finishing a dual degree (Master in Environmental Management, Master of Science in Ecology), where she studied the influence of recreation on deer and elk and how many GPS collars to deploy to map migration and distribution at the population level for a slew of Colorado's ungulate species."
-   
 feature_row3:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
@@ -70,7 +68,11 @@ feature_row4:
 
 {% include feature_row id="Ph.D. students" type="left" %}
 
+# Master's students
+
 {% include feature_row id="feature_row3" type="right" %}
+
+# Other (& indispensible)
 
 {% include feature_row id="feature_row4" type="center" %}
 
