@@ -12,6 +12,8 @@ editor_options:
   markdown: 
     wrap: 72
 toc: true
+toc_label: "People"
+toc_sticky:  true
 ---
 
 # Post-doctoral scholars
