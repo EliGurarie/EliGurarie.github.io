@@ -34,23 +34,6 @@ phds:
     alt: "Chloe Beaupré"
     title: "Chloe Beaupré"
     excerpt: "Chloe is fascinated by movement ecology.  Her goal is to pursue research that fills information gaps and can be applied to important management actions. Chloe recently relocated to Syracuse from Colorado's Western Slope after finishing a dual degree (Master in Environmental Management, Master of Science in Ecology), where she studied the influence of recreation on deer and elk and how many GPS collars to deploy to map migration and distribution at the population level for a slew of Colorado's ungulate species."
-masters:
-  - image_path: /assets/people/katya.jpg
-    image_caption: "Katya thinks deep thoughts"
-    alt: "Katya Khadonova"
-    title: "Katya Khadonova"
-    excerpt: "Katya's graduate research is on examining the the of selective predation by wolves on the spread of chronic wasting disease (CWD) in white-tailed deer in the western Great Lakes Region.  She seeks to protect complex systems that sustain endangered and threatened species and is passionate about bringing together the human and wildlife dimensions of conservation, which she attempts to accomplish through combining field research, modeling, policy, and public outreach. Prior to commencing her SUNY ESF journey, Katya obtained a degree in Human Ecology from [College of the Atlantic](https://www.coa.edu/), where she worked across a variety of ecosystems, including Maine coast and islands, Costa Rica, and my home, Russia."
-  - image_path: /assets/people/sydney.jpg
-    image_caption: "Sydney casually captured a bobcat"
-    alt: "Sydney Opel"
-    title: "Sydney Opel"
-    excerpt: "Sydney is a Master's student with an interest in carnivore conservation and ecology. Her goal is to seek a better understanding of movement, behavior and trophic interactions of carnivores to aid in the protection and conservation of carnivores in their native habitats."
-others:
-  - image_path: /assets/people/anna.png
-    image_caption: "we'd be lost without Anna"
-    alt: "Anna Brose"
-    title: "Anna Brose"
-    excerpt: "Anna is a communications and program manager for the [Fate of the Caribou Project](fateofthecaribou.esf.edu). Anna grew up alongside caribou in Alaska before receiving a bachelor's in Wildlife Biology at Colorado State University. With extensive field experience across the United States, she has worked for several state and federal agencies in various wildlife research positions. She completed her Master's in Wildlife Ecology at the University of Wisconsin - Madison in 2021, where she studied elk habitat use in northern Wisconsin. Anna is a self-taught science communicator and illustrator, and is a wildlife artist on the side."
 ---
 
 # Post-doctoral scholars
@@ -71,5 +54,25 @@ others:
 
 
 
-<!-- for raw splash code see https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/docs/_pages/splash-page.md --> 
+<!-- for raw splash code see https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/docs/_pages/splash-page.md 
+
+
+masters:
+  - image_path: /assets/people/katya.jpg
+    image_caption: "Katya thinks deep thoughts"
+    alt: "Katya Khadonova"
+    title: "Katya Khadonova"
+    excerpt: "Katya's graduate research is on examining the the of selective predation by wolves on the spread of chronic wasting disease (CWD) in white-tailed deer in the western Great Lakes Region.  She seeks to protect complex systems that sustain endangered and threatened species and is passionate about bringing together the human and wildlife dimensions of conservation, which she attempts to accomplish through combining field research, modeling, policy, and public outreach. Prior to commencing her SUNY ESF journey, Katya obtained a degree in Human Ecology from [College of the Atlantic](https://www.coa.edu/), where she worked across a variety of ecosystems, including Maine coast and islands, Costa Rica, and my home, Russia."
+  - image_path: /assets/people/sydney.jpg
+    image_caption: "Sydney casually captured a bobcat"
+    alt: "Sydney Opel"
+    title: "Sydney Opel"
+    excerpt: "Sydney is a Master's student with an interest in carnivore conservation and ecology. Her goal is to seek a better understanding of movement, behavior and trophic interactions of carnivores to aid in the protection and conservation of carnivores in their native habitats."
+others:
+  - image_path: /assets/people/anna.png
+    image_caption: "we'd be lost without Anna"
+    alt: "Anna Brose"
+    title: "Anna Brose"
+    excerpt: "Anna is a communications and program manager for the [Fate of the Caribou Project](fateofthecaribou.esf.edu). Anna grew up alongside caribou in Alaska before receiving a bachelor's in Wildlife Biology at Colorado State University. With extensive field experience across the United States, she has worked for several state and federal agencies in various wildlife research positions. She completed her Master's in Wildlife Ecology at the University of Wisconsin - Madison in 2021, where she studied elk habitat use in northern Wisconsin. Anna is a self-taught science communicator and illustrator, and is a wildlife artist on the side."
+--> 
 
