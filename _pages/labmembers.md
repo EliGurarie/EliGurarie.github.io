@@ -8,9 +8,9 @@ header:
   overlay_filter: "0.2"
   overlay_image: /assets/images/banner_pelicans_large.jpg
   caption: 'Blackwater Reserve - Maryland'
-excerpt: "Our team"
+excerpt: ""
 intro: 
-feature_row:
+postdocs:
   - image_path: /assets/people/ophelie.png
     image_caption: "Ophélie in the snow"
     alt: "Ophélie Couriot"
@@ -24,21 +24,18 @@ feature_row:
     url: "https://barb3800.github.io/WebsiteofNicki/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-feature_row2:
+phds:
   - image_path: /assets/people/megan.png
     image_caption: "Megan on water with dog"
     alt: "Megan Perra"
     title: "Megan Perra"
-    excerpt: "Megan is interested in how biological cues like soundscapes and interspecific vocalizations influence movement decision making in caribou. More simply: Do caribou eavesdrop on the soundscape to help them find good habitat patches? She completed her masters at the University of Alaska Fairbanks, where she studied caribou auditory physiology and the soundscapes of the Arctic Coastal Plain.
-
-Check out her interview on [Quirks & Quarks](https://www.cbc.ca/listen/live-radio/1-51-quirks-and-quarks/clip/15956606-figuring-reindeer-hear-understand-impact-industrial-sounds). 
-"
+    excerpt: "Megan is interested in how biological cues like soundscapes and interspecific vocalizations influence movement decision making in caribou. More simply: Do caribou eavesdrop on the soundscape to help them find good habitat patches? She completed her masters at the University of Alaska Fairbanks, where she studied caribou auditory physiology and the soundscapes of the Arctic Coastal Plain. Check out her interview on [Quirks & Quarks](https://www.cbc.ca/listen/live-radio/1-51-quirks-and-quarks/clip/15956606-figuring-reindeer-hear-understand-impact-industrial-sounds)."
   - image_path: /assets/people/chloe.jpg
     image_caption: "Chloe with animal part"
     alt: "Chloe Beaupré"
     title: "Chloe Beaupré"
     excerpt: "Chloe is fascinated by movement ecology.  Her goal is to pursue research that fills information gaps and can be applied to important management actions. Chloe recently relocated to Syracuse from Colorado's Western Slope after finishing a dual degree (Master in Environmental Management, Master of Science in Ecology), where she studied the influence of recreation on deer and elk and how many GPS collars to deploy to map migration and distribution at the population level for a slew of Colorado's ungulate species."
-feature_row3:
+masters:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
     title: "Placeholder Image Right Aligned"
@@ -56,21 +53,23 @@ feature_row4:
     btn_class: "btn--primary"
 ---
 
+<!-- see https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/docs/_pages/splash-page.md --> 
+
 # Post-doctoral scholars
 
-{% include feature_row id="Post-docs" type="center" %}
+{% include feature_row id="postdocs" type="center" %}
 
 # Ph.D. students
 
-{% include feature_row2 id="Ph.D. students" type="left" %}
+{% include feature_row id="phds" type="center" %}
 
 # Master's students
 
-{% include feature_row3 id="feature_row3" type="right" %}
+{% include feature_row id="masters" type="center" %}
 
 # Other (& indispensible)
 
-{% include feature_row4 id="feature_row4" type="center" %}
+{% include feature_row id="others" type="center" %}
 
 
 
