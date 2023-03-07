@@ -57,7 +57,9 @@ feature_row4:
     btn_class: "btn--primary"
 ---
 
-{% include feature_row id="intro" type="center" %}
+# Post-doctoral scholars
+
+{% include feature_row id="Post-docs" type="center" %}
 
 {% include feature_row %}
 
@@ -68,25 +70,6 @@ feature_row4:
 {% include feature_row id="feature_row4" type="center" %}
 
 
-# Post-doctoral scholars
-
-<img src="/assets/people/ophelie.png" style="float:right" width = "400px"/>
-
-## Dr. Ophélie Couriot
-
-Ophélie is a wildlife ecologist focusing on the response of wildlife to global change. In particular, changes in movement behaviour of animals to human-induced changes to the climate and their environment. Ophélie investigates mechanisms across several scales: from the individual to the population, with a particular focus on barren-ground caribou in the North American Arctic.
-
-She completed her PhD at the University of Toulouse (France) studying the impacts of spatiotemporal variation in resource and risk distribution on movement and activity patterns of two large lowland herbivore species in Europe: roe deer and red deer.
-
-<img src="/assets/people/nicki.png" style="float:right" width = "250px"/>
-
-## Dr. Nicole Barbour
-
-[Nicki](https://barb3800.github.io/WebsiteofNicki/) is a movement ecologist with interests in applying quantitative methods to a variety of mobile taxa to better understand their ecology and inform novel conservation tools and methods.
-
-Nicki's dissertation work at the [University of Maryland Center for Environmental Science](https://www.umces.edu/) and [U. Maryland Dep't of Biology](https://biology.umd.edu/) focused on the movement ecology of sea turtles in different age classes. She recently also had projects on Sonoran pronghorn spatial ecology and resource use, finfish offshore aquaculture placement in the U.S., dynamic management tools for leatherback turtles, and shellfish aquaculture ecolabeling. Nicki is always eager for new and interesting collaborations. See more about her work and contact information at [her website](https://barb3800.github.io/WebsiteofNicki/).
-
----
 
 # Ph.D. Students
 
