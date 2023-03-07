@@ -12,13 +12,13 @@ excerpt: "Our team"
 intro: 
 feature_row:
   - image_path: /assets/people/ophelie.png
-    image_caption: "Ophélie on water"
+    image_caption: "Ophélie in the snow"
     alt: "Ophélie Couriot"
     title: "Ophélie Couriot"
     excerpt: "Ophélie is a wildlife ecologist focusing on the response of wildlife to global change. In particular, changes in movement behaviour of animals to human-induced changes to the climate and their environment. Ophélie investigates mechanisms across several scales: from the individual to the population, with a particular focus on barren-ground caribou in the North American Arctic.
 
 She completed her PhD at the University of Toulouse (France) studying the impacts of spatiotemporal variation in resource and risk distribution on movement and activity patterns of two large lowland herbivore species in Europe: roe deer and red deer."
-  - image_path: /assets/images/nicki.png
+  - image_path: /assets/people/nicki.png
     image_caption: "Nicki with turtle"
     alt: "Nicki Barbour"
     title: "Nicki Barbour"
@@ -28,17 +28,22 @@ Nicki's dissertation work at the [University of Maryland Center for Environmenta
     url: "https://barb3800.github.io/WebsiteofNicki/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    
+feature_row:
+  - image_path: /assets/people/megan.png
+    image_caption: "Megan on water with dog"
+    alt: "Megan Perra"
+    title: "Megan Perra"
+    excerpt: "Megan is interested in how biological cues like soundscapes and interspecific vocalizations influence movement decision making in caribou. More simply: Do caribou eavesdrop on the soundscape to help them find good habitat patches? She completed her masters at the University of Alaska Fairbanks, where she studied caribou auditory physiology and the soundscapes of the Arctic Coastal Plain.
+
+Check out her interview on [Quirks & Quarks](https://www.cbc.ca/listen/live-radio/1-51-quirks-and-quarks/clip/15956606-figuring-reindeer-hear-understand-impact-industrial-sounds). 
+"
+  - image_path: /assets/people/chloe.jpg
+    image_caption: "Chloe with animal part"
+    alt: "Chloe Beaupré"
+    title: "Chloe Beaupré"
+    excerpt: "Chloe is fascinated by movement ecology.  Her goal is to pursue research that fills information gaps and can be applied to important management actions. Chloe recently relocated to Syracuse from Colorado's Western Slope after finishing a dual degree (Master in Environmental Management, Master of Science in Ecology), where she studied the influence of recreation on deer and elk and how many GPS collars to deploy to map migration and distribution at the population level for a slew of Colorado's ungulate species."
+   
 feature_row3:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
@@ -61,9 +66,9 @@ feature_row4:
 
 {% include feature_row id="Post-docs" type="center" %}
 
-{% include feature_row %}
+# Ph.D. students
 
-{% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="Ph.D. students" type="left" %}
 
 {% include feature_row id="feature_row3" type="right" %}
 
