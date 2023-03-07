@@ -59,13 +59,17 @@ Chloe is fascinated by movement ecology.  Her goal is to pursue research that fi
 ## Ekaterina Khadonova
 
 
-I am currently a masters student in Dr. Gurarie's Wildlife Ecology lab exploring various aspects of environmental biology. Prior to commencing my SUNY ESF journey, I obtained my degree in Human Ecology from College of the Atlantic, where I got a chance to work across a variety of ecosystems, including Maine coast and islands, Costa Rica, and my home, Russia. My main goal is to work on protecting complex systems that sustain endangered and threatened species. I am passionate about bringing together the human and wildlife dimensions of conservation, which I attempt to accomplish through combining field research, modeling, policy, and public outreach for the projects I am involved with.
+I am currently a Master's student in Dr. Gurarie's Wildlife Ecology lab exploring various aspects of environmental biology. Prior to commencing my SUNY ESF journey, I obtained my degree in Human Ecology from College of the Atlantic, where I got a chance to work across a variety of ecosystems, including Maine coast and islands, Costa Rica, and my home, Russia. My main goal is to work on protecting complex systems that sustain endangered and threatened species. I am passionate about bringing together the human and wildlife dimensions of conservation, which I attempt to accomplish through combining field research, modeling, policy, and public outreach for the projects I am involved with.
 
 **Graduate Research Topic** Examining the impacts of selective predation by wolves on the spread of chronic wasting disease (CWD) in white-tailed deer in the western Great Lakes Region by developing and analyzing a spatially explicit, predator-prey-disease model informed by monitoring and behavioral data on deer and wolves, including human interventions (e.g., harvest).
 
 **Favorite Quote** "Now I understand that one of the important reasons for going to college and getting an education is to learn that the things you've believed in all your life aren't true, and that nothing is what it appears to be." ― Daniel Keyes, Flowers for Algernon
 
+
+<img src="/assets/people/sydney.jpg" style="float:left" width = "300px"/>
+
 ### Sydney Opel
+
 
 Sydney is a Master's student with an interest in carnivore conservation and ecology. Her goal is to seek a better understanding of movement, behavior and trophic interactions of carnivores to aid in the protection and conservation of carnivores in their native habitats.
 
