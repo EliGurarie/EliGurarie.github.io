@@ -1,6 +1,6 @@
 ---
 title: "Lab members"
-layout: home_nopage
+layout: splash
 author_profile: false
 classes: wide
 header:
@@ -8,13 +8,65 @@ header:
   overlay_filter: "0.2"
   overlay_image: /assets/images/banner_pelicans_large.jpg
   caption: 'Blackwater Reserve - Maryland'
-editor_options: 
-  markdown: 
-    wrap: 72
-toc: true
-toc_label: "People"
-toc_sticky:  true
+excerpt: "Our team"
+intro: 
+feature_row:
+  - image_path: /assets/people/ophelie.png
+    image_caption: "Ophélie on water"
+    alt: "Ophélie Couriot"
+    title: "Ophélie Couriot"
+    excerpt: "Ophélie is a wildlife ecologist focusing on the response of wildlife to global change. In particular, changes in movement behaviour of animals to human-induced changes to the climate and their environment. Ophélie investigates mechanisms across several scales: from the individual to the population, with a particular focus on barren-ground caribou in the North American Arctic.
+
+She completed her PhD at the University of Toulouse (France) studying the impacts of spatiotemporal variation in resource and risk distribution on movement and activity patterns of two large lowland herbivore species in Europe: roe deer and red deer."
+  - image_path: /assets/images/nicki.png
+    image_caption: "Nicki with turtle"
+    alt: "Nicki Barbour"
+    title: "Nicki Barbour"
+    excerpt: "[Nicki](https://barb3800.github.io/WebsiteofNicki/) is a movement ecologist with interests in applying quantitative methods to a variety of mobile taxa to better understand their ecology and inform novel conservation tools and methods.
+
+Nicki's dissertation work at the [University of Maryland Center for Environmental Science](https://www.umces.edu/) and [U. Maryland Dep't of Biology](https://biology.umd.edu/) focused on the movement ecology of sea turtles in different age classes. She recently also had projects on Sonoran pronghorn spatial ecology and resource use, finfish offshore aquaculture placement in the U.S., dynamic management tools for leatherback turtles, and shellfish aquaculture ecolabeling. Nicki is always eager for new and interesting collaborations."
+    url: "https://barb3800.github.io/WebsiteofNicki/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
+    title: "Placeholder 3"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+feature_row2:
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+    title: "Placeholder Image Left Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_row3:
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+    title: "Placeholder Image Right Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_row4:
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+    title: "Placeholder Image Center Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
+
+{% include feature_row id="feature_row2" type="left" %}
+
+{% include feature_row id="feature_row3" type="right" %}
+
+{% include feature_row id="feature_row4" type="center" %}
+
 
 # Post-doctoral scholars
 
