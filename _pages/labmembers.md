@@ -68,7 +68,7 @@ I am currently a Master's student in Dr. Gurarie's Wildlife Ecology lab explorin
 **Favorite Quote** "Now I understand that one of the important reasons for going to college and getting an education is to learn that the things you've believed in all your life aren't true, and that nothing is what it appears to be." ― Daniel Keyes, Flowers for Algernon
 
 
-<img src="/assets/people/sydney.jpg" style="float:left" width = "300px"/>
+<img src="/assets/people/sydney.jpg" style="float:right" width = "200px"/>
 
 ### Sydney Opel
 
