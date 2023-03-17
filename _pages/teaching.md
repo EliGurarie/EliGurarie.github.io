@@ -10,15 +10,15 @@ header:
   caption: 'Blackwater Reserve - Maryland'
 ---
 
-- [**Techniques and Concepts in Spatial and Movement Ecology (EFB 796)](https://eligurarie.github.io/MovementEcologyBook/) - Graduate level class on movement and spatial analysis - course materials in proto-book format. 
+- [**Techniques and Concepts in Spatial and Movement Ecology (EFB 796)**](https://eligurarie.github.io/MovementEcologyBook/) - Graduate level class on movement and spatial analysis - course materials in proto-book format. 
 
-- [**Wildlife Ecology and management** (EFB 390)](https://eligurarie.github.io/EFB390/) - First core course for Wildlife Ecology majors.  The link leads to (some of) the lectures and other materials. 
+- [**Wildlife Ecology and management** (EFB 390)](https://eligurarie.github.io/EFB390/) - First core course for Wildlife Ecology majors.  The link leads to (some of) the lectures and related materials. 
 
-- [**Population Ecology** (EFB 370)](https://eligurarie.github.io/EFB370/) (co-taught with [Prof. Joshua Drew](https://www.esf.edu/faculty/drew/)). The link leads to lectures, labs and simulation tools for learning about and exploring various models of population dynamics. 
+- [**Population Ecology** (EFB 370)](https://eligurarie.github.io/EFB370/) (co-taught with [Prof. Joshua Drew](https://www.esf.edu/faculty/drew/)). Link to lectures, labs and simulation tools for learning about and exploring various models of population dynamics. 
 
 ## Previous courses
 
-Courses I have taught in the past, with some links below. 
+Courses I have taught in the past: 
 
 {:smallgrey: style="color:gray; font-size: 80%;"}
 * [BIOL 709: Data Analysis and Modeling in Ecology and the Environmental Sciences](https://terpconnect.umd.edu/~egurarie/teaching/Biol709/) (University of Maryland - winter 2017)
