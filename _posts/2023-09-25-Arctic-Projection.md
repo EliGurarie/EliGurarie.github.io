@@ -15,6 +15,8 @@ tags:
 >   It's been over three years since a blog post.  Does that even count as a blog?  Since the last one, I've become a professor.  Which (a) takes a big old chunk out of time to do anything else, but (b) provides access to a hitherto unknown resource known as [graduate students](https://eligurarie.github.io/_pages/labmembers/) (a subset of the greater [lab members](https://eligurarie.github.io/_pages/labmembers/) phenomenon).  One of these **Chloe Beaupré**, provides the follwoing hot tips for dealing with some very mapping issues. 
 {: style="font-size: 80%"}
 
+# background
+
 For a presentation I wanted to create a plot of the Arctic, showing the circumpolar distribution of *Rangifer* populations next to a map of a map of Arctic Indigenous languages. Turns out mapping a circumpolar projection in R is not as easy a making a pretty map of a smaller area at lower latitudes. Here is an outline to recreate (one of) these plots.
 
 ![](../assets/post04/HerdsLanguages.png)
@@ -24,6 +26,8 @@ packages <- list("dplyr","sf", "ggplot2","mapview",
                  "viridis","maptools", "raster")
 sapply(packages, require, character = TRUE)
 ```
+
+## shapefiles
 
 We'll plot the map of arctic Indigenous Peoples languages and dialects since the data are made publicly available by the [Arctic Indigenous languages and revitalization project](https://arctic-indigenous-languages-uito.hub.arcgis.com/). Shapefiles can be downloaded [here](https://arctic-indigenous-languages-uito.hub.arcgis.com/datasets/UITO::arctic-indigenous-peoples-languages-and-revitalization-languages-and-dialects/explore).
 
@@ -45,8 +49,9 @@ lang <- st_read("data/Arctic_Indigenous_Peoples_languages_and_revitalization_-_L
 ## Geodetic CRS:  WGS 84
 ```
 
-We usually love plotting spatial data using the `mapview` package because it's fast and interactive but it defaults to the dreaded Mercator projection.
+## mapview fails us
 
+We usually love plotting spatial data using the `mapview` package because it's fast and interactive but it defaults to the dreaded Mercator projection.
 
 ```r
 mapview(lang)
@@ -69,6 +74,8 @@ mapview(lang, native.crs = TRUE, map.types="Esri.WorldImagery")
 
 This looks better! But there isn't a basemap for the North Pole so we have our language polygons floating in the ether. We can do better.
 
+## coastlines
+
 The `maptools` package provides a simple whole-world coastline data set. We set the y-limit to 45 degrees North, so only keep the coastlines in the north.
 
 
@@ -90,8 +97,9 @@ w_sf <- w %>%
   st_transform(st_crs(3995))
 ```
 
-The following code uses `ggplot2` to plot the arctic coastlines and overlays the arctic Indigenous Peoples languages shapefile.
+## putting it all together
 
+The following code uses `ggplot2` to plot the arctic coastlines and overlays the arctic Indigenous Peoples languages shapefile.
 
 ```r
 ggplot() + 
@@ -136,7 +144,9 @@ legend(x = "topleft", ncol = 1, cex = 0.8, legend = labs, col = cols, pch=15, pt
 
 - Chloe Beaupré
 
-## Editorial (*cough-cough*) comment
+# Editorial (*cough-cough*) comment
+
+<font color = "blue"> 
 
 Maybe you're bothered by the weirdly straight polygon line in Chloe's otherwise lovely map?  Try this:
 
@@ -175,4 +185,4 @@ legend(x = "topleft", ncol = 1, cex = 0.8, legend = labs, col = cols, pch=15, pt
 
 Do *that* in ggplot!
 
-
+</font> 
