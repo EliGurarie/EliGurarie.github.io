@@ -23,8 +23,7 @@ For a presentation I wanted to create a plot of the Arctic, showing the circumpo
 ![](../assets/post04/HerdsLanguages.png)
 
 ```r
-packages <- list("dplyr","sf", "ggplot2","mapview",
-                 "viridis","maptools", "raster")
+packages <- list("dplyr","sf", "ggplot2","mapview", "viridis","maptools", "raster")
 sapply(packages, require, character = TRUE)
 ```
 
@@ -38,16 +37,6 @@ After downloading the shapefiles, read them into your environment and re-project
 ```r
 lang <- st_read("data/Arctic_Indigenous_Peoples_languages_and_revitalization_-_Languages_and_Dialects.shp") %>%
   st_transform(st_crs(3995))
-```
-
-```
-## Reading layer `Arctic_Indigenous_Peoples_languages_and_revitalization_-_Languages_and_Dialects' from data source `/home/elie/teaching/MiscellaneousLectures/lectures/ArcticProjections/data/Arctic_Indigenous_Peoples_languages_and_revitalization_-_Languages_and_Dialects.shp' 
-##   using driver `ESRI Shapefile'
-## Simple feature collection with 167 features and 17 fields (with 1 geometry empty)
-## Geometry type: MULTIPOLYGON
-## Dimension:     XY
-## Bounding box:  xmin: -180 ymin: 47.54787 xmax: 180 ymax: 81.26326
-## Geodetic CRS:  WGS 84
 ```
 
 ## mapview fails us
