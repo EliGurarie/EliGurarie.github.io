@@ -15,7 +15,7 @@ tags:
 >   It's been over three years since a blog post.  Does that even count as a blog?  Since the last entry, I've become a professor.  Which (a) takes a big old chunk out of time to do anything else, but (b) provides access to a hitherto unknown resource known as **[graduate students]** (a subset of the greater [lab members](https://eligurarie.github.io/_pages/labmembers/) phenomenon).  One of these, **Chloe Beaupré**, provides the following hot tips for dealing with some very particular mapping issues in R. 
 {: style="font-size: 80%"}
 
-# background
+## background
 
 For a presentation I wanted to create a plot of the Arctic, showing the circumpolar distribution of *Rangifer* populations next to a map of a map of Arctic Indigenous languages. Turns out mapping a circumpolar projection in R is not as easy a making a pretty map of a smaller area at lower latitudes. Here is an outline to recreate (one of) these plots.
 
@@ -133,7 +133,7 @@ legend(x = "topleft", ncol = 1, cex = 0.8, legend = labs, col = cols, pch=15, pt
 
 - Chloe Beaupré
 
-# Editorial (*cough-cough*) comment
+## editorial (*cough-cough*) comment
 
 
 Maybe you're bothered by the weirdly straight polygon line in Chloe's otherwise lovely map?  Try this:
