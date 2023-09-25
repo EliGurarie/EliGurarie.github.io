@@ -58,20 +58,20 @@ We usually love plotting spatial data using the `mapview` package because it's f
 mapview(lang)
 ```
 
-![](images/mapview1.png)
+![](../assets/post04/mapview1.png)
 
 *[ed. note - interactivity of mapview disabled on blog]*
 
 Looks horrifying.
 
-![](./images/DreadedMercator.jpg)
+![](../assets/post04/DreadedMercator.jpg)
 
 There is an argument in mapview to use the native CRS (which we've transformed to Arctic Polar Stereographic EPSG 3995), let's try it out.
 
 ```r
 mapview(lang, native.crs = TRUE, map.types="Esri.WorldImagery")
 ```
-![](images/mapview2.png)
+![](../assets/post04//mapview2.png)
 
 This looks better! But there isn't a basemap for the North Pole so we have our language polygons floating in the ether. We can do better.
 
