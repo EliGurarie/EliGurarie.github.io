@@ -12,7 +12,7 @@ tags:
 ---
 
 
->   It's been over three years since a blog post.  Does that even count as a blog?  Since the last one, I've become a professor.  Which (a) takes a big old chunk out of time to do anything else, but (b) provides access to a hitherto unknown resource known as [graduate students](https://eligurarie.github.io/_pages/labmembers/) (a subset of the greater [lab members](https://eligurarie.github.io/_pages/labmembers/) phenomenon).  One of these **Chloe Beaupré**, provides the following hot tips for dealing with some very mapping issues. 
+>   It's been over three years since a blog post.  Does that even count as a blog?  Since the last entry, I've become a professor.  Which (a) takes a big old chunk out of time to do anything else, but (b) provides access to a hitherto unknown resource known as **[graduate students]** (a subset of the greater [lab members](https://eligurarie.github.io/_pages/labmembers/) phenomenon).  One of these, **Chloe Beaupré**, provides the following hot tips for dealing with some very particular mapping issues in R. 
 {: style="font-size: 80%"}
 
 # background
