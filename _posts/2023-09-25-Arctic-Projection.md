@@ -1,9 +1,10 @@
 ---
-title: "Circumpolar mappint"
+title: "Circumpolar mapping"
 author: Chloe Beaupré
 date: 2023-09-23
 classes: wide
-excerpt: Tales told in tracks in the snowy woods. 
+toc: true
+toc_sticky: true
 tags:
   - Chloe Beaupré
   - Arctic Projections
