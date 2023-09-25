@@ -136,7 +136,6 @@ legend(x = "topleft", ncol = 1, cex = 0.8, legend = labs, col = cols, pch=15, pt
 
 # Editorial (*cough-cough*) comment
 
-<font color = "blue"> 
 
 Maybe you're bothered by the weirdly straight polygon line in Chloe's otherwise lovely map?  Try this:
 
@@ -175,4 +174,3 @@ legend(x = "topleft", ncol = 1, cex = 0.8, legend = labs, col = cols, pch=15, pt
 
 Do *that* in ggplot!
 
-</font> 
