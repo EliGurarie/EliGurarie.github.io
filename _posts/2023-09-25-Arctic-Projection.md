@@ -1,6 +1,5 @@
 ---
-title: "Circumpolar mapping"
-subtitle: "by Chloe Beaupré"
+title: "Circumpolar mapping (by Chloe Beaupré)"
 author: Chloe Beaupré
 date: 2023-09-23
 classes: wide
@@ -170,7 +169,7 @@ mtext(side = 3, "Language family", font = 1, line = 0, adj = 0)
 legend(x = "topleft", ncol = 1, cex = 0.8, legend = labs, col = cols, pch=15, pt.cex = 1.5, bty = "n")
 ```
 
-<img src="../assets/post04/finalmap.png" style="display: block; margin: auto;" />
+![](../assets/post04/finalmap.png)
 
 Do *that* in ggplot!
 
