@@ -2,7 +2,6 @@
 title: "Circumpolar mapping (by Chloe Beaupré)"
 author: Chloe Beaupré
 date: 2023-09-23
-classes: wide
 toc: true
 toc_sticky: true
 tags:
