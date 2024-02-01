@@ -14,9 +14,6 @@ excerpt: ""
 
 The **Gurarie Wildlife Ecology** Lab in the [Department of Environmental Biology at SUNY-ESF](https://www.esf.edu/efb/) works on fundamental questions of how animals navigate, survive, and persist in complex and dynamic environments. Our approach straddles theory, methodological innovation, the deep exploration of empirical data, and a diversity of knowledge modes with an eye on human-wildlife interactions, conservation, and stewardship.
 
-A major current focus of our lab is the [**Fate of the Caribou**](fateofthecaribou.esf.edu) project, a collaborative research group focused on furthering our understanding of how caribou and the ecosystems and communities that rely on them are affected by climate change and human development.  See also [the Twitter link](https://twitter.com/FateOfCaribou) (I'm not on there, but the project is). 
-
-
 
 ## About me
 
