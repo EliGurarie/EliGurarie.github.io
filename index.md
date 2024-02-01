@@ -35,7 +35,7 @@ Potential students and post-docs are encouraged to reach out via [email](mailto:
 
 The world is incredibly complex and dynamic. This is true, too, for the particular biotic and abiotic environments that all animals exist in.  Food resources alone can be patchy or cryptic, can appear and disappear, sometimes even run around themselves.  Yet, animals manage (mainly) to navigate, survive, reproduce, and persist.  At the broadest level, my research addresses the question: ***How!?...***  
 
-More [here](../research/)
+More [here](_pages/research/)
 
 
 ### Education
