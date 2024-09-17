@@ -10,11 +10,26 @@ header:
   caption: 'Blackwater Reserve - Maryland'
 ---
 
+## Current courses
+
 - [**EFB 796: Techniques and Concepts in Spatial and Movement Ecology**](https://eligurarie.github.io/MovementEcologyBook/) - Graduate level class on movement and spatial analysis - course materials in proto-book format. 
 
 - [**EFB 390: Wildlife Ecology and management**](https://eligurarie.github.io/EFB390/) - First core course for Wildlife Ecology majors.  The link leads to (some of) the lectures and related materials. 
 
 - [**EFB 370: Population Ecology**](https://eligurarie.github.io/EFB370/) (co-taught with [Prof. Joshua Drew](https://www.esf.edu/faculty/drew/)). Link to lectures, labs and simulation tools for learning about and exploring various models of population dynamics. 
+
+## Miscellenous Lectures
+
+[are here](https://eligurarie.github.io/MiscellaneousLectures/)
+
+They include:
+- [Bayesian Statistics (with STAN)](https://eligurarie.github.io/MiscellaneousLectures/#bayesian-mcmc-with-stan)
+
+- [How to Build an R package](https://eligurarie.github.io/MiscellaneousLectures/#how-to-build-an-rpackage)
+
+- [Matrices in Ecology](https://eligurarie.github.io/MiscellaneousLectures/#matrices-in-ecology)
+
+Also a set of [Movement modeling and Resource Selection primers](https://terpconnect.umd.edu/~egurarie/research/NWT/index.html)
 
 ## Previous courses
 
