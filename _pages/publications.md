@@ -10,12 +10,12 @@ header:
   caption: 'Pribilof Reindeer'
 ---
   
-Below, a list of some of my more favorite ones, but my [Google Scholar](https://scholar.google.com/citations?user=d_G0tbAAAAAJ&hl=en) or [Researchgate](https://www.researchgate.net/profile/Eliezer_Gurarie/research) profiles do a far, far, better job of being up to date.
+Below, a list of some of my more favorite ones, but my [Google Scholar](https://scholar.google.com/citations?user=d_G0tbAAAAAJ&hl=en) or [Researchgate](https://www.researchgate.net/profile/Eliezer_Gurarie/research) profiles do a far, far, better job of being up to date (and being consistently formatted).
 
 {:smallgrey: style="color:gray; font-size: 80%;"}
-* **E Gurarie**, C Bracis, A Brilliantova, I Kojola, J Suutarinen, O Ovaskainen, S Potluri, and W
-Fagan (in press). Spatial memory drives foraging strategies of wolves, but in highly individual ways.
-*Frontiers in Ecology and Evolution*.
+* Brose, A, M Perra, A Gunn, **E Gurarie** (2024). Fate of the Caribou: Studying caribou and climate, with communities. *Xàgots’eèhk’ Journal*, 2(2). [link](https://xagotseehkojournal.com/index.php/xgsk/article/view/5966)
+* **Gurarie, E** and T Avgar (2024). “Editorial: Cognitive Movement Ecology.” *Frontiers in Ecology and Evolution*, 12. [link](https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2024.1360427/full)
+* **Gurarie, E**, C Bracis, A Brilliantova, I Kojola, J Suutarinen, O Ovaskainen, S Potluri, and W Fagan (2022). Spatial memory drives foraging strategies of wolves, but in highly individual ways. *Frontiers in Ecology and Evolution*. [link](https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2022.768478/full)
 * Joly, K, **E Gurarie**, D Hansen, and M Cameron (2021). Seasonal patterns of spatial fidelity and
 temporal consistency in the distribution and movements of a migratory ungulate. *Ecology and
 Evolution*.
