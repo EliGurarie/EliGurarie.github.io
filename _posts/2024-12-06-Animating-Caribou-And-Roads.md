@@ -1,10 +1,9 @@
 ---
-title: "Animation of caribou interacting with a winter road"
+title: "Caribou and the Winter Road"
 author: Eliezer Gurarie
 date: 2023-09-23
 classes: wide
-toc: true
-toc_sticky: true
+excerpt: a vivid animation
 tags:
   - caribou
   - winter roads
