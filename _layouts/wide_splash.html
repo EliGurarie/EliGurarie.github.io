@@ -18,26 +18,16 @@ layout: default
         {{ content }}
       </section>
 
-      {% if page.toc %}
-        <aside class="sidebar__right sticky">
-          {% include toc.html %}
-        </aside>
-      {% endif %}
+  <!-- TOC sidebar on the right -->
+  {% if page.toc %}
+    <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
+      <nav class="toc">
+        <header><h4 class="nav__title">On This Page</h4></header>
+        {% include toc.html sanitize=true html=content h_min=1 h_max=6 %}
+      </nav>
+    </aside>
+  {% endif %}
     </div>
   </article>
 </div>
 
-
-{% if page.toc %}
-  <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
-    <nav class="toc">
-      <header>
-        <h4 class="nav__title">
-          <i class="fas fa-{{ page.toc_icon | default: 'list' }}"></i> 
-          {{ page.toc_label | default: "On This Page" }}
-        </h4>
-      </header>
-      {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
-    </nav>
-  </aside>
-{% endif %}
