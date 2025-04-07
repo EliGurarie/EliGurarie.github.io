@@ -1271,37 +1271,3 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   /* Hide the following elements on print ========================================================================== */
   .masthead, .toc, .page__share, .page__related, .pagination, .ads, .page__footer, .page__comments-form, .author__avatar, .author__content, .author__urls-wrapper, .nav__list, .sidebar, .adsbygoogle { display: none !important; height: 1px !important; } }
 
-
-
-/* Force left-side TOC layout */
-.sidebar-content-grid {
-  display: grid;
-  grid-template-columns: 300px 1fr;
-  gap: 2rem;
-  align-items: start;
-}
-
-.sidebar__left {
-  position: sticky;
-  top: 2rem;
-  overflow-y: auto;
-  max-height: calc(100vh - 4rem);
-}
-
-/* Mobile responsiveness */
-@media (max-width: 1024px) {
-  .sidebar-content-grid {
-    grid-template-columns: 1fr;
-  }
-  .sidebar__left {
-    position: static;
-    order: -1;
-    margin-bottom: 2rem;
-  }
-}
-
-/* Fix Minimal Mistakes conflicts */
-.archive, .page__content {
-  width: 100% !important;
-  float: none !important;
-}
