@@ -1285,19 +1285,22 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   }
 }
 
+.sidebar-content-grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
 .sidebar__left {
   position: sticky;
   top: 2rem;
-  padding-right: 1rem;
-  border-right: 1px solid var(--border-color);
-  
-  .nav__title {
-    margin-bottom: 0.5em;
-  }
+  overflow-y: auto;
+  max-height: calc(100vh - 4rem);
 }
 
-/* Fix splash content width */
-.layout--wide_splash .page-content {
-  width: 100%;
-  max-width: none;
+/* Fix Minimal Mistakes conflicts */
+.archive, .page__content {
+  width: 100% !important;
+  float: none !important;
 }
