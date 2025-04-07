@@ -2,6 +2,8 @@
 title: "Lab members"
 layout: splash
 author_profile: false
+sidebar: 
+  nav: sidebar-sample
 classes: wide
 header:
   overlay_color: "#000"
@@ -31,11 +33,6 @@ phds:
     title: "Chloe Beaupré"
     excerpt: "Chloe is fascinated by movement ecology.  Her goal is to pursue research that fills information gaps and can be applied to important management actions. Chloe recently relocated to Syracuse from Colorado's Western Slope after finishing a dual degree (Master in Environmental Management, Master of Science in Ecology), where she studied the influence of recreation on deer and elk and how many GPS collars to deploy to map migration and distribution at the population level for a slew of Colorado's ungulate species."
 masters:
-  - image_path: /assets/people/katya.jpg
-    image_caption: "Katya thinks deep thoughts"
-    alt: "Katya Khadonova"
-    title: "Katya Khadonova"
-    excerpt: "Katya's graduate research is on examining the the of selective predation by wolves on the spread of chronic wasting disease (CWD) in white-tailed deer in the western Great Lakes Region.  She seeks to protect complex systems that sustain endangered and threatened species and is passionate about bringing together the human and wildlife dimensions of conservation, which she attempts to accomplish through combining field research, modeling, policy, and public outreach. Prior to commencing her SUNY-ESF journey, Katya obtained a degree in Human Ecology from [College of the Atlantic](https://www.coa.edu/), where she worked across a variety of ecosystems, including Maine coast and islands, Costa Rica, and Russia."
   - image_path: /assets/people/sydney.jpg
     image_caption: "Sydney casually captured a bobcat"
     alt: "Sydney Opel"
@@ -53,6 +50,11 @@ formermembers:
     alt: "Ophélie Couriot"
     title: "Dr. Ophélie Couriot"
     excerpt: "Ophélie - who led, co-led, and contributed deeply to many of our caribou and convergent science efforts as a post-doc from 2021-2025, is now an assistant professor at [University of Alaska, Fairbanks](https://www.uaf.edu/bw/about/faculty.php?who=Couriot_Ophelie)."
+  - image_path: /assets/people/katya.jpg
+    image_caption: "Katya thinks deep thoughts"
+    alt: "Katya Khadonova"
+    title: "Katya Khadonova"
+    excerpt: "Katya's graduate research is on examining the the of selective predation by wolves on the spread of chronic wasting disease (CWD) in white-tailed deer in the western Great Lakes Region.  She seeks to protect complex systems that sustain endangered and threatened species and is passionate about bringing together the human and wildlife dimensions of conservation, which she attempts to accomplish through combining field research, modeling, policy, and public outreach. Prior to commencing her SUNY-ESF journey, Katya obtained a degree in Human Ecology from [College of the Atlantic](https://www.coa.edu/), where she worked across a variety of ecosystems, including Maine coast and islands, Costa Rica, and Russia."
 ---
 
 # Post-doctoral scholars
