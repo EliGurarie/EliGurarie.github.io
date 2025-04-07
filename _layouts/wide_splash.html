@@ -7,25 +7,21 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
-  <!-- New wrapper with clear structure -->
-  <div class="custom-sidebar-layout">
-    <!-- Left TOC Container -->
-    <div class="custom-toc-container">
-      {% if page.toc %}
-        <aside class="custom-toc-sidebar">
-          <nav class="custom-toc-nav">
-            <header><h4 class="custom-toc-title"><i class="fas fa-list"></i> On This Page</h4></header>
-            {% include toc.html sanitize=true html=content h_min=1 h_max=3 %}
-          </nav>
-        </aside>
-      {% endif %}
-    </div>
-    
-    <!-- Main Content -->
-    <div class="custom-main-content">
-      <article class="page__content">
-        {{ content }}
-      </article>
-    </div>
+  <div class="sidebar-primary">
+    {% if page.toc %}
+      <aside class="sidebar__left sticky">
+        <nav class="toc">
+          <header><h4 class="nav__title">{% if page.toc_icon %}<i class="fas fa-{{ page.toc_icon }}"></i> {% endif %}On This Page</h4></header>
+          {% include toc.html sanitize=true html=content h_min=1 h_max=3 %}
+        </nav>
+      </aside>
+    {% endif %}
+
+    <article class="page-content">
+      {% unless page.header.overlay_color or page.header.overlay_image %}
+        <h1 id="page-title">{{ page.title }}</h1>
+      {% endunless %}
+      {{ content }}
+    </article>
   </div>
 </div>
