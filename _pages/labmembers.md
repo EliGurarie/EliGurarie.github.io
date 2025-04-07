@@ -58,7 +58,7 @@ formermembers:
     image_caption: "Katya thinks deep thoughts"
     alt: "Katya Khadonova"
     title: "Katya Khadonova"
-    excerpt: "Katya's is now a Master's was on examining the role of selective predation by wolves on the spread of chronic wasting disease (CWD) in white-tailed deer in the western Great Lakes Region. Prior to commencing her SUNY-ESF journey, Katya obtained a degree in Human Ecology from [College of the Atlantic](https://www.coa.edu/), where she worked across a variety of ecosystems, including Maine coast and islands, Costa Rica, and Russia."
+    excerpt: "Katya graduated with a MSc degree in December 2024.  Her work was on examining the role of selective predation by wolves on the spread of chronic wasting disease (CWD) in white-tailed deer in the western Great Lakes Region. She is currently a quantitative ecologist with the [Illinois Natural History Survey](https://inhs.illinois.edu/).  Prior to commencing her SUNY-ESF journey, Katya obtained a degree in Human Ecology from [College of the Atlantic](https://www.coa.edu/), where she worked across a variety of ecosystems, including Maine coast and islands, Costa Rica, and Russia."
 ---
 
 # Post-doctoral scholars
@@ -81,7 +81,7 @@ formermembers:
 
 <!-- {% include feature_row id="formermembers" type="left" %} -->
 
-![](/assets/people/katya.jpg)
+![](/assets/people/katya.jpg) Katya graduated with a MSc degree in December 2024.  Her work was on examining the role of selective predation by wolves on the spread of chronic wasting disease (CWD) in white-tailed deer in the western Great Lakes Region. She is currently a quantitative ecologist with the [Illinois Natural History Survey](https://inhs.illinois.edu/).  Prior to commencing her SUNY-ESF journey, Katya obtained a degree in Human Ecology from [College of the Atlantic](https://www.coa.edu/), where she worked across a variety of ecosystems, including Maine coast and islands, Costa Rica, and Russia.
 
 <!-- for raw splash code see https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/docs/_pages/splash-page.md --> 
 
