@@ -70,7 +70,11 @@ exclude:
    - /blog/
    - /ignore/
 
-
+toc:
+  enabled: true
+  sidebar: true   # Display in sidebar (default is inline)
+  title: "On This Page"  # Customize the heading
+  icon: "list"
   
 #collections:
 #  posts:
