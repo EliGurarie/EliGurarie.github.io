@@ -2,25 +2,21 @@
 layout: default
 ---
 
-<!-- Splash Header (keeps your full-width banner) -->
 {% if page.header.overlay_color or page.header.overlay_image %}
   {% include page__hero.html %}
 {% endif %}
 
 <div id="main" role="main">
-  <!-- NEW: Grid container for sidebar + content -->
-  <div class="sidebar-content-grid">
-    <!-- Left TOC Sidebar -->
+  <div class="sidebar-layout">
     {% if page.toc %}
-      <aside class="sidebar__left sticky">
-        <nav class="toc">
-          <header><h4 class="nav__title"><i class="fas fa-list"></i> On This Page</h4></header>
-          {% include toc.html sanitize=true html=content h_min=1 h_max=3 %}
-        </nav>
-      </aside>
+    <aside class="sidebar__left">
+      <nav class="toc sticky">
+        <header><h4 class="nav__title"><i class="fas fa-list"></i> On This Page</h4></header>
+        {% include toc.html sanitize=true html=content h_min=1 h_max=3 %}
+      </nav>
+    </aside>
     {% endif %}
 
-    <!-- Main Content -->
     <article class="page__content">
       {{ content }}
     </article>

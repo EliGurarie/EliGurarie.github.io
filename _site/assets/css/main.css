@@ -1272,35 +1272,52 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   .masthead, .toc, .page__share, .page__related, .pagination, .ads, .page__footer, .page__comments-form, .author__avatar, .author__content, .author__urls-wrapper, .nav__list, .sidebar, .adsbygoogle { display: none !important; height: 1px !important; } }
 
 
-
-/* Custom left sidebar layout */
-.sidebar-primary {
+/* Main layout container */
+.sidebar-layout {
   display: grid;
-  grid-template-columns: minmax(0, 250px) minmax(0, 1fr);
-  gap: 2rem;
+  grid-template-columns: minmax(250px, 300px) minmax(0, 1fr);
+  gap: 40px;
   align-items: start;
+}
 
-  @media (max-width: 64em) {
+/* Left sidebar styling */
+.sidebar__left {
+  position: relative;
+  padding-right: 20px;
+  
+  /* Optional border separator */
+  border-right: 1px solid var(--border-color);
+}
+
+/* Sticky TOC */
+.sticky {
+  position: sticky;
+  top: 100px; /* Adjust based on your header height */
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+}
+
+/* Main content area */
+.page__content {
+  width: 100%;
+  overflow: hidden; /* Prevents overlap */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 1024px) {
+  .sidebar-layout {
     grid-template-columns: 1fr;
   }
-}
-
-.sidebar-content-grid {
-  display: grid;
-  grid-template-columns: 300px 1fr;
-  gap: 2rem;
-  align-items: start;
-}
-
-.sidebar__left {
-  position: sticky;
-  top: 2rem;
-  overflow-y: auto;
-  max-height: calc(100vh - 4rem);
-}
-
-/* Fix Minimal Mistakes conflicts */
-.archive, .page__content {
-  width: 100% !important;
-  float: none !important;
+  
+  .sidebar__left {
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+    padding-right: 0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .sticky {
+    position: static;
+  }
 }

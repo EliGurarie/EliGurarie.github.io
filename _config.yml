@@ -73,6 +73,7 @@ exclude:
 toc:
   enabled: true
   sidebar: true   # Display in sidebar (default is inline)
+  sticky: true
   title: "On This Page"  # Customize the heading
   icon: "list"
   
