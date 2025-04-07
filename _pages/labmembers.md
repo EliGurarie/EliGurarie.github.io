@@ -58,7 +58,7 @@ formermembers:
     image_caption: "Katya thinks deep thoughts"
     alt: "Katya Khadonova"
     title: "Katya Khadonova"
-    excerpt: "Katya's graduate research is on examining the the of selective predation by wolves on the spread of chronic wasting disease (CWD) in white-tailed deer in the western Great Lakes Region.  She seeks to protect complex systems that sustain endangered and threatened species and is passionate about bringing together the human and wildlife dimensions of conservation, which she attempts to accomplish through combining field research, modeling, policy, and public outreach. Prior to commencing her SUNY-ESF journey, Katya obtained a degree in Human Ecology from [College of the Atlantic](https://www.coa.edu/), where she worked across a variety of ecosystems, including Maine coast and islands, Costa Rica, and Russia."
+    excerpt: "Katya's is now a Master's was on examining the role of selective predation by wolves on the spread of chronic wasting disease (CWD) in white-tailed deer in the western Great Lakes Region. Prior to commencing her SUNY-ESF journey, Katya obtained a degree in Human Ecology from [College of the Atlantic](https://www.coa.edu/), where she worked across a variety of ecosystems, including Maine coast and islands, Costa Rica, and Russia."
 ---
 
 # Post-doctoral scholars
