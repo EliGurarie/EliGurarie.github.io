@@ -2,32 +2,26 @@
 layout: default
 ---
 
+{% if page.header.overlay_color or page.header.overlay_image %}
+  {% include page__hero.html %}
+{% endif %}
+
 <div id="main" role="main">
-  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    
-    <!-- Full-width splash header -->
-    <section class="splash-header" style="margin: 0 -5%; padding: 5% 10%; background: #f8f8f8;">
-      <h1>{{ page.title }}</h1>
-      {{ page.excerpt | markdownify }}
-    </section>
+  <div class="sidebar-primary">
+    {% if page.toc %}
+      <aside class="sidebar__left sticky">
+        <nav class="toc">
+          <header><h4 class="nav__title">{% if page.toc_icon %}<i class="fas fa-{{ page.toc_icon }}"></i> {% endif %}On This Page</h4></header>
+          {% include toc.html sanitize=true html=content h_min=1 h_max=3 %}
+        </nav>
+      </aside>
+    {% endif %}
 
-    <!-- Content with sidebar -->
-    <div class="page__inner-wrap">
-      <section class="page__content" itemprop="text">
-        {{ content }}
-      </section>
-
-  <!-- TOC sidebar on the right -->
-  {% if page.toc %}
-    <aside class="sidebar__left {% if page.toc_sticky %}sticky{% endif %}">
-      <nav class="toc">
-        <header><h4 class="nav__title">On This Page</h4></header>
-        {% include toc.html sanitize=true html=content h_min=1 h_max=6 %}
-      </nav>
-    </aside>
-  {% endif %}
-    </div>
-  </article>
+    <article class="page-content">
+      {% unless page.header.overlay_color or page.header.overlay_image %}
+        <h1 id="page-title">{{ page.title }}</h1>
+      {% endunless %}
+      {{ content }}
+    </article>
+  </div>
 </div>
-

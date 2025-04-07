@@ -1273,7 +1273,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 
 
-
+/* Custom left sidebar layout */
 .sidebar-primary {
   display: grid;
   grid-template-columns: minmax(0, 250px) minmax(0, 1fr);
