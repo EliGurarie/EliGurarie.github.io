@@ -1,0 +1,49 @@
+/* Main layout container */
+.sidebar-layout {
+  display: grid;
+  grid-template-columns: minmax(250px, 300px) minmax(0, 1fr);
+  gap: 40px;
+  align-items: start;
+}
+
+/* Left sidebar styling */
+.sidebar__left {
+  position: relative;
+  padding-right: 20px;
+  
+  /* Optional border separator */
+  border-right: 1px solid var(--border-color);
+}
+
+/* Sticky TOC */
+.sticky {
+  position: sticky;
+  top: 100px; /* Adjust based on your header height */
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+}
+
+/* Main content area */
+.page__content {
+  width: 100%;
+  overflow: hidden; /* Prevents overlap */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 1024px) {
+  .sidebar-layout {
+    grid-template-columns: 1fr;
+  }
+  
+  .sidebar__left {
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+    padding-right: 0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .sticky {
+    position: static;
+  }
+}
