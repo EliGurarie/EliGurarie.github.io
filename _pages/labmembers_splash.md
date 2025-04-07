@@ -1,6 +1,6 @@
 ---
 title: "Lab members"
-layout: wide_splash
+layout: splash
 author_profile: false
 toc: true
 toc_sticky: true
