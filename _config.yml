@@ -94,6 +94,9 @@ defaults:
       related: true
       sidebar: 
         nav: "sidelinks"
+
+sass:
+  style: compressed
         
 # Plugins (previously gems:)
 

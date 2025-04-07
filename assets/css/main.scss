@@ -1,3 +1,9 @@
+---
+# Front matter ensures Jekyll processes this
+---
+
+@import "minimal-mistakes";
+
 /* Reduce feature row image sizes */
 .feature__item {
   .feature__image {
