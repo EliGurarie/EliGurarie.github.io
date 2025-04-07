@@ -20,14 +20,11 @@ postdocs:
     url: "https://barb3800.github.io/WebsiteofNicki/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/people/ben.png
-    image_caption: "Nicki with turtle"
-    alt: "Nicki Barbour"
-    title: "Dr. Nicki Barbour"
-    excerpt: "[Nicki](https://barb3800.github.io/WebsiteofNicki/) is a movement ecologist with interests in applying quantitative methods to a variety of mobile taxa to better understand their ecology and inform novel conservation tools and methods. Nicki's dissertation work at the [University of Maryland Center for Environmental Science](https://www.umces.edu/) and [U. Maryland Dep't of Biology](https://biology.umd.edu/) focused on the movement ecology of sea turtles in different age classes. She recently also had projects on Sonoran pronghorn spatial ecology and resource use, finfish offshore aquaculture placement in the U.S., dynamic management tools for leatherback turtles, and shellfish aquaculture ecolabeling. Nicki is always eager for new and interesting collaborations."
-    url: "https://barb3800.github.io/WebsiteofNicki/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+  - image_path: /assets/people/ben.jpg
+    image_caption: "Benji"
+    alt: "Benji Larue"
+    title: "Dr. Benjamin Larue"
+    excerpt: "[Ben]'s interests lie in behavioral responses to anthropogenic disturbances, human-wildlife coexistence, and biostatistics. I am particularly interested in further integrating human communities and their interests in ecological research and conservation. Working in partnership with Indigenous communities, my current research focuses on barren-ground caribou mangement and conservation."
 phds:
   - image_path: /assets/people/megan.png
     image_caption: "Megan is the human"
