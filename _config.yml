@@ -107,7 +107,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  
+  - jekyll-sass-converter  
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
