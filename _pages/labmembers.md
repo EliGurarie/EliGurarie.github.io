@@ -10,11 +10,7 @@ header:
   caption: 'Blackwater Reserve - Maryland'
 excerpt: ""
 postdocs:
-  - image_path: /assets/people/ophelie.png
-    image_caption: "Ophélie in the snow"
-    alt: "Ophélie Couriot"
-    title: "Dr. Ophélie Couriot"
-    excerpt: "Ophélie is a wildlife ecologist focusing on the response of wildlife to global change. In particular, changes in movement behaviour of animals to human-induced changes to the climate and their environment. Ophélie investigates mechanisms across several scales: from the individual to the population, with a particular focus on barren-ground caribou in the North American Arctic. She completed her PhD at the University of Toulouse (France) studying the impacts of spatiotemporal variation in resource and risk distribution on movement and activity patterns of two large lowland herbivore species in Europe: roe deer and red deer."
+
   - image_path: /assets/people/nicki.png
     image_caption: "Nicki with turtle"
     alt: "Nicki Barbour"
@@ -51,6 +47,12 @@ others:
     alt: "Anna Brose"
     title: "Anna Brose"
     excerpt: "Anna is a communications and program manager for the [Fate of the Caribou Project](fateofthecaribou.esf.edu). Anna grew up alongside caribou in Alaska before receiving a bachelor's in Wildlife Biology at Colorado State University. With extensive field experience across the United States, she has worked for several state and federal agencies in various wildlife research positions. She completed her Master's in Wildlife Ecology at the University of Wisconsin - Madison in 2021, where she studied elk habitat use in northern Wisconsin. Anna is a self-taught science communicator and illustrator, and is a wildlife artist on the side."
+formermembers:
+  - image_path: /assets/people/ophelie.png
+    image_caption: "Ophélie in the snow"
+    alt: "Ophélie Couriot"
+    title: "Dr. Ophélie Couriot"
+    excerpt: "Ophélie - who led, co-led, and contributed deeply to many of our caribou and convergent science efforts as a post-doc from 2021-2025, is now an assistant professor at [University of Alaska, Fairbanks](https://www.uaf.edu/bw/about/faculty.php?who=Couriot_Ophelie)."
 ---
 
 # Post-doctoral scholars
@@ -69,7 +71,9 @@ others:
 
 {% include feature_row id="others" type="center" %}
 
+# Former members
 
+{% include feature_row id="formermembers" type="left" %}
 
 <!-- for raw splash code see https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/docs/_pages/splash-page.md --> 
 

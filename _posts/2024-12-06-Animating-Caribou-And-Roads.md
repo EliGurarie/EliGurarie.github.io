@@ -11,7 +11,6 @@ tags:
   - infrastructure
 ---
 
-
 <video width="815" height="951" controls>
   <source src="../assets/post05/caribou_and_winter_roads_2023.mp4" type="video/mp4">
 </video>
