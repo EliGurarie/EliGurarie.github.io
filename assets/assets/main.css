@@ -1271,3 +1271,72 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   /* Hide the following elements on print ========================================================================== */
   .masthead, .toc, .page__share, .page__related, .pagination, .ads, .page__footer, .page__comments-form, .author__avatar, .author__content, .author__urls-wrapper, .nav__list, .sidebar, .adsbygoogle { display: none !important; height: 1px !important; } }
 
+
+
+/* ==========================================================================
+   SIDEBAR LAYOUT
+   ========================================================================== */
+
+.page__sidebar-layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 40px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.page__sidebar {
+  position: sticky;
+  top: 120px; /* Adjust based on your header height */
+  height: fit-content;
+  max-height: calc(100vh - 140px);
+  overflow-y: auto;
+  padding-right: 20px;
+  border-right: 1px solid var(--border-color);
+  
+  /* Scrollbar styling */
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-color) transparent;
+  
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--border-color);
+    border-radius: 3px;
+  }
+}
+
+.page__content {
+  width: 100%;
+  overflow-x: hidden; /* Prevents horizontal overflow */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 1024px) {
+  .page__sidebar-layout {
+    grid-template-columns: 1fr;
+    padding: 0 15px;
+  }
+  
+  .page__sidebar {
+    position: static;
+    top: auto;
+    max-height: none;
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+    padding-right: 0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Override any conflicting MM styles */
+.archive,
+.page__content {
+  float: none !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+}
