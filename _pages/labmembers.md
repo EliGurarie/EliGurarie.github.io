@@ -24,7 +24,7 @@ postdocs:
     image_caption: "Benji"
     alt: "Benji Larue"
     title: "Dr. Benjamin Larue"
-    excerpt: "[Ben]()'s interests lie in behavioral responses to anthropogenic disturbances, human-wildlife coexistence, and biostatistics. He is interested in further integrating human communities and their interests in ecological research and conservation. "
+    excerpt: "[Ben]()'s interests lie in behavioral responses to anthropogenic disturbances, human-wildlife coexistence, and biostatistics. He is interested in further integrating human communities and their interests in ecological research and conservation, and is recent recipient of a [Libre Eco fellowship](https://liberero.ca/meet-the-fellows/)"
 phds:
   - image_path: /assets/people/megan.png
     image_caption: "Megan is the human"
