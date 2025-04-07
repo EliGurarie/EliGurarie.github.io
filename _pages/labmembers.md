@@ -79,7 +79,9 @@ formermembers:
 
 # Former members
 
-{% include feature_row id="formermembers" type="left" %}
+<!-- {% include feature_row id="formermembers" type="left" %} -->
+
+![](/assets/people/katya.jpg)
 
 <!-- for raw splash code see https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/docs/_pages/splash-page.md --> 
 
