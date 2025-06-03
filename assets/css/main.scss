@@ -2,15 +2,23 @@
 # Front matter ensures Jekyll processes this
 ---
 
+@charset "utf-8";
 
-$link-color: red;
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-
-/* ================================================
-   FORCED SIDEBAR LAYOUT (100% guaranteed to work)
-   ================================================ */
-
-body {
-  background-color: red !important;
+/* Move TOC to left margin */
+.toc {
+  position: fixed !important;
+  left: 20px !important;
+  top: 100px !important;
+  width: 200px !important;
+  background: white !important;
+  border: 1px solid #ccc !important;
+  padding: 15px !important;
+  border-radius: 5px !important;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+  z-index: 1000 !important;
+  max-height: 70vh !important;
+  overflow-y: auto !important;
 }
