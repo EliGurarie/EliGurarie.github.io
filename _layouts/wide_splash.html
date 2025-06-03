@@ -1,17 +1,13 @@
 ---
 layout: default
 ---
-<head>
-  <!-- Other head elements -->
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-</head>
 
 {% if page.header.overlay_color or page.header.overlay_image %}
   {% include page__hero.html %}
 {% endif %}
 
 <div id="main" role="main">
-  <!-- NEW: Flex container with forced sidebar -->
+  <!-- Flex container with TOC sidebar -->
   <div class="forced-sidebar-layout">
     <!-- TOC Container -->
     <div class="forced-toc-container">
@@ -19,7 +15,7 @@ layout: default
         <aside class="forced-toc-sidebar">
           <nav class="toc">
             <header><h4 class="nav__title"><i class="fas fa-list"></i> On This Page</h4></header>
-            {% include toc.html sanitize=true html=content h_min=1 h_max=3 %}
+            {% include toc.html sanitize=true html=content h_min=1 h_max=1 %}
           </nav>
         </aside>
       {% endif %}

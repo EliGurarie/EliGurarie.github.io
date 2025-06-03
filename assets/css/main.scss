@@ -7,7 +7,94 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* Move TOC to left margin */
+/* Style your custom TOC layout */
+.forced-sidebar-layout {
+  display: flex;
+  gap: 20px;
+  max-width: 100%;
+}
+
+.forced-toc-container {
+  position: fixed;
+  left: 20px;
+  top: 80px;
+  width: 300px;
+  z-index: 1000;
+}
+
+.forced-toc-sidebar {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.forced-toc-sidebar .toc {
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  font-size: 0.85em; /* Make TOC text smaller */
+}
+
+.forced-content-container {
+  flex: 1;
+  margin-left: 240px;
+}
+
+/* Hide TOC on smaller screens */
+@media (max-width: 1200px) {
+  .forced-toc-container {
+    display: none;
+  }
+  .forced-content-container {
+    margin-left: 0;
+  }
+}
+
+
+/* Add hover effects to regular feature boxes */
+.feature__wrapper .feature__item {
+  transition: all 0.3s ease;
+}
+
+.feature__wrapper .feature__item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* Optional: Add subtle background and border styling to regular boxes */
+.feature__wrapper .feature__item {
+  background: rgba(255,255,255,0.95);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  border-left: 4px solid #52adc8;
+}
+
+/* Make images in regular feature boxes have hover effects too */
+.feature__wrapper .feature__item .feature__item-teaser img {
+  transition: transform 0.3s ease;
+}
+
+.feature__wrapper .feature__item:hover .feature__item-teaser img {
+  transform: scale(1.02);
+}
+
+/* Section headers with better styling */
+h1 {
+  color: #2c3e50;
+  border-bottom: 3px solid #52adc8;
+  padding-bottom: 0.5em;
+  margin-bottom: 1.5em;
+  display: inline-block;
+  font-size: 2em;
+}
+
+/* Improve readability */
+body {
+  line-height: 1.6;
+}
+/* Move TOC to left margin 
 .toc {
   position: fixed !important;
   left: 20px !important;
@@ -21,4 +108,13 @@
   z-index: 1000 !important;
   max-height: 70vh !important;
   overflow-y: auto !important;
+}
+*/
+
+.feature__wrapper--compact {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 0.85em; /* Make TOC text smaller */
 }

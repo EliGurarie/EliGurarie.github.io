@@ -24,7 +24,7 @@ postdocs:
     image_caption: "Benji"
     alt: "Benji Larue"
     title: "Dr. Benjamin Larue"
-    excerpt: "[Ben] competed his Ph.D. at the Université de Sherbrooke in Québec, and has been a member of the [Fate of the Caribou](https://fateofthecaribou.github.io/) team since 2021. His interests lie in behavioral responses to anthropogenic disturbances, human-wildlife coexistence, and biostatistics. He is interested in further integrating human communities and their interests in ecological research and conservation.  He is a recent recipient of a [Libre Eco fellowship](https://liberero.ca/meet-the-fellows/)."
+    excerpt: "[Ben] completed his Ph.D. at the Université de Sherbrooke in Québec, and has been a member of the [Fate of the Caribou](https://fateofthecaribou.github.io/) team since 2021. His interests lie in behavioral responses to anthropogenic disturbances, human-wildlife coexistence, and biostatistics. He is interested in further integrating human communities and their interests in ecological research and conservation. He is a recent recipient of a [Libre Eco fellowship](https://liberero.ca/meet-the-fellows/)."
 phds:
   - image_path: /assets/people/megan.jpg
     image_caption: "Megan is the human"
@@ -35,7 +35,7 @@ phds:
     image_caption: "Chloe found a collar"
     alt: "Chloe Beaupré"
     title: "Chloe Beaupré"
-    excerpt: "Chloe is fascinated by movement ecology.  Her goal is to pursue research that fills information gaps and can be applied to important management actions. Chloe recently relocated to Syracuse from Colorado's Western Slope after finishing a dual degree (Master in Environmental Management, Master of Science in Ecology), where she studied the influence of recreation on deer and elk and how many GPS collars to deploy to map migration and distribution at the population level for a slew of Colorado's ungulate species."
+    excerpt: "Chloe is fascinated by movement ecology. Her goal is to pursue research that fills information gaps and can be applied to important management actions. Chloe recently relocated to Syracuse from Colorado's Western Slope after finishing a dual degree (Master in Environmental Management, Master of Science in Ecology), where she studied the influence of recreation on deer and elk and how many GPS collars to deploy to map migration and distribution at the population level for a slew of Colorado's ungulate species."
 masters:
   - image_path: /assets/people/sydney.jpg
     image_caption: "Sydney casually captured a bobcat"
@@ -58,33 +58,45 @@ formermembers:
     image_caption: "Katya thinks deep thoughts"
     alt: "Katya Khadonova"
     title: "Katya Khadonova"
-    excerpt: "Katya graduated with a MSc degree in December 2024.  Her work was on examining the role of selective predation by wolves on the spread of chronic wasting disease (CWD) in white-tailed deer in the western Great Lakes Region. She is currently a quantitative ecologist with the [Illinois Natural History Survey](https://inhs.illinois.edu/)."
+    excerpt: "Katya graduated with a MSc degree in December 2024. Her work was on examining the role of selective predation by wolves on the spread of chronic wasting disease (CWD) in white-tailed deer in the western Great Lakes Region. She is currently a quantitative ecologist with the [Illinois Natural History Survey](https://inhs.illinois.edu/)."
+  - image_path: /assets/people/marina.jpg
+    image_caption: "Marina prefers small cats"
+    alt: "Marina Favarini"
+    title: "Marina Favarini"
+    excerpt: "Marina is a PhD student at the Federal University of Rio Grande do Sul, in Porto Alegre, Brazil, who studies several species of small cats: [margay](https://en.wikipedia.org/wiki/Margay), [Geoffroy's cat](https://en.wikipedia.org/wiki/Geoffroy%27s_cat), [pampas cat](https://en.wikipedia.org/wiki/Pampas_cat). Since 2016, Marina has been developing research and conservation programs on spatial ecology and density of felines in southern Brazil, in the Pampa and Atlantic Forest biomes, through the use of camera traps and telemetry (VHF and GPS). "
+
 ---
+
+<style>
+
+</style>
 
 # Post-doctoral scholars
 
+<div class="feature__wrapper">
 {% include feature_row id="postdocs" type="left" %}
+</div>
 
 # Ph.D. students
 
+<div class="feature__wrapper">
 {% include feature_row id="phds" type="right" %}
+</div>
 
 # Master's students
 
+<div class="feature__wrapper">
 {% include feature_row id="masters" type="left" %}
-
-# Former members
-
-{% include feature_row id="formermembers" type="left" %} 
-
-<!-- 
-![](/assets/people/katya.jpg) Katya graduated with a MSc degree in December 2024.  Her work was on examining the role of selective predation by wolves on the spread of chronic wasting disease (CWD) in white-tailed deer in the western Great Lakes Region. She is currently a quantitative ecologist with the [Illinois Natural History Survey](https://inhs.illinois.edu/).  Prior to commencing her SUNY-ESF journey, Katya obtained a degree in Human Ecology from [College of the Atlantic](https://www.coa.edu/), where she worked across a variety of ecosystems, including Maine coast and islands, Costa Rica, and Russia.
--->
+</div>
 
 # Other (& indispensible)
 
+<div class="feature__wrapper">
 {% include feature_row id="others" type="center" %}
+</div>
+# Former members
 
 
-<!-- for raw splash code see https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/docs/_pages/splash-page.md --> 
-
+<div class="feature__wrapper--compact">
+{% include feature_row id="formermembers" %}
+</div>
