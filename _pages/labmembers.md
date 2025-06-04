@@ -64,8 +64,19 @@ formermembers:
     alt: "Marina Favarini"
     title: "Marina Favarini"
     excerpt: "Marina is a PhD student at the Federal University of Rio Grande do Sul, in Porto Alegre, Brazil, who studies several species of small cats: [margay](https://en.wikipedia.org/wiki/Margay), [Geoffroy's cat](https://en.wikipedia.org/wiki/Geoffroy%27s_cat), [pampas cat](https://en.wikipedia.org/wiki/Pampas_cat). Since 2016, Marina has been developing research and conservation programs on spatial ecology and density of felines in southern Brazil, in the Pampa and Atlantic Forest biomes, through the use of camera traps and telemetry (VHF and GPS). "
-
 ---
+
+<style>
+h1 {
+  color: #2c3e50;
+  border-bottom: 3px solid #52adc8;
+  padding-bottom: 0.5em;
+  margin-bottom: 1.5em;
+  display: inline-block;
+  font-size: 2em;
+}
+</style>
+
 <div class="forced-toc-container">
   <div class="forced-toc-sidebar">
     <div class="toc">
@@ -82,16 +93,6 @@ formermembers:
 
 <div class="forced-content-container">
 
-<style>
-h1 {
-  color: #2c3e50;
-  border-bottom: 3px solid #52adc8;
-  padding-bottom: 0.5em;
-  margin-bottom: 1.5em;
-  display: inline-block;
-  font-size: 2em;
-}
-</style>
 
 # Post-doctoral scholars
 
