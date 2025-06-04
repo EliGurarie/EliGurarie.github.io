@@ -20,30 +20,50 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
-          bundler-cache: true
+          bundler-cache: false  # Disable automatic caching
           cache-version: 0
-      - name: Clean and rebuild bundle
+      
+      - name: Configure bundle and install
         run: |
-          rm -f Gemfile.lock
+          bundle config set --local frozen false
+          bundle config set --local path vendor/bundle
           bundle install
+      
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
+      
+      - name: Debug before build
+        run: |
+          echo "=== Checking main.scss exists ==="
+          ls -la assets/css/main.scss
+          echo "=== First 30 lines of main.scss ==="
+          head -30 assets/css/main.scss
+          echo "=== Bundle list ==="
+          bundle list | grep -E "(jekyll|minimal-mistakes|sass)"
+      
       - name: Build with Jekyll
         run: |
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --verbose
         env:
           JEKYLL_ENV: production
-      - name: Debug CSS build
+      
+      - name: Debug after build
         run: |
-          echo "Contents of _site/assets/css/:"
-          ls -la _site/assets/css/ || true
-          echo "Searching for forced-container in built CSS:"
-          grep -r "forced-container" _site/ || echo "Not found in built site"  
+          echo "=== Contents of _site/assets/css/ ==="
+          ls -la _site/assets/css/
+          echo "=== Size of main.css ==="
+          wc -c _site/assets/css/main.css
+          echo "=== Searching for custom classes ==="
+          grep -E "(forced-toc-container|forced-content-container|feature__wrapper--compact)" _site/assets/css/main.css || echo "Custom classes not found"
+          echo "=== Last 50 lines of main.css ==="
+          tail -50 _site/assets/css/main.css
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
