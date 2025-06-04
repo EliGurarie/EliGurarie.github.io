@@ -1,11 +1,11 @@
 ---
-# Front matter ensures Jekyll processes this
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
-@import "minimal-mistakes";
+// Import Minimal Mistakes theme styles (these will be loaded by remote_theme)
+// We don't need to import them here when using remote_theme
 
 /* Style your custom TOC layout */
 .forced-sidebar-layout {
@@ -51,7 +51,6 @@
   }
 }
 
-
 /* Add hover effects to regular feature boxes */
 .feature__wrapper .feature__item {
   transition: all 0.3s ease;
@@ -90,27 +89,10 @@ h1 {
   font-size: 2em;
 }
 
-
 /* Improve readability */
 body {
   line-height: 1.6;
 }
-/* Move TOC to left margin 
-.toc {
-  position: fixed !important;
-  left: 20px !important;
-  top: 100px !important;
-  width: 200px !important;
-  background: white !important;
-  border: 1px solid #ccc !important;
-  padding: 15px !important;
-  border-radius: 5px !important;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
-  z-index: 1000 !important;
-  max-height: 70vh !important;
-  overflow-y: auto !important;
-}
-*/
 
 .feature__wrapper--compact {
   display: grid !important;
