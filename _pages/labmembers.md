@@ -89,8 +89,6 @@ h1 {
   </div>
 </div>
 
-<div class="forced-content-container">
-
 
 # Post-doctoral scholars
 
