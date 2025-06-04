@@ -68,7 +68,14 @@ formermembers:
 ---
 
 <style>
-
+h1 {
+  color: #2c3e50;
+  border-bottom: 3px solid #52adc8;
+  padding-bottom: 0.5em;
+  margin-bottom: 1.5em;
+  display: inline-block;
+  font-size: 2em;
+}
 </style>
 
 # Post-doctoral scholars
