@@ -2,6 +2,8 @@
 title: "Lab members"
 layout: wide_splash
 author_profile: false
+toc: true
+toc_sticky: true
 classes: wide
 header:
   overlay_color: "#000"
@@ -75,19 +77,6 @@ h1 {
 }
 </style>
 
-<div class="forced-toc-container">
-  <div class="forced-toc-sidebar">
-    <div class="toc">
-      <ul>
-        <li><a href="#post-doctoral-scholars">Post-doctoral scholars</a></li>
-        <li><a href="#phd-students">Ph.D. students</a></li>
-        <li><a href="#masters-students">Master's students</a></li>
-        <li><a href="#other--indispensible">Other (& indispensible)</a></li>
-        <li><a href="#former-members">Former members</a></li>
-      </ul>
-    </div>
-  </div>
-</div>
 
 
 # Post-doctoral scholars
