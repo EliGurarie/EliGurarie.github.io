@@ -96,6 +96,7 @@ defaults:
         nav: "sidelinks"
 
 sass:
+  sass_dir: _sass
   style: compressed
         
 # Plugins (previously gems:)
