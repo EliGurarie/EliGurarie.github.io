@@ -66,6 +66,21 @@ formermembers:
     excerpt: "Marina is a PhD student at the Federal University of Rio Grande do Sul, in Porto Alegre, Brazil, who studies several species of small cats: [margay](https://en.wikipedia.org/wiki/Margay), [Geoffroy's cat](https://en.wikipedia.org/wiki/Geoffroy%27s_cat), [pampas cat](https://en.wikipedia.org/wiki/Pampas_cat). Since 2016, Marina has been developing research and conservation programs on spatial ecology and density of felines in southern Brazil, in the Pampa and Atlantic Forest biomes, through the use of camera traps and telemetry (VHF and GPS). "
 
 ---
+<div class="forced-toc-container">
+  <div class="forced-toc-sidebar">
+    <div class="toc">
+      <ul>
+        <li><a href="#post-doctoral-scholars">Post-doctoral scholars</a></li>
+        <li><a href="#phd-students">Ph.D. students</a></li>
+        <li><a href="#masters-students">Master's students</a></li>
+        <li><a href="#other--indispensible">Other (& indispensible)</a></li>
+        <li><a href="#former-members">Former members</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="forced-content-container">
 
 <style>
 h1 {
