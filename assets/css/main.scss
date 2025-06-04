@@ -80,7 +80,7 @@
   transform: scale(1.02);
 }
 
-/* Section headers with better styling */
+/* Section headers with better styling
 h1 {
   color: #2c3e50;
   border-bottom: 3px solid #52adc8;
@@ -88,6 +88,19 @@ h1 {
   margin-bottom: 1.5em;
   display: inline-block;
   font-size: 2em;
+}
+*/
+
+/* More specific selector */
+.page__content h1,
+.page__title,
+body h1 {
+  color: #2c3e50 !important;
+  border-bottom: 3px solid #52adc8 !important;
+  padding-bottom: 0.5em !important;
+  margin-bottom: 1.5em !important;
+  display: inline-block !important;
+  font-size: 2em !important;
 }
 
 /* Improve readability */
