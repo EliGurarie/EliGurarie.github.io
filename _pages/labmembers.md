@@ -9,7 +9,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.2"
   overlay_image: /assets/images/banner_sealions.jpg
-  caption: 'Ekwǫ̀ near Wekweètì'
+  caption: 'Steller sea lions'
 excerpt: ""
 postdocs:
   - image_path: /assets/people/nicki.jpg

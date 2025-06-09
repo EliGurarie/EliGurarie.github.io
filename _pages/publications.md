@@ -7,7 +7,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0"
   overlay_image: /assets/images/banner_caribou.jpg
-  caption: 'Pribilof Reindeer'
+  caption: 'Ekwǫ̀ near Wekweètì'
 ---
   
 Below, a list of some of my more favorite ones, but the [Google Scholar](https://scholar.google.com/citations?user=d_G0tbAAAAAJ&hl=en) or [Researchgate](https://www.researchgate.net/profile/Eliezer_Gurarie/research) profiles do a far better job of being up to date (and being consistently formatted).
