@@ -32,13 +32,27 @@ layout: default
 .forced-content-container {
   margin-left: 320px !important;
 }
+/* Make the page content use full available width */
+.page__content {
+  max-width: none !important;
+  width: 100% !important;
+}
 
+/* Ensure feature rows use full available width */
+.feature__wrapper {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* Responsive - Hide TOC on smaller screens */
 @media (max-width: 1200px) {
   .forced-toc-container {
     display: none !important;
   }
   .forced-content-container {
     margin-left: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
   }
 }
 </style>
