@@ -65,7 +65,7 @@ formermembers:
     image_caption: "Marina prefers small cats"
     alt: "Marina Favarini"
     title: "Marina Favarini"
-    excerpt: "Marina is a PhD student at the Federal University of Rio Grande do Sul, in Porto Alegre, Brazil, who studies several species of small cats: [margay](https://en.wikipedia.org/wiki/Margay), [Geoffroy's cat](https://en.wikipedia.org/wiki/Geoffroy%27s_cat), [pampas cat](https://en.wikipedia.org/wiki/Pampas_cat). Since 2016, Marina has been developing research and conservation programs on spatial ecology and density of felines in southern Brazil, in the Pampa and Atlantic Forest biomes, through the use of camera traps and telemetry (VHF and GPS). "
+    excerpt: "Marina is a PhD student at the Federal University of Rio Grande do Sul, in Porto Alegre, Brazi - and a former distinguished visitor to our lab.  Marina studies several species of small cats: [margay](https://en.wikipedia.org/wiki/Margay), [Geoffroy's cat](https://en.wikipedia.org/wiki/Geoffroy%27s_cat), [pampas cat](https://en.wikipedia.org/wiki/Pampas_cat). Since 2016, she has been developing research and conservation programs on spatial ecology and density of felines in southern Brazil, in the Pampa and Atlantic Forest biomes, through the use of camera traps and telemetry (VHF and GPS). "
 undergraduates: 
   - image_path: /assets/people/katleen.jpg
     image_caption: "Katleen in the wetlands"
