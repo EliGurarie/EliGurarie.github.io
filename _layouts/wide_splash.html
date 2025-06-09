@@ -1,31 +1,69 @@
 ---
 layout: default
 ---
+<style>
+.forced-toc-container {
+  position: fixed !important;
+  left: 20px !important;
+  top: 120px !important;
+  width: 280px !important;
+  height: auto !important;
+  max-width: 280px !important;
+  z-index: 1000 !important;
+  display: block !important;
+  float: none !important;
+  flex: none !important;
+}
+
+.forced-toc-sidebar {
+  background: white !important;
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 8px !important;
+  padding: 15px !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1) !important;
+  max-height: calc(100vh - 140px) !important;
+  overflow-y: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  display: block !important;
+  position: relative !important;
+}
+
+.forced-content-container {
+  margin-left: 320px !important;
+}
+
+@media (max-width: 1200px) {
+  .forced-toc-container {
+    display: none !important;
+  }
+  .forced-content-container {
+    margin-left: 0 !important;
+  }
+}
+</style>
 
 {% if page.header.overlay_color or page.header.overlay_image %}
   {% include page__hero.html %}
 {% endif %}
 
+<!-- TOC Container - OUTSIDE main content -->
+{% if page.toc %}
+<div class="forced-toc-container">
+  <aside class="forced-toc-sidebar">
+    <nav class="toc">
+      <header><h4 class="nav__title"><i class="fas fa-list"></i> On This Page</h4></header>
+      {% include toc.html sanitize=true html=content h_min=1 h_max=1 %}
+    </nav>
+  </aside>
+</div>
+{% endif %}
+
 <div id="main" role="main">
-  <!-- Flex container with TOC sidebar -->
-  <div class="forced-sidebar-layout">
-    <!-- TOC Container -->
-    <div class="forced-toc-container">
-      {% if page.toc %}
-        <aside class="forced-toc-sidebar">
-          <nav class="toc">
-            <header><h4 class="nav__title"><i class="fas fa-list"></i> On This Page</h4></header>
-            {% include toc.html sanitize=true html=content h_min=1 h_max=1 %}
-          </nav>
-        </aside>
-      {% endif %}
-    </div>
-    
-    <!-- Content Container -->
-    <div class="forced-content-container">
-      <article class="page__content">
-        {{ content }}
-      </article>
-    </div>
+  <!-- Content Container -->
+  <div class="forced-content-container">
+    <article class="page__content">
+      {{ content }}
+    </article>
   </div>
 </div>

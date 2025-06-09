@@ -7,38 +7,73 @@
 // Import Minimal Mistakes theme styles (these will be loaded by remote_theme)
 // We don't need to import them here when using remote_theme
 
-/* Style your custom TOC layout */
 .forced-sidebar-layout {
   display: flex;
   gap: 20px;
   max-width: 100%;
+  position: relative;
 }
 
 .forced-toc-container {
   position: fixed;
   left: 20px;
-  top: 80px;
-  width: 300px;
+  top: 120px; /* Adjust based on your header height */
+  width: 280px;
   z-index: 1000;
 }
 
 .forced-toc-sidebar {
   background: white;
   border: 1px solid #e0e0e0;
-  border-radius: 5px;
-  padding: 15px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  max-height: calc(100vh - 140px);
+  overflow-y: auto;
+}
+
+.forced-toc-sidebar .nav__title {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: #52adc8;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 0.5rem;
 }
 
 .forced-toc-sidebar .toc {
-  max-height: calc(100vh - 120px);
-  overflow-y: auto;
-  font-size: 0.85em; /* Make TOC text smaller */
+  font-size: 0.85em;
+}
+
+.forced-toc-sidebar .toc ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.forced-toc-sidebar .toc ul ul {
+  padding-left: 1rem;
+  margin-top: 0.25rem;
+}
+
+.forced-toc-sidebar .toc a {
+  display: block;
+  padding: 0.25rem 0;
+  color: #666;
+  text-decoration: none;
+  border-left: 2px solid transparent;
+  padding-left: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.forced-toc-sidebar .toc a:hover {
+  color: #52adc8;
+  border-left-color: #52adc8;
+  background-color: rgba(82, 173, 200, 0.05);
 }
 
 .forced-content-container {
   flex: 1;
-  margin-left: 240px;
+  margin-left: 320px;
+  min-height: 100vh;
 }
 
 /* Hide TOC on smaller screens */
@@ -49,20 +84,14 @@
   .forced-content-container {
     margin-left: 0;
   }
+  .forced-sidebar-layout {
+    display: block;
+  }
 }
 
-/* Add hover effects to regular feature boxes */
+/* Your existing feature box styles */
 .feature__wrapper .feature__item {
   transition: all 0.3s ease;
-}
-
-.feature__wrapper .feature__item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-}
-
-/* Optional: Add subtle background and border styling to regular boxes */
-.feature__wrapper .feature__item {
   background: rgba(255,255,255,0.95);
   border-radius: 8px;
   padding: 1.5rem;
@@ -70,7 +99,11 @@
   border-left: 4px solid #52adc8;
 }
 
-/* Make images in regular feature boxes have hover effects too */
+.feature__wrapper .feature__item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
 .feature__wrapper .feature__item .feature__item-teaser img {
   transition: transform 0.3s ease;
 }
@@ -99,5 +132,9 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
   gap: 1.5rem;
   margin-bottom: 2rem;
-  font-size: 0.85em; /* Make TOC text smaller */
+}
+
+/* Smooth scrolling for TOC links */
+html {
+  scroll-behavior: smooth;
 }
