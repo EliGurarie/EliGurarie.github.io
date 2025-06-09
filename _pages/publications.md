@@ -10,10 +10,16 @@ header:
   caption: 'Pribilof Reindeer'
 ---
   
-Below, a list of some of my more favorite ones, but my [Google Scholar](https://scholar.google.com/citations?user=d_G0tbAAAAAJ&hl=en) or [Researchgate](https://www.researchgate.net/profile/Eliezer_Gurarie/research) profiles do a far, far, better job of being up to date (and being consistently formatted).
+Below, a list of some of my more favorite ones, but the [Google Scholar](https://scholar.google.com/citations?user=d_G0tbAAAAAJ&hl=en) or [Researchgate](https://www.researchgate.net/profile/Eliezer_Gurarie/research) profiles do a far better job of being up to date (and being consistently formatted).
 
 {:smallgrey: style="color:gray; font-size: 80%;"}
-* Brose, A, M Perra, A Gunn, **E Gurarie** (2024). Fate of the Caribou: Studying caribou and climate, with communities. *Xàgots’eèhk’ Journal*, 2(2). [link](https://xagotseehkojournal.com/index.php/xgsk/article/view/5966)
+
+
+* **Gurarie, E**, C Beaupré, O Couriot, M Cameron, W Fagan, K Joly (2024). Evidence for an adaptive, large-scale range shift in a long-distance terrestrial migrant. *Global Change Biology*. [link](https://onlinelibrary.wiley.com/doi/10.1111/gcb.17589)
+* Matias, MT, JM Ramage, **E Gurarie**, MJ Brodzik (2024). Snowmelt Onset and Caribou (*Rangifer tarandus*) Spring Migration. *Remote Sensing* **16**(13).
+* Fagan, WF, A Krishnan, Q Liao, CH Fleming, D Liao, C Lamb, B Patterson, T Wheeldon, R Martinez-Garcia, JFS Menezes, MJ Noonan, **E Gurarie**, JM Calabrese (2024). Intraspecific encounters can lead to reduced range overlap. *Movement Ecology* **12**(1), 58.
+* Barbour, N, J Bright, J Hervert, **E Gurarie**, S Doerries, A Alvidrez, R Goodwin, S Su, S Lehmuth, C Black, C Fleming, W Fagan (2024). Seasonality in Sonoran pronghorn (*Antilocapra americana sonoriensis*) survival and movement within a managed rangeland. *Journal of Wildlife Management*.
+* Brose, A, M Perra, A Gunn, **E Gurarie** (2024). Fate of the Caribou: Studying caribou and climate, with communities. *Xàgots'eèhk' Journal*, 2(2). [link](https://xagotseehkojournal.com/index.php/xgsk/article/view/5966)
 * **Gurarie, E** and T Avgar (2024). “Editorial: Cognitive Movement Ecology.” *Frontiers in Ecology and Evolution*, 12. [link](https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2024.1360427/full)
 * **Gurarie, E**, C Bracis, A Brilliantova, I Kojola, J Suutarinen, O Ovaskainen, S Potluri, and W Fagan (2022). Spatial memory drives foraging strategies of wolves, but in highly individual ways. *Frontiers in Ecology and Evolution*. [link](https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2022.768478/full)
 * Joly, K, **E Gurarie**, D Hansen, and M Cameron (2021). Seasonal patterns of spatial fidelity and

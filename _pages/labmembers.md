@@ -25,18 +25,17 @@ postdocs:
     alt: "Benji Larue"
     title: "Dr. Benjamin Larue"
     excerpt: "[Ben] completed his Ph.D. at the Université de Sherbrooke in Québec, and has been a member of the [Fate of the Caribou](https://fateofthecaribou.github.io/) team since 2021. His interests lie in behavioral responses to anthropogenic disturbances, human-wildlife coexistence, and biostatistics. He is interested in further integrating human communities and their interests in ecological research and conservation. He is a recent recipient of a [Libre Eco fellowship](https://liberero.ca/meet-the-fellows/)."
-phds:
-  - image_path: /assets/people/megan.jpg
-    image_caption: "Megan is the human"
-    alt: "Megan Perra"
-    title: "Megan Perra"
-    excerpt: "Megan is interested in how biological cues like soundscapes and interspecific vocalizations influence movement decision making in caribou. More simply: Do caribou eavesdrop on the soundscape to help them find good habitat patches? She completed her masters at the University of Alaska Fairbanks, where she studied caribou auditory physiology and the soundscapes of the Arctic Coastal Plain. Check out her interview on [Quirks & Quarks](https://www.cbc.ca/listen/live-radio/1-51-quirks-and-quarks/clip/15956606-figuring-reindeer-hear-understand-impact-industrial-sounds)."
+gradstudents:
   - image_path: /assets/people/chloe.jpg
     image_caption: "Chloe found a collar"
     alt: "Chloe Beaupré"
     title: "Chloe Beaupré"
-    excerpt: "Chloe is fascinated by movement ecology. Her goal is to pursue research that fills information gaps and can be applied to important management actions. Chloe recently relocated to Syracuse from Colorado's Western Slope after finishing a dual degree (Master in Environmental Management, Master of Science in Ecology), where she studied the influence of recreation on deer and elk and how many GPS collars to deploy to map migration and distribution at the population level for a slew of Colorado's ungulate species."
-masters:
+    excerpt: "Chloe is a PhD Candidate fascinated by movement ecology. Her goal is to pursue research that fills information gaps and can be applied to important management actions. Chloe came to Syracuse from Colorado's Western Slope after finishing a dual degree (Master in Environmental Management, Master of Science in Ecology), where she studied the influence of recreation on deer and elk and how many GPS collars to deploy to map migration and distribution at the population level for a slew of Colorado's ungulate species."
+  - image_path: /assets/people/megan.jpg
+    image_caption: "Megan is the human"
+    alt: "Megan Perra"
+    title: "Megan Perra"
+    excerpt: "Megan is a PhD student interested in how biological cues like soundscapes and interspecific vocalizations influence movement decision making in caribou. She completed her masters at the University of Alaska Fairbanks, where she studied caribou auditory physiology and the soundscapes of the Arctic Coastal Plain. Check out her interview on [Quirks & Quarks](https://www.cbc.ca/listen/live-radio/1-51-quirks-and-quarks/clip/15956606-figuring-reindeer-hear-understand-impact-industrial-sounds)."
   - image_path: /assets/people/sydney.jpg
     image_caption: "Sydney casually captured a bobcat"
     alt: "Sydney Opel"
@@ -67,6 +66,22 @@ formermembers:
     alt: "Marina Favarini"
     title: "Marina Favarini"
     excerpt: "Marina is a PhD student at the Federal University of Rio Grande do Sul, in Porto Alegre, Brazil, who studies several species of small cats: [margay](https://en.wikipedia.org/wiki/Margay), [Geoffroy's cat](https://en.wikipedia.org/wiki/Geoffroy%27s_cat), [pampas cat](https://en.wikipedia.org/wiki/Pampas_cat). Since 2016, Marina has been developing research and conservation programs on spatial ecology and density of felines in southern Brazil, in the Pampa and Atlantic Forest biomes, through the use of camera traps and telemetry (VHF and GPS). "
+undergraduates: 
+  - image_path: /assets/people/katleen.jpg
+    image_caption: "Katleen in the wetlands"
+    alt: "Katleen Gonzalex-Legra"
+    title: "Katleen Gonzalex-Legra"
+    excerpt: "Katleen (class of 2025) studied Conservation Biology at SUNY College of Environmental Science and Forestry to further her understanding of human impact on wildlife. She joined the Fate of the Caribou Project to connect her teachings with current studies, as well as learn new knowledge relating to soundscapes and categorizing data, and engage in hands-on work such as constructing audio collars to monitor Caribou vocalizations."
+  - image_path: /assets/people/zoe.jpg
+    image_caption: "Zoe is getting dressed"
+    alt: "Zoe-Hateya Mercer"
+    title: "Zoe-Hateya Mercer"
+    excerpt: "Zoe (class of 2025) graduated from ESF, now with a bachelors in Wildlife Science! Initially joining Dr. Gurarie's lab to assist Sydney Opel and her mesopredator study and more recently, with Celebrity Wright’s female caribou health research. They have a future plan to eventually work as a paleontologist."
+  - image_path: /assets/people/dalton.jpg
+    image_caption: "flowers and dog"
+    alt: "Dalton Adams"
+    title: "Dalton Adams"
+    excerpt: "Dalton is a conservation biology major going into my fourth year, currently working with wolf camera collar data from the Yukon-Charley Rivers National Preserve. Dalton is interested in the study of human-wildlife conflict, movement ecology, and carnivore conservation and ecology in high-conflict areas."
 ---
 
 <style>
@@ -84,30 +99,39 @@ h1 {
 
 # Post-doctoral scholars
 
-<div class="feature__wrapper">
+<div class="feature__wrapper--compact">
 {% include feature_row id="postdocs" type="left" %}
 </div>
 
-# Ph.D. students
+# Graduate students
 
-<div class="feature__wrapper">
-{% include feature_row id="phds" type="right" %}
+<div class="feature__wrapper--compact">
+{% include feature_row id="gradstudents"%}
 </div>
 
+<!--
 # Master's students
 
 <div class="feature__wrapper">
 {% include feature_row id="masters" type="left" %}
 </div>
+--> 
+
+# Undergraduates 
+
+<div class="feature__wrapper--compact">
+{% include feature_row id="undergraduates" %}
+</div>
+
+# Former members
+
+<div class="feature__wrapper--compact">
+{% include feature_row id="formermembers" %}
+</div>
+
 
 # Other (& indispensible)
 
 <div class="feature__wrapper">
 {% include feature_row id="others" type="center" %}
-</div>
-# Former members
-
-
-<div class="feature__wrapper--compact">
-{% include feature_row id="formermembers" %}
 </div>

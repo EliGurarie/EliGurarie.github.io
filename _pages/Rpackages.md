@@ -2,29 +2,29 @@
 title: "R packages"
 layout: home_nopage
 classes: wide
-author_profile: true
+author_profile: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
-  overlay_image: /assets/images/banner_tundra_large.jpg
-  caption: 'Kugluktuk'
+  overlay_image: /assets/images/banner_caiman.jpg
+  caption: 'Caiman meets horse'
 ---
   
-I've authored / co-authored several R packages, which have - it seems - been used by people other than myself:
+Some R packages I've created or co-created, which have  been used by people other than myself:
 
+
+## **`TuktuTools`** 
+[Github](https://github.com/ocouriot/TuktuTools)
+
+{:sg: style="color:gray; font-size: 80%;"}
+(With [Ophélie Couriot](https://www.uaf.edu/bw/about/faculty.php?who=Couriot_Ophelie) A suite of tools for studying Tuktu (caribou) movement ecology and spatial patterns. See tutotials [here](https://eligurarie.github.io/MiscellaneousLectures/#tuktutools-tutorials). 
+{: sg}
 
 ## **`cyclomort`** 
 ([CRAN](http://cran.r-project.org/web/packages/cyclomort/index.html) |[Github](https://github.com/EliGurarie/cyclomort))
 
 {:sg: style="color:gray; font-size: 80%;"}
 A tool for modeling and analysis of periodic mortality (or other time-to event) processes from right-censored data inspired by the need to characterize seasonal patterns in mortality of wildlife. 
-{: sg}
-
-## **`above`** 
-([Github](https://github.com/EliGurarie/above))
-
-{:sg: style="color:gray; font-size: 80%;"}
-A suite of pseudo-"in-house" functions for the large-scale loading, processing and visualizing of [Movebank](www.movebank.org) data for the *Arctic Boreal Vulnerability Experiment: Animals on the Move* project.  
 {: sg}
 
 ## **`smoove`**
