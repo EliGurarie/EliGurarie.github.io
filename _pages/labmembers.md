@@ -8,8 +8,8 @@ classes: wide
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
-  overlay_image: /assets/images/banner_pelicans_large.jpg
-  caption: 'Blackwater Reserve - Maryland'
+  overlay_image: /assets/images/banner_caribou.jpg
+  caption: 'Ekwǫ̀ near Wekweètì'
 excerpt: ""
 postdocs:
   - image_path: /assets/people/nicki.jpg
@@ -53,7 +53,10 @@ formermembers:
     image_caption: "Ophélie in the snow"
     alt: "Ophélie Couriot"
     title: "Dr. Ophélie Couriot"
-    excerpt: "Ophélie - who led, co-led, and contributed deeply to many of our caribou and convergent science efforts as a post-doc from 2021-2025, is now an assistant professor at [University of Alaska, Fairbanks](https://www.uaf.edu/bw/about/faculty.php?who=Couriot_Ophelie)."
+    excerpt: "Ophélie - has led, co-led, and contributed deeply to many of our caribou and convergent science efforts as a post-doc from 2021-2025, is now an assistant professor at [University of Alaska, Fairbanks](https://www.uaf.edu/bw/)."
+    url: "https://www.uaf.edu/bw/about/faculty.php?who=Couriot_Ophelie"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: /assets/people/katya.jpg
     image_caption: "Katya thinks deep thoughts"
     alt: "Katya Khadonova"

@@ -2,6 +2,7 @@
 layout: default
 ---
 <style>
+/* TOC Container Styles - Must be in layout to override theme */
 .forced-toc-container {
   position: fixed !important;
   left: 20px !important;
@@ -29,19 +30,50 @@ layout: default
   position: relative !important;
 }
 
-.forced-content-container {
-  margin-left: 320px !important;
-}
-/* Make the page content use full available width */
-.page__content {
-  max-width: none !important;
-  width: 100% !important;
+.forced-toc-sidebar .nav__title {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: #52adc8;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 0.5rem;
 }
 
-/* Ensure feature rows use full available width */
-.feature__wrapper {
+.forced-toc-sidebar .toc {
+  font-size: 0.85em;
+}
+
+.forced-toc-sidebar .toc ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.forced-toc-sidebar .toc ul ul {
+  padding-left: 1rem;
+  margin-top: 0.25rem;
+}
+
+.forced-toc-sidebar .toc a {
+  display: block;
+  padding: 0.25rem 0;
+  color: #666;
+  text-decoration: none;
+  border-left: 2px solid transparent;
+  padding-left: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.forced-toc-sidebar .toc a:hover {
+  color: #52adc8;
+  border-left-color: #52adc8;
+  background-color: rgba(82, 173, 200, 0.05);
+}
+
+/* Content Container - Much wider content area */
+.forced-content-container {
+  margin-left: 320px !important;
+  margin-right: 20px !important;
   max-width: none !important;
-  width: 100% !important;
+  width: auto !important;
 }
 
 /* Responsive - Hide TOC on smaller screens */
@@ -51,8 +83,7 @@ layout: default
   }
   .forced-content-container {
     margin-left: 0 !important;
-    max-width: 100% !important;
-    width: 100% !important;
+    margin-right: 0 !important;
   }
 }
 </style>
