@@ -1,7 +1,7 @@
 ---
 title: "Research"
 layout: home_nopage
-classes: single
+classes: splash
 author_profile: true
 header:
   overlay_color: "#000"
