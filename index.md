@@ -1,5 +1,5 @@
 ---
-title: Gurarie Wildlife Ecology Lab
+title: Animal Movement and Spatial Ecology Lab
 layout: home_nopage
 author_profile: true
 sidebar: true
@@ -12,27 +12,27 @@ header:
 excerpt: ""
 ---
 
-The **Gurarie Wildlife Ecology** Lab in the [Department of Environmental Biology at SUNY-ESF](https://www.esf.edu/efb/) works on fundamental questions of how animals navigate, survive, and persist in complex and dynamic environments. Our approach straddles theory, methodological innovation, the deep exploration of empirical data, and a diversity of knowledge modes with an eye on human-wildlife interactions, conservation, and stewardship.
-
-
-## About me
-
-I am an **Assistant Professor** at [SUNY College of Environmental and Forest Sciences](https://www.esf.edu/) in the [Department of Environmental Biology](https://www.esf.edu/efb/).
-
-For a cv that was almost surely up-to-date once upon a time, click [here](../../assets/GurarieCV.pdf).  My [Google Profile Page](https://scholar.google.com/citations?user=d_G0tbAAAAAJ&hl=en) has links to peer-reviewed publications.
-
-Potential students and post-docs are encouraged to reach out via [email](mailto:egurarie@esf.edu).
-
-<!-- See some specific opportunities [here](/_pages/joinus/), but there is no shortage of ideas and possible directions ... so do reach out! --> 
+The **Animal Movement and Spatial Ecology Lab** (AMSEL) in the [Department of Environmental Biology at SUNY-ESF](https://www.esf.edu/efb/) works on fundamental questions of how animals navigate, survive, and persist in complex and dynamic environments. Our approach straddles theory, methodological innovation, the deep exploration of empirical data, and a diversity of knowledge modes with an eye on human-wildlife interactions, conservation, and stewardship.
 
 
 
 
 ## Thumbnail research statement
 
-The world is incredibly complex and dynamic. This is true, too, for the particular biotic and abiotic environments that all animals exist in.  Food resources alone can be patchy or cryptic, can appear and disappear, sometimes even run around themselves.  Yet, animals manage (mainly) to navigate, survive, reproduce, and persist.  At the broadest level, my research addresses the question: ***How!?...***  
+The world is incredibly complex and dynamic. This is true, too, for the particular biotic and abiotic environments that all animals exist in.  Food resources alone can be patchy or cryptic, can appear and disappear, sometimes even run around themselves.  Yet, animals manage (mainly) to navigate, survive, reproduce, and persist.  At the broadest level, our research addresses the question: ***How!?...***  
 
 More [here](_pages/research/)
+
+
+## Briefly about the P.I.
+
+Elie Gurarie is an  **Assistant Professor** at [SUNY College of Environmental and Forest Sciences](https://www.esf.edu/) in the [Department of Environmental Biology](https://www.esf.edu/efb/).
+
+For a cv that was almost surely up-to-date once upon a time, click [here](../../assets/GurarieCV.pdf).  My [Google Profile Page](https://scholar.google.com/citations?user=d_G0tbAAAAAJ&hl=en) has links to peer-reviewed publications.
+
+Potential students and post-docs are encouraged to reach out via [email](mailto:egurarie@esf.edu).
+
+<!-- See some specific opportunities [here](/_pages/joinus/), but there is no shortage of ideas and possible directions ... so do reach out! --> 
 
 
 ### Education
