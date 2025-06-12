@@ -135,7 +135,7 @@ h1 {
 </div>
 
 
-# Other (& indispensible)
+# Other
 
 <div class="feature__wrapper">
 {% include feature_row id="others" type="center" %}
