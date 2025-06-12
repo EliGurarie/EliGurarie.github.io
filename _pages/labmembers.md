@@ -16,7 +16,7 @@ postdocs:
     image_caption: "Nicki with turtle"
     alt: "Nicki Barbour"
     title: "Dr. Nicki Barbour"
-    excerpt: "[Nicki](https://barb3800.github.io/WebsiteofNicki/) is a movement ecologist interested in applying quantitative methods to better understand the ecology of mobile taxa and to inform novel conservation tools. Her work at the [U. Maryland Center for Environmental Science](https://www.umces.edu/) and [Dep't of Biology](https://biology.umd.edu/) focused on the movement ecology of sea turtles, Sonoran pronghorn spatial ecology and resource use, finfish aquaculture placement, dynamic management tools for leatherback turtles, and shellfish ecolabeling. Nicki has since immersed herself in caribou and road interactions."
+    excerpt: "[Nicki](https://barb3800.github.io/WebsiteofNicki/) is a movement ecologist interested in applying quantitative methods to better understand the ecology of mobile taxa and to inform novel conservation tools. Her has worked on the movement ecology of sea turtles, Sonoran pronghorn spatial ecology and resource use, finfish aquaculture placement, dynamic management tools for leatherback turtles, shellfish ecolabeling, and, most recently, on terrestrial animal movement and road interactions.  She is soon moving on to an assistant professorship at Towson University (***congratulations!***)"
     url: "https://barb3800.github.io/WebsiteofNicki/"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -24,7 +24,7 @@ postdocs:
     image_caption: "Benji"
     alt: "Benji Larue"
     title: "Dr. Benjamin Larue"
-    excerpt: "[Ben] completed his Ph.D. at the Université de Sherbrooke in Québec, and has been a member of the [Fate of the Caribou](https://fateofthecaribou.github.io/) team since 2021. His interests lie in behavioral responses to anthropogenic disturbances, human-wildlife coexistence, and biostatistics. He is interested in further integrating human communities and their interests in ecological research and conservation. He is a recent recipient of a [Libre Eco fellowship](https://liberero.ca/meet-the-fellows/)."
+    excerpt: "[Ben] completed his Ph.D. at the Université de Sherbrooke in Québec, and has been a member of the [Fate of the Caribou](https://fateofthecaribou.github.io/) team since 2021. His interests lie in behavioral responses to anthropogenic disturbances, human-wildlife coexistence, and biostatistics. He is interested in further integrating human communities and their interests in ecological research and conservation. He is a recent recipient of a [Libre Eco fellowship](https://liberero.ca/meet-the-fellows/) (***félicitations!***)."
   - image_path: /assets/people/nate.jpg
     image_caption: "Where am I?"
     alt: "Nate Wehr"
