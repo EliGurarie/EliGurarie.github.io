@@ -105,7 +105,7 @@ h1 {
 # Post-doctoral scholars
 
 <div class="feature__wrapper--compact">
-{% include feature_row id="postdocs" type="left" %}
+{% include feature_row id="postdocs"%}
 </div>
 
 # Graduate students
