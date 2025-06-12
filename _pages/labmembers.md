@@ -25,6 +25,11 @@ postdocs:
     alt: "Benji Larue"
     title: "Dr. Benjamin Larue"
     excerpt: "[Ben] completed his Ph.D. at the Université de Sherbrooke in Québec, and has been a member of the [Fate of the Caribou](https://fateofthecaribou.github.io/) team since 2021. His interests lie in behavioral responses to anthropogenic disturbances, human-wildlife coexistence, and biostatistics. He is interested in further integrating human communities and their interests in ecological research and conservation. He is a recent recipient of a [Libre Eco fellowship](https://liberero.ca/meet-the-fellows/)."
+  - image_path: /assets/people/nate.jpg
+    image_caption: "Where am I?"
+    alt: "Nate Wehr"
+    title: "Dr. Nate Wehr"
+    excerpt: "Nate is a "Visiting Scholar" who has (paradoxically) been in our lab longer than the lab has existed. He is interested in movement ecology and biodiversity and collaborates on several of our projects on cognition and sptial ecology, while also managing long-term monitoring projects at Cranberry Lake Biological Station. Nate is also a post-doc in the [Pennsylvania Cooperative Fish and Wildlife Research Unit](https://ecosystems.psu.edu/research/pacfwru) where he is developing agent-based models of CWD transmission."
 gradstudents:
   - image_path: /assets/people/chloe.jpg
     image_caption: "Chloe found a collar"
