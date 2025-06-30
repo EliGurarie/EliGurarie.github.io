@@ -1,0 +1,158 @@
+---
+title: "Animal Movement and Spatial Ecology Lab"
+subtitle: "Values, Commitments, and Practical Matters" 
+author: "Elie Gurarie" 
+date: "*drafted: 2025-06-24*"
+output: 
+  html_document:
+    theme: flatly
+    toc: yes
+    toc_float:
+      collapsed: true
+---
+
+<style>
+.title {
+  position: relative;
+  padding-right: 100px; /* Make space for the logo */
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 200px;
+  height: 200px; /* Adjust as needed */
+  background-image: url('logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+</style>
+
+***SUNY-ESF***
+
+
+> *This is a living document. Any suggestions* <br>
+> *for additions or revisions are welcome.*
+
+## 1. Our Vision
+
+At the [**Animal Movement and Spatial Ecology Lab (AMSEL)**](https://eligurarie.github.io/) we work on fundamental questions of how animals navigate, survive, and persist in complex and dynamic environments. Our approach straddles theory, methodological innovation, the deep exploration of empirical data, and a diversity of knowledge modes with an eye on human-wildlife interactions, conservation, and stewardship
+
+What we do is summarized by the following equation:
+
+$${\cal W} = \rho_1 {\cal N} + \rho_2 {\cal X} + \rho_3 {\cal M} + \rho_4 {\cal P} + \rho_5 {\cal A} + ...$$
+
+Where: 
+
+- $\cal W$ is **who we are** and **what we do**
+- $\cal N$ is the **natural world** - with all its complex of characters and interactions - which is our mission to explore
+- $\cal X$ represents **data** and all the fascinating ways to expore it/them, 
+- $\cal M$ is **mathematical reasoning** which is powerful and cool, 
+- $\cal P$ is **people and communities** - whose interaction and coexistence with the natural world we aim to enrich and facilitate, 
+- $\cal A$ is **storytelling** and **visual communication**,
+- $...$ is everything else that makes us us motivates us. 
+
+While each of us weights these in our own way in different ways, for all of us these coefficients are positive ($\rho_i \gg 0$), and the sum of them is something very large and very satisfying ($\sum \rho_i \gg 1$). 
+
+---
+
+## 2. Core Values
+
+We are all **colleagues**, Whether you're an undergraduate intern or a seasoned postdoc, your contributions matter.   Everyone brings their own perspectives, knowledge and ideas.  There are many projects underway at any moment, but the tools and approaches and philosophies we bring overlap tremendously, and we all help each other and inspire each other. What we accomplish collectively is so, so, so much more than individually.  
+
+Our work is **collaborative** - almost all of it is supported by and in service to partners, within the department and college, and also - often -  wildlife agencies and NGO's.  We have responsibilities to those partnerships, to cultivate them, take things seriously, communicate frequently.  The success of our lab has hinged on the high quality of the work - but also on strength of our partnerships, and the high level of esteem we maintain with them. 
+
+We are **rigorous**, we avoid short-cuts and do the best possible work.  And we are **creative**, looking for and inventing out-of-the box solutions.  But we are also **humble**; especially with respect to tremendous complexity and ultimate unknowability of our study subjects, and with respect to the knowledge that others hold about study systems and research tools (see *collaboration* above). 
+
+We value **diversity** enormously: intersecting differences — of background, perspective, discipline, and approach - only ever strengthens science. But to unleash the promises of that intersectionality, we actively work to build an inclusive environment.
+
+We **communicate** directly and frequently - with collaborators, within our lab, and with me. 
+
+---
+
+## 3. Expectations
+
+### My Commitments to Grad Students  
+
+I am your advisor, mentor, collaborator, and advocate.  As such: 
+
+- I will always advocate for your success—intellectually, professionally, and personally.
+
+- We will schedule **weekly one-on-one 1 hour meetings** with every grad student (though travel and field work sometimes gets in the way). Especially in the first years, this keeps progress on track.  At those meetings, we maintain a living Google Doc that tracks goals and action items.  We close those meetings with clear expectations for what happens between those meetins 
+
+- I will look for every opportunity possible to support your work financially, to find opportunities for personal development.  Typically, I can only make research appointments one semester at a time.   Given the current challenges of the funding climate (& - really - the way science is funded in general), it can be hard to be guarantee support for longer time frames.  Historically, we have been able to keep students funded at levels that exceed the minimum stipend set for Master's and Ph.D. students at ESF, but *guarantees* are hard to come by in our field.  
+
+### Your Commitments
+
+- Read and be aware of the [ESF Environmental Biology graduate student handbook](https://www.esf.edu/biology/graduate/documents/2021-2022-EB-Graduate-Handbook.pdf).  Although I am here to help at every step, it is ultimatly the student's responsibility to make sure that all the bureaucratic boxes are being checked (there are *a lot* of forms & deadlines & hoops).
+
+- As a grad student - throughout the year - you are (usually, technically) approximately a 50% *student* pursuing your degree, and 50% either *scholar* (funded Research Assistant) or *educator* (Graduate Teaching Assistant GTA).  Your priority should be your thesis research. If you are supported as a teaching assistant or on a research assistanceship that is not directly related to your thesis work, be sure to give the research work the space and time it needs to progress regularly.  
+
+- Attend (& collectively coordinate) weekly **lab meetings** (see below).
+
+- Engage with the lab’s intellectual life: give talks, ask questions, attend seminars, share papers. 
+
+- Pursue funding where appropriate: scholarships, fellowships, travel grants — and help others do the same.  Eligible students should, for example, be applying for NSF Graduate Research Fellowships annually.  And there are multiple more localized ESF-specific grant opportunities to pursue. 
+
+- Schedule (at least) **one full committee meeting per year** to keep everyone apprised of progress. 
+
+- Take care of your own well-being (see #8 below). 
+
+
+
+## 4. Practical stuff
+
+- **Slack** is our primary means of day-to-day communication. Fast, informal, ephemeral (messages disappear after 90 days). We may move to something else someday, but for now, Slack it is.
+- **GitHub** repositories is how we share code, collaborate on analyses, and ensure reproducibility. 
+- **Data storage** is handled responsibly, either on the cloud (optimally the ESF OneDrive), or on the big machine, with long-term stewardship and access in mind. 
+- **The big lab computer** in Illick 244 runs Ubuntu and is available to all lab members.  It is the best available tool for more or less serious computation.  I can set up an account for you as neededm, with appropriate permissions.  
+- **Illick 244** is our shared physical space. Working together in shared space often leads to collaboration. Aim to be present at least a couple of days a week if possible. Please help keep it tidy, functional, and welcoming.
+  - Clean up shared food and fridge spaces.
+  - Be mindful of noise and distractions — respect the need for quiet focus as well as spontaneous discussion.
+
+### Lab Meetings
+
+**Lab meetings** are where we learn from and with each other, and share our individual knowledge and experience. Everyone is expected to attend unless it’s impossible (for example if you’re in the field). These may alternate between Gurarie-only and larger joint wildlife lab meetings (e.g. with Frair and Cohen labs). They’re a place to share ideas, work through challenges, and build community.  We'll schedule these before each semester. 
+
+Ideally, coordination, scheduling and organizing structured content for the lab meetings will be done by a lab-member that is *not* myself. 
+
+
+---
+
+## 5. Publications, Presentations, and Authorship
+
+Publishing is the coin of the realm in science. It’s also a skill you will develop over time.
+
+- Graduate students are expected to publish their thesis chapters—ideally with one manuscript submitted before graduation. This ensures your work makes it into the world.
+- I will support you in navigating journals, reviewers, rejection, revision, and all the rest.
+
+### Authorship  
+Authorship is earned through intellectual contribution—idea development, analysis, writing. It should never be an afterthought.
+
+- Other lab members or collaborators who made meaningful contributions—conceptual, analytical, or editorial—should also be included.
+- Side projects that emerge independently are great! You do not need to include me as a co-author if I wasn’t involved.
+- When in doubt, have a conversation early. Authorship conflicts are preventable with clear, early dialogue.
+- *In my experience offerring authorship is one of the most reliable, low-cost ways to strengthen relationships / make friends*.  
+
+### Presentations  
+
+- Presenting your work is part of your growth. You’ll be expected to share your research at conferences, local symposia, and within the lab.
+- Practice talks are highly recommended before formal presentations — lab members will give feedback and help you shine.
+
+---
+
+## 6. Time Off, Boundaries, and Support
+
+- Take time off. Recharge. No one is productive if they’re burnt out.
+- Give me a heads-up before being away from work—whether for vacation, family matters, or mental health.
+- You don’t need to disclose personal reasons unless you want to. I’m here to support you either way.
+- Do not rely entirely on your professional network for your mental well-being (none of us are trained!)  SUNY-ESF provides free counseling services, which come recommended: http://www.esf.edu/counseling/. The Academic Mental Health Collective (https://amhcollective.com/) is another good resource.   
+
+---
+
+## Final Thoughts
+
+Being part of this lab is about more than producing papers. It’s about learning to think deeply, work collaboratively, and grow into your own professional identity. I’m proud of the work we do, and excited to be on this tangled journey!
