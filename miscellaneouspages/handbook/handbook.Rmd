@@ -1,5 +1,5 @@
 ---
-title: "Animal Movement and Spatial Ecology Lab"
+title: "[Animal Movement and Spatial Ecology Lab](https://eligurarie.github.io/)"
 subtitle: "Values, Commitments, and Practical Matters" 
 author: "Elie Gurarie" 
 date: "*drafted: 2025-06-24*"
@@ -93,7 +93,7 @@ I am your advisor, mentor, collaborator, and advocate.  As such:
 
 - Attend (& collectively coordinate) weekly **lab meetings** (see below).
 
-- Engage with the lab’s intellectual life: give talks, ask questions, attend seminars, share papers. 
+- Engage with the lab’s intellectual life: give talks, ask questions, attend seminars, share papers, propose blog posts for the lab website, etc. 
 
 - Pursue funding where appropriate: scholarships, fellowships, travel grants — and help others do the same.  Eligible students should, for example, be applying for NSF Graduate Research Fellowships annually.  And there are multiple more localized ESF-specific grant opportunities to pursue. 
 

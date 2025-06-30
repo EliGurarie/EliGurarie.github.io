@@ -14,7 +14,7 @@ excerpt: ""
 
 The **Animal Movement and Spatial Ecology Lab** (AMSEL) in the [Department of Environmental Biology at SUNY-ESF](https://www.esf.edu/efb/) works on fundamental questions of how animals navigate, survive, and persist in complex and dynamic environments. Our approach straddles theory, methodological innovation, the deep exploration of empirical data, and a diversity of knowledge modes with an eye on human-wildlife interactions, conservation, and stewardship.
 
-Our lab handbook is available [here](/miscellaneouspages/handbook/Handbook_withequations.html).  
+Our lab handbook is [here](/miscellaneouspages/handbook/handbook.html).  
 
 ## Thumbnail research statement
 
