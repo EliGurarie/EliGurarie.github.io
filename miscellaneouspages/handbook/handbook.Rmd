@@ -1,6 +1,6 @@
 ---
 title: "[Animal Movement and Spatial Ecology Lab](https://eligurarie.github.io/)"
-subtitle: "Values, Commitments, and Practical Matters" 
+subtitle: "Values, Commitments, and Practicalities" 
 author: "Elie Gurarie" 
 date: "*drafted: 2025-06-24*"
 output: 
