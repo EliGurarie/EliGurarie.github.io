@@ -53,7 +53,7 @@ Where:
 - $\cal M$ is **mathematical reasoning** which is powerful and cool, 
 - $\cal P$ is **people and communities** - whose interaction and coexistence with the natural world we aim to enrich and facilitate, 
 - $\cal A$ is **storytelling** and **visual communication**,
-- $...$ is everything else that makes us us motivates us. 
+- $...$ is everything else that makes us and motivates us. 
 
 While each of us weights these in our own way in different ways, for all of us these coefficients are positive ($\rho_i \gg 0$), and the sum of them is something very large and very satisfying ($\sum \rho_i \gg 1$). 
 
