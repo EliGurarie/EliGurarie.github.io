@@ -132,7 +132,7 @@ h1 {
 </div>
 --> 
 
-# Undergraduates 
+# Under and recent graduates 
 
 <div class="feature__wrapper--compact">
 {% include feature_row id="undergraduates" %}
