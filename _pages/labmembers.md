@@ -87,6 +87,17 @@ undergraduates:
     alt: "Dalton Adams"
     title: "Dalton Adams"
     excerpt: "Dalton is a conservation biology major going into my fourth year, currently working with wolf camera collar data from the Yukon-Charley Rivers National Preserve. Dalton is interested in the study of human-wildlife conflict, movement ecology, and carnivore conservation and ecology in high-conflict areas."
+undergrads2:
+ - image_path: /assets/people/celebrity.jpg
+   image_caption: "Celebrity Wright"
+   alt: "Celebrity"
+   title: "Celebrity Wright"
+   excerpt: "Celebrity Wright graduated from SUNY ESF, class of 2025, with a B.S. in Wildlife Science. Her primary interests lie in the human impact on wildlife, with a focus on mammalogy, herpetology, and marine invertebrate zoology. She is currently researching the correlation between female barren-ground caribou health and botfly presence in response to the notable decline in the barren-ground caribou population, primarily attributed to habitat loss."
+ - image_path: /assets/people/gabbo.jpg
+   image_caption: "Gabriella Pereira"
+   alt: "Gabi"
+   title: "Gabriella Pereira"
+   excerpt: "Gabriella is a senior studying conservation biology and applied statistics. Initially intrigued by coding with R, Gabriella joined the lab to enhance their knowledge and skillset with the program. Currently, they are learning how to assess the permeability of barriers for various large-scale mammals. Gabriella is interested in studying movement ecology, human-wildlife relationships and how culture and language intertwine with conservation efforts."
 ---
 
 <style>
@@ -127,6 +138,9 @@ h1 {
 <div class="feature__wrapper--compact">
 {% include feature_row id="undergraduates" %}
 </div>
+<div class="feature__wrapper--compact">
+{% include feature_row id="undergraduates2" %}
+</div>
 
 # Former members
 
@@ -140,3 +154,17 @@ h1 {
 <div class="feature__wrapper">
 {% include feature_row id="others" type="center" %}
 </div>
+
+
+<!--
+ - image_path: /assets/people/celebrity.jpg
+   image_caption: "Celebrity Wright"
+   alt: "Celebrity"
+   title: "Celebrity Wright"
+   excerpt: "Celebrity Wright graduated from SUNY ESF, class of 2025, with a B.S. in Wildlife Science. Her primary interests lie in the human impact on wildlife, with a focus on mammalogy, herpetology, and marine invertebrate zoology. She is currently researching the correlation between female barren-ground caribou health and botfly presence in response to the notable decline in the barren-ground caribou population, primarily attributed to habitat loss."
+ - image_path: /assets/people/gabbo.jpg
+   image_caption: "Gabriella Pereira"
+   alt: "Gabi"
+   title: "Gabriella Pereira"
+   excerpt: "Gabriella is a senior studying conservation biology and applied statistics. Initially intrigued by coding with R, Gabriella joined the lab to enhance their knowledge and skillset with the program. Currently, they are learning how to assess the permeability of barriers for various large-scale mammals. Gabriella is interested in studying movement ecology, human-wildlife relationships and how culture and language intertwine with conservation efforts."
+-->
