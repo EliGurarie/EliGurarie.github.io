@@ -89,7 +89,7 @@ undergraduates:
     excerpt: "Dalton is a conservation biology major going into my fourth year, currently working with wolf camera collar data from the Yukon-Charley Rivers National Preserve. Dalton is interested in the study of human-wildlife conflict, movement ecology, and carnivore conservation and ecology in high-conflict areas."
 undergrads2:
  - image_path: /assets/people/celebrity.jpg
-   image_caption: "Celebrity Wright"
+   image_caption: "Celebrity is holding a snapping turtle"
    alt: "Celebrity"
    title: "Celebrity Wright"
    excerpt: "Celebrity Wright graduated from SUNY ESF, class of 2025, with a B.S. in Wildlife Science. Her primary interests lie in the human impact on wildlife, with a focus on mammalogy, herpetology, and marine invertebrate zoology. She is currently researching the correlation between female barren-ground caribou health and botfly presence in response to the notable decline in the barren-ground caribou population, primarily attributed to habitat loss."
