@@ -139,7 +139,7 @@ h1 {
 {% include feature_row id="undergraduates" %}
 </div>
 <div class="feature__wrapper--compact">
-{% include feature_row id="undergraduates2" %}
+{% include feature_row id="undergrads2" %}
 </div>
 
 # Former members
