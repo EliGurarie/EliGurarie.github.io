@@ -23,7 +23,7 @@ Some R packages we have created or co-created, some of which have even been used
 [Github](https://github.com/ocouriot/TuktuTools)
 
 {:sg: style="color:gray; font-size: 80%;"}
-(With [Ophélie Couriot](https://www.uaf.edu/bw/about/faculty.php?who=Couriot_Ophelie) A suite of tools for studying Tuktu (caribou) movement ecology and spatial patterns. See tutotials [here](https://eligurarie.github.io/MiscellaneousLectures/#tuktutools-tutorials). 
+(With [Ophélie Couriot](https://www.uaf.edu/bw/about/faculty.php?who=Couriot_Ophelie) A suite of tools for studying Tuktu (caribou) movement ecology and spatial patterns. See tutorials [here](https://eligurarie.github.io/MiscellaneousLectures/#tuktutools-tutorials). 
 {: sg}
 
 ## **`cyclomort`** 
