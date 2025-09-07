@@ -10,8 +10,14 @@ header:
   caption: 'Caiman meets horse'
 ---
   
-Some R packages I've created or co-created, which have  been used by people other than myself:
+Some R packages we have created or co-created, some of which have even been used by people other than ourselves:
 
+## **`permeability`** 
+[Github](https://github.com/NickiBarbour/permeability-dev)
+
+{:sg: style="color:gray; font-size: 80%;"}
+(With [Nicki Barbour](https://github.com/NickiBarbour) A tool for statistically estimating the permeability of linear barriers to animals from telemetry data. 
+{: sg}
 
 ## **`TuktuTools`** 
 [Github](https://github.com/ocouriot/TuktuTools)
