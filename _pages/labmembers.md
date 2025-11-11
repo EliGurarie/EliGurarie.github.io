@@ -50,12 +50,12 @@ gradstudents:
     image_caption: "Sagnik"
     alt: "Sagnik Nandy"
     title: "Sagnik Nandy"
-    excerpt: "Transitioning from being a biotechnologist to a wildlife (quantitative) ecologist! I am broadly interested in spatial ecology and particularly in movement of animals. Integrating data from different sources to understand the causes and consequences of movement fascinates me. I want to explore the cognitive and social drivers of movement decision-making in barren-ground caribou. I am drawn to understanding (and hopefully developing someday) statistical and mathematical tools. I have a knack for studying organisms in extreme environments (particularly cold!) When not working, I daydream about climbing snowy peaks and high mountain passes in the Himalaya."
-  - image_path: /assets/people/sydney.jpg
-    image_caption: "Sydney casually captured a bobcat"
-    alt: "Sydney Opel"
-    title: "Sydney Opel"
-    excerpt: "Sydney is a Master's student with an interest in carnivore conservation and ecology. Her goal is to seek a better understanding of movement, behavior and trophic interactions of carnivores to aid in the protection and conservation of carnivores in their native habitats."
+    excerpt: "Sagnik is a Ph.D. student broadly interested in spatial ecology and particularly in movement of animals, exploring the cognitive and social drivers of movement decision-making in barren-ground caribou, and hopes to deeply understand and eventually help develop statistical and mathematical tools. When not working, Sagnik daydreams about climbing snowy peaks and high mountain passes in the Himalaya."
+  - image_path: /assets/people/melinda.jpg
+    image_caption: "Melinda takes rabbit diseases seriously"
+    alt: "Melinda"
+    title: "Melinda Houtman"
+    excerpt: "Melinda is a master’s student co-advised by [Dr. Jonathan Cohen](https://www.esf.edu/faculty/cohen/index.php). Melinda is joining the New England Cottontail project where she will be using cellular tracking technology to determine nest site characteristics of these elusive rabbits. She comes to ESF from California where she worked for three seasons with endangered Riparian Brush Rabbits."
 
 others:
   - image_path: /assets/people/anna.jpg
