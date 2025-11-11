@@ -46,6 +46,17 @@ gradstudents:
     alt: "Sydney Opel"
     title: "Sydney Opel"
     excerpt: "Sydney is a Master's student with an interest in carnivore conservation and ecology. Her goal is to seek a better understanding of movement, behavior and trophic interactions of carnivores to aid in the protection and conservation of carnivores in their native habitats."
+  - image_path: /assets/people/sagnik.jpg
+    image_caption: "Sagnik"
+    alt: "Sagnik Nandy"
+    title: "Sagnik Nandy"
+    excerpt: "Transitioning from being a biotechnologist to a wildlife (quantitative) ecologist! I am broadly interested in spatial ecology and particularly in movement of animals. Integrating data from different sources to understand the causes and consequences of movement fascinates me. I want to explore the cognitive and social drivers of movement decision-making in barren-ground caribou. I am drawn to understanding (and hopefully developing someday) statistical and mathematical tools. I have a knack for studying organisms in extreme environments (particularly cold!) When not working, I daydream about climbing snowy peaks and high mountain passes in the Himalaya."
+  - image_path: /assets/people/sydney.jpg
+    image_caption: "Sydney casually captured a bobcat"
+    alt: "Sydney Opel"
+    title: "Sydney Opel"
+    excerpt: "Sydney is a Master's student with an interest in carnivore conservation and ecology. Her goal is to seek a better understanding of movement, behavior and trophic interactions of carnivores to aid in the protection and conservation of carnivores in their native habitats."
+
 others:
   - image_path: /assets/people/anna.jpg
     image_caption: "we'd be lost without Anna"
