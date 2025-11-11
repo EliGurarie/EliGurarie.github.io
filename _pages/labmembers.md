@@ -35,12 +35,12 @@ gradstudents:
     image_caption: "Chloe found a collar"
     alt: "Chloe Beaupré"
     title: "Chloe Beaupré"
-    excerpt: "Chloe is a PhD Candidate fascinated by movement ecology. Her goal is to pursue research that fills information gaps and can be applied to important management actions. Chloe came to Syracuse from Colorado's Western Slope after finishing a dual degree (Master in Environmental Management, Master of Science in Ecology), where she studied the influence of recreation on deer and elk and how many GPS collars to deploy to map migration and distribution at the population level for a slew of Colorado's ungulate species."
+    excerpt: "Chloe is a PhD Candidate fascinated by movement ecology, with an emphasis on linkages to survival. Her goal is to pursue research that fills information gaps and can be applied to important management actions. Chloe came to Syracuse from Colorado's Western Slope after finishing a dual degree (Master in Environmental Management, Master of Science in Ecology), where she studied several of Colorado's ungulates."
   - image_path: /assets/people/megan.jpg
     image_caption: "Megan is the human"
     alt: "Megan Perra"
     title: "Megan Perra"
-    excerpt: "Megan is a PhD student interested in how biological cues like soundscapes and interspecific vocalizations influence movement decision making in caribou. She completed her masters at the University of Alaska Fairbanks, where she studied caribou auditory physiology and the soundscapes of the Arctic Coastal Plain. Check out her interview on [Quirks & Quarks](https://www.cbc.ca/listen/live-radio/1-51-quirks-and-quarks/clip/15956606-figuring-reindeer-hear-understand-impact-industrial-sounds)."
+    excerpt: "Megan is a PhD Candidate interested in how biological cues like soundscapes and interspecific vocalizations influence movement decision making in caribou. She completed her masters at the University of Alaska Fairbanks, where she studied caribou auditory physiology and the soundscapes of the Arctic Coastal Plain. Check out her interview on [Quirks & Quarks](https://www.cbc.ca/listen/live-radio/1-51-quirks-and-quarks/clip/15956606-figuring-reindeer-hear-understand-impact-industrial-sounds)."
   - image_path: /assets/people/sydney.jpg
     image_caption: "Sydney casually captured a bobcat"
     alt: "Sydney Opel"
