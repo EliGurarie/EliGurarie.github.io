@@ -13,7 +13,7 @@ header:
 Some R packages we have created or co-created, some of which have even been used by people other than ourselves:
 
 ## **`permeability`** 
-[Github](https://github.com/NickiBarbour/permeability-dev)
+[Github](https://github.com/NickiBarbour/permeability)
 
 {:sg: style="color:gray; font-size: 80%;"}
 (With [Nicki Barbour](https://github.com/NickiBarbour) A tool for statistically estimating the permeability of linear barriers to animals from telemetry data. 

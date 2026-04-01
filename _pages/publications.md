@@ -15,6 +15,13 @@ Below, a list of some of my more favorite ones, but the [Google Scholar](https:/
 {:smallgrey: style="color:gray; font-size: 80%;"}
 
 
+* Liao, Q, **E Gurarie**, WF Fagan (in press). Dynamic Lake Ice Conditions Shape Caribou Water-Crossing Behavior in the Arctic. *Global Change Biology*.
+* Beaupré, C, K Joly, MD Cameron, O Couriot, WF Fagan, **E Gurarie** (2025). Winter survival shaped by forage abundance and snow depth for a long-distance migratory ungulate. *Polar Biology*. [link](https://doi.org/10.1007/s00300-025-03439-w)
+* Giroux, A, D Valle, **E Gurarie**, MV Vieira, JD Forester, L Börger, R Sepulvida, N Barbour, and others (2025). Sex drives intraspecific scaling of home range size in mammals. *Ecology Letters*, 28: e70245. [link](https://doi.org/10.1111/ele.70245)
+* Niebuhr, BB, SM Cavalcanti, EA Vilalba, VV Alberico, **E Gurarie**, RG Morato, and others (2025). Land use effects on the space use and dispersal of an apex predator in an ecotone between tropical biodiversity hotspots. *Diversity*, 17(6), 435. [link](https://doi.org/10.3390/d17060435)
+* Matias, MT, JM Ramage, **E Gurarie**, MJ Brodzik (2024). Snowmelt Onset and Caribou (*Rangifer tarandus*) Spring Migration. *Remote Sensing* **16**(13). [link](https://doi.org/10.3390/rs16132391)
+* Fagan, WF, A Krishnan, Q Liao, CH Fleming, D Liao, C Lamb, B Patterson, T Wheeldon, R Martinez-Garcia, JFS Menezes, MJ Noonan, **E Gurarie**, JM Calabrese (2024). Intraspecific encounters can lead to reduced range overlap. *Movement Ecology* **12**(1), 58. [link](https://doi.org/10.1186/s40462-024-00498-w)
+* Barbour, N, J Bright, J Hervert, **E Gurarie**, S Doerries, A Alvidrez, R Goodwin, S Su, S Lehmuth, C Black, C Fleming, W Fagan (2024). Seasonality in Sonoran pronghorn (*Antilocapra americana sonoriensis*) survival and movement within a managed rangeland. *Journal of Wildlife Management*. [link](https://doi.org/10.1002/jwmg.22609)
 * **Gurarie, E**, C Beaupré, O Couriot, M Cameron, W Fagan, K Joly (2024). Evidence for an adaptive, large-scale range shift in a long-distance terrestrial migrant. *Global Change Biology*. [link](https://onlinelibrary.wiley.com/doi/10.1111/gcb.17589)
 * Matias, MT, JM Ramage, **E Gurarie**, MJ Brodzik (2024). Snowmelt Onset and Caribou (*Rangifer tarandus*) Spring Migration. *Remote Sensing* **16**(13).
 * Fagan, WF, A Krishnan, Q Liao, CH Fleming, D Liao, C Lamb, B Patterson, T Wheeldon, R Martinez-Garcia, JFS Menezes, MJ Noonan, **E Gurarie**, JM Calabrese (2024). Intraspecific encounters can lead to reduced range overlap. *Movement Ecology* **12**(1), 58.
