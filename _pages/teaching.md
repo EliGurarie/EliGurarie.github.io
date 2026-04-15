@@ -18,6 +18,9 @@ header:
 
 - [**EFB 370: Population Ecology**](https://eligurarie.github.io/EFB370/) (co-taught with [Prof. Joshua Drew](https://www.esf.edu/faculty/drew/)). Link to lectures, labs and simulation tools for learning about and exploring various models of population dynamics. 
 
+  - [**EFB 654: R and Reproducible Research**](https://eligurarie.github.io/EFB654/) (co-taught with [Prof. Hyatt Green](https://www.esf.edu/faculty/green/)).  
+
+
 ## Miscellaneous Lectures
 
 [are here](https://eligurarie.github.io/MiscellaneousLectures/)
