@@ -1,0 +1,3179 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Elie Gurarie, Benjamin Larue, Ophélie Couriot, Anne Gunn, Allicia Kelly">
+<meta name="dcterms.date" content="2026-06-05">
+
+<title>Causes and Consequences of Ekwǫ̀ calving ground switching and shifts</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="HerdAssociationAnalysis_active_files/libs/clipboard/clipboard.min.js"></script>
+<script src="HerdAssociationAnalysis_active_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="HerdAssociationAnalysis_active_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="HerdAssociationAnalysis_active_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="HerdAssociationAnalysis_active_files/libs/quarto-html/popper.min.js"></script>
+<script src="HerdAssociationAnalysis_active_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="HerdAssociationAnalysis_active_files/libs/quarto-html/anchor.min.js"></script>
+<link href="HerdAssociationAnalysis_active_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="HerdAssociationAnalysis_active_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="HerdAssociationAnalysis_active_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="HerdAssociationAnalysis_active_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="HerdAssociationAnalysis_active_files/libs/bootstrap/bootstrap-9e3ffae467580fdb927a41352e75a2e0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="HerdAssociationAnalysis_active_files/libs/kePrint-0.0.1/kePrint.js"></script>
+
+<link href="HerdAssociationAnalysis_active_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background"><span class="header-section-number">1</span> Background</a></li>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods"><span class="header-section-number">2</span> Methods</a>
+  <ul class="collapse">
+  <li><a href="#coastal-areas" id="toc-coastal-areas" class="nav-link" data-scroll-target="#coastal-areas"><span class="header-section-number">2.1</span> Coastal Areas</a></li>
+  <li><a href="#classifying-individual-caribou-by-peak-calving-date" id="toc-classifying-individual-caribou-by-peak-calving-date" class="nav-link" data-scroll-target="#classifying-individual-caribou-by-peak-calving-date"><span class="header-section-number">2.2</span> Classifying Individual Caribou by Peak Calving Date</a></li>
+  <li><a href="#comparing-to-overall-population-size" id="toc-comparing-to-overall-population-size" class="nav-link" data-scroll-target="#comparing-to-overall-population-size"><span class="header-section-number">2.3</span> Comparing to Overall Population Size</a></li>
+  <li><a href="#trends-and-patterns-in-fidelity-and-switching" id="toc-trends-and-patterns-in-fidelity-and-switching" class="nav-link" data-scroll-target="#trends-and-patterns-in-fidelity-and-switching"><span class="header-section-number">2.4</span> Trends and patterns in fidelity and switching</a></li>
+  <li><a href="#spring-association" id="toc-spring-association" class="nav-link" data-scroll-target="#spring-association"><span class="header-section-number">2.5</span> Spring Association</a>
+  <ul class="collapse">
+  <li><a href="#nearest-neighbor" id="toc-nearest-neighbor" class="nav-link" data-scroll-target="#nearest-neighbor"><span class="header-section-number">2.5.1</span> Nearest Neighbor</a></li>
+  <li><a href="#cross-herd-mixing-index" id="toc-cross-herd-mixing-index" class="nav-link" data-scroll-target="#cross-herd-mixing-index"><span class="header-section-number">2.5.2</span> Cross-Herd Mixing Index</a></li>
+  </ul></li>
+  <li><a href="#winter-sociality-and-overlap" id="toc-winter-sociality-and-overlap" class="nav-link" data-scroll-target="#winter-sociality-and-overlap"><span class="header-section-number">2.6</span> Winter Sociality and Overlap</a></li>
+  <li><a href="#other-predictors" id="toc-other-predictors" class="nav-link" data-scroll-target="#other-predictors"><span class="header-section-number">2.7</span> Other predictors</a></li>
+  </ul></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results"><span class="header-section-number">3</span> Results</a>
+  <ul class="collapse">
+  <li><a href="#overall-summaries" id="toc-overall-summaries" class="nav-link" data-scroll-target="#overall-summaries"><span class="header-section-number">3.1</span> Overall summaries</a>
+  <ul class="collapse">
+  <li><a href="#absolute-numbers" id="toc-absolute-numbers" class="nav-link" data-scroll-target="#absolute-numbers"><span class="header-section-number">3.1.1</span> Absolute Numbers</a></li>
+  </ul></li>
+  <li><a href="#sec-bathurst-inlet-east" id="toc-sec-bathurst-inlet-east" class="nav-link" data-scroll-target="#sec-bathurst-inlet-east"><span class="header-section-number">3.2</span> Focus on East of Bathurst Inlet</a></li>
+  <li><a href="#results-sociality" id="toc-results-sociality" class="nav-link" data-scroll-target="#results-sociality"><span class="header-section-number">3.3</span> Spring Sociality</a></li>
+  </ul></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion"><span class="header-section-number">4</span> Discussion</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">5</span> References</a></li>
+  
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="HerdAssociationAnalysis_active.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="HerdAssociationAnalysis_active.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Causes and Consequences of Ekwǫ̀ calving ground switching and shifts</h1>
+<p class="subtitle lead">Draft Report for WRRB</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Elie Gurarie, Benjamin Larue, Ophélie Couriot, Anne Gunn, Allicia Kelly </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 5, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="cell">
+<style type="text/css">
+.figure { 
+  margin: 20px 0;
+}
+.caption {
+  font-style: italic;
+  color: #333;
+  margin-top: 10px;
+  padding: 5px 0;
+}
+table caption {
+  font-style: italic;
+  color: #333;
+  caption-side: top;
+  padding: 5px 0 10px 0;
+}
+</style>
+</div>
+<section id="background" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Background</h1>
+<p>Barren-ground caribou across northern Canada are organized and managed as herds that are defined by the calving grounds they use each year <span class="citation" data-cites="COSEWIC">Nagy et al. (<a href="#ref-Nagy2011" role="doc-biblioref">2011</a>)</span>. Female fidelity to these calving areas has long been treated as the basis for identifying population units and for guiding monitoring and harvest management <span class="citation" data-cites="Gunn1986 COSEWIC">(<a href="#ref-Gunn1986" role="doc-biblioref">Gunn and Miller 1986</a>, <a href="#ref-COSEWIC" role="doc-biblioref">Gunn et al. 2017</a>)</span>. This framework assumes that individuals consistently return to the same calving grounds year after year, which in turn maintains consistent separation among herds. This is generally an accurate characterization – as evidenced by copious empirical data and theoretical frameworks that emphasize the importance of sociality and gregariousness for caribou <span class="citation" data-cites="Gunn2012">(<a href="#ref-Gunn2012" role="doc-biblioref">Gunn et al. 2012</a>)</span>. However, ever since individual cows could be identified and tracked for multiple years, we have known that herds are not closed populations and a low level switching calving grounds is typical fidelity by the majority of cows.</p>
+<p>Telemetry data collected over the last two decades show that winter ranges used by neighboring herds often overlap. For example, the Western Arctic, Teshukpuk, Central Arctic and Porcupine Caribou herds in Alaska display both seasonal range overlap and herd interchange <span class="citation" data-cites="Prichard2020">(<a href="#ref-Prichard2020" role="doc-biblioref">Prichard et al. 2020</a>)</span>. Among the Rivière Georges and Rivière-aux-Feuilles herds in northern Québec and Labrador, there is similarly considerable spatial overlap among these herds, including during the rut <span class="citation" data-cites="Couturier1989">Boulet et al. (<a href="#ref-Boulet2007" role="doc-biblioref">2007</a>)</span>. In the central Canadian Arctic, <span class="citation" data-cites="Gurarie2023">Gurarie et al. (<a href="#ref-Gurarie2023" role="doc-biblioref">2023</a>)</span> documented highly variable winter overlap: at times very high (over 70%), at times near zero among all three major caribou herds, (Bluenose East, Bathurst and Beverly). These changes in spatial overlap can complicate herd-specific monitoring efforts because animals from different herds use the same landscapes during key periods of the annual cycle <span class="citation" data-cites="Gurarie2023">(<a href="#ref-Gurarie2023" role="doc-biblioref">Gurarie et al. 2023</a>)</span>.</p>
+<p>Collar data also show that calving-ground fidelity, while generally very high, can vary among individuals. In Alaska, up to 13% for the smaller herds (Teshekpuk and Central Arctic) calved with neighboring herds – what the authors refer to as “<em>interchange”.</em> This interchange, importantly, was strongly asymmetric: the large majority of switching events went <em>from</em> the two smaller herds <em>to</em> the two larger herds, with little flow in the reverse direction <span class="citation" data-cites="Prichard2020">(<a href="#ref-Prichard2020" role="doc-biblioref">Prichard et al. 2020</a>)</span>. In northern Québec and Labrador, cross-herd interchange is at least high enough to cause there to be no genetic differentiation between the Rivière Georges and Rivière-aux-Feuilles herds <span class="citation" data-cites="Boulet2007">(<a href="#ref-Boulet2007" role="doc-biblioref">Boulet et al. 2007</a>)</span>. Biologists monitoring caribou in the central Arctic document many cases of collared animals switching calving grounds - usually several a year. For example, between 1970 and 1979, based on 1300 marked caribou the switching rate between the Beverly and Qamanirjuaq calving grounds was 1.8% and 3.4%, respectively <span class="citation" data-cites="Heard1984">(<a href="#ref-Heard1984" role="doc-biblioref">Heard 1984</a>)</span>. <span class="citation" data-cites="Campbell2019">Campbell et al. (<a href="#ref-Campbell2019" role="doc-biblioref">2019</a>)</span> reported 3 of 93 (3.1%) collared Bathurst animals switching to the Beverly range between 2010 and 2018, with none going the other way, though all of those occurred in the last year of monitoring (3 of 11 in 2018), with considerably more switching between Beverly and mainland Nunavut and Ahiak herds (10 of 116 out of Beverly, 7 of 26 into Beverly). Relatedly, considerable debate surrounds the identity of Ahiak and Beverly herds. For example an argument made that the entire distinct Beverly herd – which traditionally calved in the interior of northern Nunavut near Beverly Lake – had been absorbed into the Ahiak herd (with a more coastal calving range) as the consequence of a herd-level population decline, possibly accelerated by large-scale herd switching between mid-1990’s and 2011 <span class="citation" data-cites="Adamczewski2015">(<a href="#ref-Adamczewski2015" role="doc-biblioref">Adamczewski et al. 2015</a>)</span>. Collectively, these animals are generally refered to as Beverly, while Ahiak animals are now considered to animals calving on the coast further east along the Arctic coastline. These observations across the North American migratory caribou range point to the dynamic nature of herd association and identity, and to the role that both shifting between calving ranges, and the shifting of calving ranges themselves, play in herd structures.</p>
+<p>Since 2017, a significant number of collared females from the greatly diminished Bathurst herd have migrated to the east coast of Bathurst Inlet during the pre-calving period, an area situated outside the presently recognized Bathurst calving ground but documented as a calving region for Bathurst animals until the mid-1990s <span class="citation" data-cites="Gunn2008">Gunn et al. (<a href="#ref-Gunn2012" role="doc-biblioref">2012</a>)</span>. Herd switching rates, in and out of the Bathurst, Bluenose East and Beverly herds, have apparently also been on the rise. Our immediate goals in this report is to: (1) Quantify the switching rates among these herds; (2) assess whether winter associations between herds lead to a higher rate of calving ground switching; and (3) assess whether animals travel together share common destinations. The collected information to determine whether social interactions may be increasing the likelihood of herd switching and thus slowing the recovery of the Bathurst population, and provide evidence for or against a “socially mediated Allee affect”, i.e.&nbsp;the notion that social interactions among herds during non-calving seasons can accelerate the numeric decline of a highly depleted herd. Improved understanding of the causes and consequences of calving-ground switching is essential for interpreting population trends, coordinating management across regions, and supporting conservation planning for migratory caribou.</p>
+</section>
+<section id="methods" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Methods</h1>
+<section id="coastal-areas" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="coastal-areas"><span class="header-section-number">2.1</span> Coastal Areas</h2>
+<p>We took a purely spatial approach to classifying the calving ground association of each animal in each year, more or less following the techniques introduced by <span class="citation" data-cites="Nagy">(<a href="#ref-Nagy" role="doc-biblioref"><strong>Nagy?</strong></a>)</span>. We delineated 7 greater calving ground areas (Figure <a href="#fig-BaseMap" class="quarto-xref">Figure&nbsp;1</a>). For most coastal areas, the herd association is very clear. These include the <strong>Tuktuyaktuk Peninsula</strong> (TUK) and <strong>Cape Bathurst</strong> (CBT). <strong>Bluenose West</strong> and <strong>Bluenose East</strong> herds are also fairly well clustered in the respective coastal areas (BLW and BLE). The <strong>Bathurst herd</strong> is <em>mainly</em> associated with animals that calved in the Bathurst Inlet West (BIW) coastal area, but also some animals that calved east of Bathurst Inlet (BIE). <strong>Beverly</strong> herd animals are mainly captured by the Queen Maud Gulf (QMG); a very large area which shifts considerable across years.</p>
+<p>A few animals are in the Northeast Mainland coastal area (NEM) - belonging to the complex of herds known as Wager Bay and Lorillard; these are largely outside the scope fo our analysis. Animals found outside of any of the coastal areas are either individuals that likely didn’t make it to the calving ground, or belong to the Qamanirjuaq herd that calves near Baker Lake in Eastern Nunavut.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-BaseMap" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-BaseMap-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="HerdAssociationAnalysis_active_files/figure-html/fig-BaseMap-1.png" class="img-fluid figure-img" width="2500">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-BaseMap-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Coastal Areas, defined as per the table in the text. Points indicate the location of female caribou on June 3 from all years of sampling (1996-2025) - bluer colors are older, redder colors are more recent.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="classifying-individual-caribou-by-peak-calving-date" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="classifying-individual-caribou-by-peak-calving-date"><span class="header-section-number">2.2</span> Classifying Individual Caribou by Peak Calving Date</h2>
+<p>We used data from female caribou instrumented with GPS collars by the Government of Northwest Territories (n = 1227, animal years = 2905). While our focus of these analyses is on the three major eastern herds (Bluenose East, Bathurst and Beverly), accounting for all the herds allows us to also consider movements into and out of this core group.</p>
+<p>Collaring efforts in NWT date back to 1996, but the sample sizes increased significantly after 2006 (Figure <a href="#fig-BarplotOfAreasOverTime" class="quarto-xref">Figure&nbsp;2</a>). Migration timing <span class="citation" data-cites="Gurarie2019">(<a href="#ref-Gurarie2019" role="doc-biblioref">Gurarie et al. 2019</a>)</span> and calving timing <span class="citation" data-cites="Couriot2023">(<a href="#ref-Couriot2023" role="doc-biblioref">Couriot et al. 2023</a>)</span> can vary considerably across years and among individuals among these herds. We estimated the calving time using the method of <span class="citation" data-cites="Couriot2023">Couriot et al. (<a href="#ref-Couriot2023" role="doc-biblioref">2023</a>)</span> for all the animals since 2006 (detailed results in Appendix B, Table <a href="#tbl-CalvingTimeTable" class="quarto-xref">Table&nbsp;5</a> and Figure <a href="#fig-CalvingDateViolins" class="quarto-xref">Figure&nbsp;13</a>.). While there is a distinct west to east gradient in mean calving days (e.g.&nbsp;May 28 for Tuktuyaktok Peninsula, to June 6 for Beverly), the overall peak calving date across animals was June 3 (SD 7.5 days). We therefore assigned each individual to the coastal area of each individual on <strong>June 3</strong>. Since animals first arrive before calving if possible, and typically spend around a week with their calves before moving, this date should largely capture those animals still on the calving grounds after giving birth, and those on or near the calving ground before giving birth. The large size of the coastal areas also help absorb much of the variation in movement activity across animals. Note also, that whereas we use the calving locations of likely parturient females, our goal is to have a flexible method to classify <em>all</em> the females, not all of which reproduce, but many of which also migrate to calving grounds due to the strong social behaviors of these herding animals.</p>
+<p>On balance, we feel that combining <strong>coastal areas</strong> with <strong>peak calving</strong> is a parsimonious and generally reliable method to classify all female caribou that is consistent with other common classifications, for example <span class="citation" data-cites="Nagy2011">Nagy et al. (<a href="#ref-Nagy2011" role="doc-biblioref">2011</a>)</span> and as currently conducted by the GNWT. One immediate issue that arises is the ambiguity of the “Bathust Inlet East” coastal area, as it straddles the very elongated and relatively more dynamic Beverly (formerly, Ahiak) calving grounds while being not too far from the current Bathurst Herd calving grounds, yet squarely overlapping with the areas that were formerly the core calving ground of the Bathurst herd. This is an area of ecological importance that appears to be increasingly used, even as the Bathurst and Beverly animals are appearing to mix. We embrace the ambiguity of this area by giving it its own designation. We also provide a detailed analysis of animals that appear to have calved in this area below (<a href="#sec-bathurst-inlet-east" class="quarto-xref">Section&nbsp;3.2</a>).</p>
+<div class="cell">
+<div id="tbl-CoastalAreaTable" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-CoastalAreaTable-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Distribution of collared female caribou across coastal areas on June 1, with associated herd designation.
+</figcaption>
+<div aria-describedby="tbl-CoastalAreaTable-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Code</th>
+<th style="text-align: left;">Coastal Area</th>
+<th style="text-align: left;">Herd(s)</th>
+<th style="text-align: right;">n</th>
+<th style="text-align: right;">%</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">TUK</td>
+<td style="text-align: left;">Tuktoyaktuk Peninsula</td>
+<td style="text-align: left;">Tuktoyaktuk Peninsula</td>
+<td style="text-align: right;">146</td>
+<td style="text-align: right;">5.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">CBT</td>
+<td style="text-align: left;">Cape Bathurst</td>
+<td style="text-align: left;">Cape Bathurst</td>
+<td style="text-align: right;">351</td>
+<td style="text-align: right;">12.1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">BLW</td>
+<td style="text-align: left;">Bluenose Lake West</td>
+<td style="text-align: left;">Bluenose West</td>
+<td style="text-align: right;">660</td>
+<td style="text-align: right;">22.7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">BLE</td>
+<td style="text-align: left;">Bluenose Lake East</td>
+<td style="text-align: left;">Bluenose East</td>
+<td style="text-align: right;">725</td>
+<td style="text-align: right;">25.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">CG</td>
+<td style="text-align: left;">Coronation Gulf</td>
+<td style="text-align: left;">Bluenose East or Bathurst</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">0.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">BIW</td>
+<td style="text-align: left;">Bathurst Inlet West</td>
+<td style="text-align: left;">Bathurst</td>
+<td style="text-align: right;">451</td>
+<td style="text-align: right;">15.5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">BIE</td>
+<td style="text-align: left;">Bathurst Inlet East</td>
+<td style="text-align: left;">Bathurst or Beverly</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">1.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">QMG</td>
+<td style="text-align: left;">Queen Maud Gulf</td>
+<td style="text-align: left;">Beverly or Ahiak</td>
+<td style="text-align: right;">439</td>
+<td style="text-align: right;">15.1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">NEM</td>
+<td style="text-align: left;">Northeast Mainland</td>
+<td style="text-align: left;">Lorrilard or Wager Bay</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">0.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">OUT</td>
+<td style="text-align: left;">Outside</td>
+<td style="text-align: left;">Any of above - or Qamanirjuaq</td>
+<td style="text-align: right;">75</td>
+<td style="text-align: right;">2.6</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-BarplotOfAreasOverTime" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-BarplotOfAreasOverTime-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="HerdAssociationAnalysis_active_files/figure-html/fig-BarplotOfAreasOverTime-1.png" class="img-fluid figure-img" width="3600">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-BarplotOfAreasOverTime-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Number of collared individuals in coastal area on June 3 by year.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-alternativeMosaicPlot" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-alternativeMosaicPlot-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="HerdAssociationAnalysis_active_files/figure-html/fig-alternativeMosaicPlot-1.png" class="img-fluid figure-img" width="3600">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-alternativeMosaicPlot-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Collared animal calving area locations on June 3 across years (since 2006). Note that starting in 2021, nearly all of the collars were collared from west of Bluenose Lake eastward.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="comparing-to-overall-population-size" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="comparing-to-overall-population-size"><span class="header-section-number">2.3</span> Comparing to Overall Population Size</h2>
+<p>When considering these numbers, it is important to recall that the absolute sizes of these populations are very different, and that they have changed considerably across years. The NWT conducts aerial surveys and reports estimates of these populations with some regularity. We use those reported estimates to obtain interpolated and smoothed estimates of population size across years for each herd, using Generalized Additive Models (GAMs). The results are shown in Figure <a href="#fig-PopPredictions" class="quarto-xref">Figure&nbsp;4</a>, and the methods are described in detail in Appendix C. In calculations of herd transitions, we will use these estimates as the baseline source populations to obtain coarse estimates of absolute numbers of individuals switching herds. These herds will correspond to their principal coastal areas, i.e.&nbsp;(skipping the self-evident Tuktoyaktuk Peninsula, Cape Bathurst, Bluenose Lake West and Bluenose Lake East), the Bathurst Herd will be associated with source populations from Bathurst Inlet West, and Beverly Herd animals will be associated with source populations from the Queen Maud Gulf coastal area.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-PopPredictions" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-PopPredictions-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="HerdAssociationAnalysis_active_files/figure-html/fig-PopPredictions-1.png" class="img-fluid figure-img" width="2400">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-PopPredictions-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Predictions of population size for each herd across years, with 95% confidenct intervals (curves and shaded ribbons). Dark grey points and error bars indicate observed estimates and 95% CIs from aerial surveys. Note different scales for western herds (top row) and eastern herds (bottom row).
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="trends-and-patterns-in-fidelity-and-switching" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="trends-and-patterns-in-fidelity-and-switching"><span class="header-section-number">2.4</span> Trends and patterns in fidelity and switching</h2>
+<p>A complete table of transition counts and esimated numbers is shown in <a href="#tbl-CalvingTransitionsTable" class="quarto-xref">Table&nbsp;2</a>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-alluvialPlot" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-alluvialPlot-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="HerdAssociationAnalysis_active_files/figure-html/fig-alluvialPlot-1.png" class="img-fluid figure-img" width="2000">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-alluvialPlot-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Estimated flows of caribou among coastal calving areas, 2006–2025. Bar heights represent predicted total population in each calving area (thousands of animals), derived from survey-based GAM interpolations (see Appendix). Ribbon widths represent estimated numbers of animals transitioning between areas in consecutive years, scaled by collar-derived transition rates.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="spring-association" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="spring-association"><span class="header-section-number">2.5</span> Spring Association</h2>
+<p>To evaluate whether social associations during the pre-calving period influence a female’s decision to switch calving areas from one year to the next, we computed two complementary metrics of spring sociality from the daily GPS locations of collared females during the March 1–April 15 pre-calving window. This timing window corresponds to the period just before most animals are actively moving toward calving grounds and are still on wintering grounds. We tested whether this period could correspond to a critical time when social bonds and movement decisions are likely to interact and influence each individual’s current year coastal calving location choice.</p>
+<section id="nearest-neighbor" class="level3" data-number="2.5.1">
+<h3 data-number="2.5.1" class="anchored" data-anchor-id="nearest-neighbor"><span class="header-section-number">2.5.1</span> Nearest Neighbor</h3>
+<p>For each individual in each year, we computed daily mean locations to only have one location per individual per day (one location/individual/day). On every day when two or more individuals were observed, we calculated the pairwise distance between all dyads (pairs of two) of females. In other words, we calculated how far apart the daily mean locations of a female was from the daily mean locations of all other females that day. From these daily between-individual distances we derived two pairwise association indices for each dyad: (1) the mean daily separation in meters (<span class="math inline">\(D_{nn}\)</span>), averaged across all days when both individuals were observed; and (2) the proportion of shared observation days on which the pair was within 2 km of one another (<span class="math inline">\(P_{close}\)</span>) — a threshold chosen to reflect close spatial proximity consistent with active social association rather than chance co-occurrence. Pairs sharing fewer than 15 overlapping observation days during our selected pre-calving window were excluded from analyses to avoid unreliable estimates.</p>
+<p>For each focal female, we identified its <strong>nearest neighbor</strong>: the individual with the smallest mean daily separation distance across the whole pre-calving window. The rationale for this metric is that a single, consistent close associate is could provide strong directional social information, potentially leading or reinforcing movement toward a particular calving area. We recorded both the identity and the coastal calving area of this nearest neighbor, allowing us to ask whether the neighbor’s calving affiliation predicted whether the focal animal switched its own calving area the following year.</p>
+</section>
+<section id="cross-herd-mixing-index" class="level3" data-number="2.5.2">
+<h3 data-number="2.5.2" class="anchored" data-anchor-id="cross-herd-mixing-index"><span class="header-section-number">2.5.2</span> Cross-Herd Mixing Index</h3>
+<p>Whereas the nearest-neighbor metric captures the influence of a single dominant social partner, an individual’s overall social environment during the pre-calving period may also reflect the breadth of its associations across herd boundaries. We therefore computed a <strong>cross-herd mixing index</strong> for each individual in each year, defined as the proportion of it’s total pairwise association strength directed toward individuals from other herds:</p>
+<p><span class="math display">\[\text{Cross-herd mixing}_i = \frac{S_{\text{cross}}}{S_{\text{total}}} = \frac{\displaystyle\sum_{j\,:\,j \neq i} S_{ij}}{\displaystyle\sum_j S_{ij}}\]</span></p>
+<p>where <span class="math inline">\(S_{ij}\)</span> is the proportion of shared observation days on which individuals <span class="math inline">\(i\)</span> and <span class="math inline">\(j\)</span> were within 2 km of each other. This index ranges from 0 (all social contact with same-herd conspecifics) to 1 (all social contact with individuals from other herds). We additionally computed a <strong>cross-herd degree</strong>: the number of distinct other-herd partners with whom the focal individual spent at least 5% of shared days within the proximity threshold, across a minimum of 3 overlapping observation days. Together, these two metrics capture both the <em>intensity</em> and the <em>diversity</em> of cross-herd associations — providing a richer picture of individual social behaviour than the nearest neighbour distance alone.</p>
+</section>
+</section>
+<section id="winter-sociality-and-overlap" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="winter-sociality-and-overlap"><span class="header-section-number">2.6</span> Winter Sociality and Overlap</h2>
+</section>
+<section id="other-predictors" class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="other-predictors"><span class="header-section-number">2.7</span> Other predictors</h2>
+<ul>
+<li>Shift from previous calving ground?<br>
+</li>
+<li>Were you a previous switcher?</li>
+<li>Overlap</li>
+<li>Overall “socialness” - score</li>
+<li>Distance to new / old calving ground</li>
+<li>Distance from where wintered the previous year</li>
+<li>Years since collaring</li>
+</ul>
+</section>
+</section>
+<section id="results" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Results</h1>
+<section id="overall-summaries" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="overall-summaries"><span class="header-section-number">3.1</span> Overall summaries</h2>
+<p>A complete accounting of all collared females with their coastal area associations and transitions is provided in table <a href="#tbl-CalvingTransitionsTable" class="quarto-xref">Table&nbsp;2</a>, together with a highly approximate accounting .</p>
+<p>Across all herds and years, the large majority of collared females returned to the same calving area as the previous year. Of 1492 total year-to-year transitions recorded, 1412 (94.6%) were to the same area, while 80 (5.4%) involved a switch to a different calving ground. Most switching occurred between neighboring areas — most commonly between BLE and BLW, and between CBT and TUK. More notable are movements into atypical areas distant from the main herd ranges. Bathurst Inlet East (BIE) and Coronation Gulf (CG) together account for 20 switching events: 13 to BIE (almost exclusively among Bathurst and Beverly animals) and 7 to CG (primarily Bluenose-East animals).</p>
+<p>Of note are switching into areas that do not correspond to known or traditional calving grounds, in particular Coronation Gulf (CG) and East of Bathurst Inlet (BIE). These transitions have also been most pronounced for the Bathurst herd, and in recent years. In 2017, 50% of tracked Bathurst females did not return to BIW — the highest single-year rate in the dataset — with animals moving to both QMG and BIE. Departures from BIW recurred in most subsequent years through 2023. For Beverly, BIE destinations appeared sporadically through 2009 and again from 2018 onward.</p>
+<section id="absolute-numbers" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="absolute-numbers"><span class="header-section-number">3.1.1</span> Absolute Numbers</h3>
+<p>These figures can be expressed in approximate absolute numbers by weighting each observed transition by the contemporaneous herd population estimate, though these estimates carry substantial uncertainty — population surveys are infrequent, collar sample sizes are small, and the expansion from collared individuals to herd-wide totals compounds these errors considerably. The numbers below should therefore be treated as rough indicators of order of magnitude rather than precise counts.</p>
+<p>With those caveats, movements to BIE across the full study period represent an estimated 78,085 animal-years (95% CI: 69,384–86,786), the large majority attributable to Beverly animals (74,950; CI: 67,940–81,960). Movements to CG represent an estimated 10,687 animal-years (CI: 9,449–11,925). For the Bathurst herd in 2017 — the year of peak switching — the estimated 4,845 animals departing BIW (CI: 2,454–7,236) should be viewed in the context of the herd’s already greatly reduced total of approximately 9,690 animals at that time.</p>
+<div class="cell">
+<div id="tbl-CalvingTransitionsTable" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-CalvingTransitionsTable-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Table of calving area transitions among coastal areas for the Bluenose East, Bathurst, and Beverly herds from 2006 to 2025. For each year and source herd, the number of observed transitions (n), percentage of total transitions (%), and estimated number of animals (Est.) are provided for each destination coastal area.
+</figcaption>
+<div aria-describedby="tbl-CalvingTransitionsTable-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="table do-not-create-environment cell caption-top table-sm table-striped small">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th colspan="2" data-quarto-table-cell-role="th" style="text-align: left; empty-cells: hide; border-bottom: hidden;"></th>
+<th colspan="3" data-quarto-table-cell-role="th" style="text-align: center; border-bottom: hidden; padding-bottom: 0; padding-left: 3px; padding-right: 3px; font-weight: bold;"><div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
+BLW
+</div></th>
+<th colspan="3" data-quarto-table-cell-role="th" style="text-align: center; border-bottom: hidden; padding-bottom: 0; padding-left: 3px; padding-right: 3px; font-weight: bold;"><div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
+BLE
+</div></th>
+<th colspan="3" data-quarto-table-cell-role="th" style="text-align: center; border-bottom: hidden; padding-bottom: 0; padding-left: 3px; padding-right: 3px; font-weight: bold;"><div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
+CG
+</div></th>
+<th colspan="3" data-quarto-table-cell-role="th" style="text-align: center; border-bottom: hidden; padding-bottom: 0; padding-left: 3px; padding-right: 3px; font-weight: bold;"><div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
+BIW
+</div></th>
+<th colspan="3" data-quarto-table-cell-role="th" style="text-align: center; border-bottom: hidden; padding-bottom: 0; padding-left: 3px; padding-right: 3px; font-weight: bold;"><div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
+BIE
+</div></th>
+<th colspan="3" data-quarto-table-cell-role="th" style="text-align: center; border-bottom: hidden; padding-bottom: 0; padding-left: 3px; padding-right: 3px; font-weight: bold;"><div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
+QMG
+</div></th>
+</tr>
+<tr class="even">
+<th style="text-align: left;" data-quarto-table-cell-role="th"></th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">Year</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">n</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">%</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Est.</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">n</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">%</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Est.</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">n</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">%</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Est.</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">n</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">%</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Est.</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">n</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">%</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Est.</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">n</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">%</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Est.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Bluenose-East</strong></td>
+<td style="text-align: center; border-right: 1px solid;">2006</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">12.5</td>
+<td style="text-align: right; border-right: 1px solid;">15108</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">87.5</td>
+<td style="text-align: right; border-right: 1px solid;">105757</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2007</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right; border-right: 1px solid;">120089</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2008</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right; border-right: 1px solid;">121374</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2009</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">96.2</td>
+<td style="text-align: right; border-right: 1px solid;">118120</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3.8</td>
+<td style="text-align: right; border-right: 1px solid;">4725</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2010</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">6.2</td>
+<td style="text-align: right; border-right: 1px solid;">7427</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">93.8</td>
+<td style="text-align: right; border-right: 1px solid;">111410</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2011</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right; border-right: 1px solid;">105869</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2012</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right; border-right: 1px solid;">87620</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2013</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right; border-right: 1px solid;">68628</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2014</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right; border-right: 1px solid;">51623</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2015</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right; border-right: 1px solid;">38903</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2016</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right; border-right: 1px solid;">30003</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2017</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">5.9</td>
+<td style="text-align: right; border-right: 1px solid;">1453</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">94.1</td>
+<td style="text-align: right; border-right: 1px solid;">23254</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2018</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">95.2</td>
+<td style="text-align: right; border-right: 1px solid;">21116</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">4.8</td>
+<td style="text-align: right; border-right: 1px solid;">1056</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2019</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">91.7</td>
+<td style="text-align: right; border-right: 1px solid;">19794</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">8.3</td>
+<td style="text-align: right; border-right: 1px solid;">1799</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2020</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right; border-right: 1px solid;">22663</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2021</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">6.5</td>
+<td style="text-align: right; border-right: 1px solid;">1670</td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">93.5</td>
+<td style="text-align: right; border-right: 1px solid;">23944</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2022</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">90.9</td>
+<td style="text-align: right; border-right: 1px solid;">27296</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">6.1</td>
+<td style="text-align: right; border-right: 1px solid;">1820</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right; border-right: 1px solid;">910</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2023</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2.6</td>
+<td style="text-align: right; border-right: 1px solid;">928</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">92.1</td>
+<td style="text-align: right; border-right: 1px solid;">32480</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2.6</td>
+<td style="text-align: right; border-right: 1px solid;">928</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2.6</td>
+<td style="text-align: right;">928</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; border-bottom: 2px solid black;"></td>
+<td style="text-align: center; border-bottom: 2px solid black; border-right: 1px solid;">2024</td>
+<td style="text-align: right; border-bottom: 2px solid black;">2</td>
+<td style="text-align: right; border-bottom: 2px solid black;">5.6</td>
+<td style="text-align: right; border-bottom: 2px solid black; border-right: 1px solid;">2175</td>
+<td style="text-align: right; border-bottom: 2px solid black;">32</td>
+<td style="text-align: right; border-bottom: 2px solid black;">88.9</td>
+<td style="text-align: right; border-bottom: 2px solid black; border-right: 1px solid;">34803</td>
+<td style="text-align: right; border-bottom: 2px solid black;">1</td>
+<td style="text-align: right; border-bottom: 2px solid black;">2.8</td>
+<td style="text-align: right; border-bottom: 2px solid black; border-right: 1px solid;">1088</td>
+<td style="text-align: right; border-bottom: 2px solid black;"></td>
+<td style="text-align: right; border-bottom: 2px solid black;"></td>
+<td style="text-align: right; border-bottom: 2px solid black; border-right: 1px solid;"></td>
+<td style="text-align: right; border-bottom: 2px solid black;"></td>
+<td style="text-align: right; border-bottom: 2px solid black;"></td>
+<td style="text-align: right; border-bottom: 2px solid black; border-right: 1px solid;"></td>
+<td style="text-align: right; border-bottom: 2px solid black;">1</td>
+<td style="text-align: right; border-bottom: 2px solid black;">2.8</td>
+<td style="text-align: right; border-bottom: 2px solid black;">1088</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Bathurst</strong></td>
+<td style="text-align: center; border-right: 1px solid;">2006</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right; border-right: 1px solid;">126054</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2007</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right; border-right: 1px solid;">80851</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2008</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right; border-right: 1px solid;">55145</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2009</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">87.5</td>
+<td style="text-align: right; border-right: 1px solid;">36918</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">12.5</td>
+<td style="text-align: right;">5274</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2010</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">14.3</td>
+<td style="text-align: right; border-right: 1px solid;">4987</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">85.7</td>
+<td style="text-align: right; border-right: 1px solid;">29923</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2011</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right; border-right: 1px solid;">30904</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2012</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right; border-right: 1px solid;">27545</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2013</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right; border-right: 1px solid;">23933</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2014</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right; border-right: 1px solid;">19773</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2015</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right; border-right: 1px solid;">15899</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2016</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right; border-right: 1px solid;">12433</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2017</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right; border-right: 1px solid;">4845</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right; border-right: 1px solid;">1938</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">2907</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2018</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">84.6</td>
+<td style="text-align: right; border-right: 1px solid;">6430</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">15.4</td>
+<td style="text-align: right;">1169</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2019</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right; border-right: 1px solid;">6389</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2020</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">80</td>
+<td style="text-align: right; border-right: 1px solid;">4629</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right; border-right: 1px solid;">926</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">231</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2021</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">95</td>
+<td style="text-align: right; border-right: 1px solid;">5143</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right; border-right: 1px solid;">271</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2022</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">82.4</td>
+<td style="text-align: right; border-right: 1px solid;">4412</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">17.6</td>
+<td style="text-align: right;">945</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2023</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">6.2</td>
+<td style="text-align: right; border-right: 1px solid;">327</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">6.2</td>
+<td style="text-align: right; border-right: 1px solid;">327</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">68.8</td>
+<td style="text-align: right; border-right: 1px solid;">3600</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">18.8</td>
+<td style="text-align: right;">982</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; border-bottom: 2px solid black;"></td>
+<td style="text-align: center; border-bottom: 2px solid black; border-right: 1px solid;">2024</td>
+<td style="text-align: right; border-bottom: 2px solid black;"></td>
+<td style="text-align: right; border-bottom: 2px solid black;"></td>
+<td style="text-align: right; border-bottom: 2px solid black; border-right: 1px solid;"></td>
+<td style="text-align: right; border-bottom: 2px solid black;"></td>
+<td style="text-align: right; border-bottom: 2px solid black;"></td>
+<td style="text-align: right; border-bottom: 2px solid black; border-right: 1px solid;"></td>
+<td style="text-align: right; border-bottom: 2px solid black;"></td>
+<td style="text-align: right; border-bottom: 2px solid black;"></td>
+<td style="text-align: right; border-bottom: 2px solid black; border-right: 1px solid;"></td>
+<td style="text-align: right; border-bottom: 2px solid black;">8</td>
+<td style="text-align: right; border-bottom: 2px solid black;">88.9</td>
+<td style="text-align: right; border-bottom: 2px solid black; border-right: 1px solid;">4404</td>
+<td style="text-align: right; border-bottom: 2px solid black;"></td>
+<td style="text-align: right; border-bottom: 2px solid black;"></td>
+<td style="text-align: right; border-bottom: 2px solid black; border-right: 1px solid;"></td>
+<td style="text-align: right; border-bottom: 2px solid black;">1</td>
+<td style="text-align: right; border-bottom: 2px solid black;">11.1</td>
+<td style="text-align: right; border-bottom: 2px solid black;">550</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Beverly</strong></td>
+<td style="text-align: center; border-right: 1px solid;">2006</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">137598</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2007</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">22.2</td>
+<td style="text-align: right; border-right: 1px solid;">30504</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">77.8</td>
+<td style="text-align: right;">106766</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2008</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">12.5</td>
+<td style="text-align: right; border-right: 1px solid;">17110</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">87.5</td>
+<td style="text-align: right;">119769</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2009</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">6.7</td>
+<td style="text-align: right; border-right: 1px solid;">9084</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">6.7</td>
+<td style="text-align: right; border-right: 1px solid;">9084</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">86.7</td>
+<td style="text-align: right;">118090</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2010</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">135317</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2011</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">133313</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2012</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">130154</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2013</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">125982</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2014</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">121486</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2015</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">117184</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2016</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">114300</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2017</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">112330</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2018</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">11.1</td>
+<td style="text-align: right; border-right: 1px solid;">12503</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">88.9</td>
+<td style="text-align: right;">100024</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2019</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">116333</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2020</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">12.5</td>
+<td style="text-align: right; border-right: 1px solid;">15373</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">87.5</td>
+<td style="text-align: right;">107610</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2021</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">11.1</td>
+<td style="text-align: right; border-right: 1px solid;">14535</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">88.9</td>
+<td style="text-align: right;">116284</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2022</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">137461</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2023</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">143596</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: center; border-right: 1px solid;">2024</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right; border-right: 1px solid;"></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right; border-right: 1px solid;">7486</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right; border-right: 1px solid;">7486</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">90</td>
+<td style="text-align: right;">134752</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</section>
+<section id="sec-bathurst-inlet-east" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="sec-bathurst-inlet-east"><span class="header-section-number">3.2</span> Focus on East of Bathurst Inlet</h2>
+<p>The sequence of images below focus on a important subset of animals (<span class="math inline">\(n=8\)</span>) that calved east of Bathurst Inlat, in an area what was largely considered not to be the current calving ground of either Bahurst or Beverly herd animals. Of note: all but one of those animals were clearly Bathurst animals in the preciding year, and none of those animals ever returned to calve in that calving area.</p>
+<div class="cell quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="cell-output-display quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-examples-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-examples-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="examples_BathurstInletEast/examples/m2020.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-examples-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6: In 2021, all but one animal clearly calved west of Bathurst Inlet, in traditional Bathurst calving grounds, the last was a Beverly animal (red dot -caribou BGCA19354) that wintered near the other animals.
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="cell-output-display quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-examples-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-examples-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="examples_BathurstInletEast/examples/m2021a.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-examples-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7: In 2021, the animals passed took various routes - a few through the Bathurst calving grounds, but moved on to BIE to (presumably) calve.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="cell-output-display quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-examples-3" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-examples-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="examples_BathurstInletEast/examples/m2021b.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-examples-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8: Post-calving movements scattered sidely, including the original Beverly animal moving up to the estern extreme of the Queen Maud Gulf.
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="cell-output-display quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-examples-4" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-examples-4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="examples_BathurstInletEast/examples/m2021c.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-examples-4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;9: Wintering grounds in 2021
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="cell-output-display quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-examples-5" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-examples-5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="examples_BathurstInletEast/examples/m2022.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-examples-5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;10: Following year (2022) migration to widely scattered areas, none of which were BIW.
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="cell-output-display quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-examples-6" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-examples-6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="examples_BathurstInletEast/examples/legend.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-examples-6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;11: color legend of IDs
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="results-sociality" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="results-sociality"><span class="header-section-number">3.3</span> Spring Sociality</h2>
+<p>Of those animals that had enough nearest neighbors to compute nearest neighbor calculations (<span class="math inline">\(n = 888\)</span>), just under half (47%) spent at least some time interacting with animals from other calving grounds, and about one out of six (16.8%) were in groups consisting <em>entirely</em> of individuals from other groups (figure <a href="#fig-CrossHerdMixing" class="quarto-xref">Figure&nbsp;12</a>, and table <a href="#tbl-mixing_table" class="quarto-xref">Table&nbsp;3</a>).</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-CrossHerdMixing" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-CrossHerdMixing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="HerdAssociationAnalysis_active_files/figure-html/fig-CrossHerdMixing-1.png" class="img-fluid figure-img" width="3000">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-CrossHerdMixing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;12: Distribution of the cross-herd mixing index across all individual-years. Values near 0 indicate animals whose spring associations were almost entirely within their own calving-ground group; values near 1 indicate animals spending most of their association time near individuals from other herds. The vertical dashed line marks the median.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div id="tbl-mixing_table" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-mixing_table-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;3: Proportion of animals from different calving areas that mixed with animals from other herds during the spring migration () between 2006 and 2005
+</figcaption>
+<div aria-describedby="tbl-mixing_table-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: right;">No.mixing</th>
+<th style="text-align: right;">Some.mixing</th>
+<th style="text-align: right;">Always.mixing</th>
+<th style="text-align: right;">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Bluenose Lake West</td>
+<td style="text-align: right;">6 (43%)</td>
+<td style="text-align: right;">6 (43%)</td>
+<td style="text-align: right;">2 (14%)</td>
+<td style="text-align: right;">14</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bluenose Lake East</td>
+<td style="text-align: right;">241 (59%)</td>
+<td style="text-align: right;">123 (30%)</td>
+<td style="text-align: right;">47 (11%)</td>
+<td style="text-align: right;">411</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Coronation Gulf</td>
+<td style="text-align: right;">0 (0%)</td>
+<td style="text-align: right;">2 (25%)</td>
+<td style="text-align: right;">6 (75%)</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bathurst Inlet West</td>
+<td style="text-align: right;">67 (30%)</td>
+<td style="text-align: right;">111 (49%)</td>
+<td style="text-align: right;">48 (21%)</td>
+<td style="text-align: right;">226</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Bathurst Inlet East</td>
+<td style="text-align: right;">0 (0%)</td>
+<td style="text-align: right;">0 (0%)</td>
+<td style="text-align: right;">17 (100%)</td>
+<td style="text-align: right;">17</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Queen Maud Gulf</td>
+<td style="text-align: right;">102 (48%)</td>
+<td style="text-align: right;">81 (38%)</td>
+<td style="text-align: right;">29 (14%)</td>
+<td style="text-align: right;">212</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="HerdAssociationAnalysis_active_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="3000"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="discussion" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Discussion</h1>
+</section>
+<section id="references" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-Adamczewski2015" class="csl-entry" role="listitem">
+Adamczewski, J., A. Gunn, J. Nishi, K. Poole, and J. Boulanger. 2015. What happened to the <span>Beverly</span> caribou herd after 1994? Arctic 68:407–421.
+</div>
+<div id="ref-Boulet2007" class="csl-entry" role="listitem">
+Boulet, M., S. Couturier, S. D. Côté, R. D. Otto, and L. Bernatchez. 2007. Integrative use of spatial, genetic, and demographic analyses for investigating genetic connectivity between migratory, montane, and sedentary caribou herds. Molecular Ecology 16:4223–4240.
+</div>
+<div id="ref-Campbell2019" class="csl-entry" role="listitem">
+Campbell, M., D. Lee, and J. Boulanger. 2019. <a href="https://wrrb.ca/sites/default/files/Campbell 2019 Abudnanc etrends of Beverly.pdf">Abundance trends of the beverly mainland migratory subpopulation of barren-ground caribou (<span><em>Rangifer tarandus groenlandicus</em></span>): <span>June</span> 2011 – june 2018</a>. Technical {{Report Series}}, Government of Nunavut Department of Environment.
+</div>
+<div id="ref-Couriot2023" class="csl-entry" role="listitem">
+Couriot, O. H., M. D. Cameron, K. Joly, J. Adamczewski, M. W. Campbell, T. Davison, A. Gunn, A. P. Kelly, M. Leblond, J. Williams, W. F. Fagan, A. Brose, and E. Gurarie. 2023. <a href="https://doi.org/10.1002/ecs2.4399">Continental synchrony and local responses: <span>Climatic</span> effects on spatiotemporal patterns of calving in a social ungulate</a>. Ecosphere 14.
+</div>
+<div id="ref-Couturier1989" class="csl-entry" role="listitem">
+Couturier, A. S., J. Brunelle, D. Vandal, and G. St-Martin. 1989. Changes in the population dynamics of the george river caribou herd, 1976-87. Arctic 43:9–20.
+</div>
+<div id="ref-Gunn1986" class="csl-entry" role="listitem">
+Gunn, A., and F. L. Miller. 1986. Traditional behaviour and fidelity to caribou calving grounds by barren-ground caribou. Rangifer, Special Issue: 6:151–158.
+</div>
+<div id="ref-Gunn2012" class="csl-entry" role="listitem">
+Gunn, A., K. G. Poole, and J. S. Nishi. 2012. A conceptual model for migratory tundra caribou to explain and predict why shifts in spatial fidelity of breeding cows to their calving grounds are infrequent. Rangifer:259–267.
+</div>
+<div id="ref-COSEWIC" class="csl-entry" role="listitem">
+Gunn, A., K. G. Poole, D. E. Russell, Canada, Environment and Climate Change Canada, and Committee on the Status of Endangered Wildlife in Canada. 2017. <span>COSEWIC</span> assessment and status report on the caribou, <span>Rangifer</span> tarandus, barren-ground population, in <span>Canada</span>. COSEWIC, Committee on the Status of Endangered Wildlife in Canada, Ottawa.
+</div>
+<div id="ref-Gunn2008" class="csl-entry" role="listitem">
+Gunn, A., K. G. Poole, and J. Wierzchowski. 2008. A geostatistical analysis for the patterns of caribou occupancy on the <span>Bathurst</span> calving grounds 1966–2007. Contract Report, <span>Indian and Northern Affairs Canada</span>, Yellowknife, NWT.
+</div>
+<div id="ref-Gurarie2023" class="csl-entry" role="listitem">
+Gurarie, E., A. Gunn, O. Couriot, and A. Guile. 2023. Annual variation in the seasonal range overlap between the <span>Bathurst</span>, <span>Bluenose East</span>, and <span>Beverly</span> caribou herds. Contract Report, Wek’èezhìı Renewable Resources Board.
+</div>
+<div id="ref-Gurarie2019" class="csl-entry" role="listitem">
+Gurarie, E., M. Hebblewhite, K. Joly, A. Kelly, J. Adamczewski, S. Davidson, T. Davison, A. Gunn, M. Suitor, W. Fagan, and N. Boelman. 2019. <a href="https://doi.org/10.1002/ecs2.2971">Tactical departures and strategic arrivals: <span>Divergent</span> effects of climate and weather on caribou spring migrations</a>. Ecosphere (Washington, D.C) 10.
+</div>
+<div id="ref-Heard1984" class="csl-entry" role="listitem">
+Heard, D. C. 1984. Hunting patterns and the distribution of the <span>Beverly</span>, <span>Bathurst</span> and <span>Kaminuriak</span> caribou herds based on the return of tags by hunters. Page 49. File {{Report}}, Northwest Territories Wildlife Service, Yellowknife, N.W.T.
+</div>
+<div id="ref-Nagy2011" class="csl-entry" role="listitem">
+Nagy, J. A., D. L. Johnson, N. C. Larter, M. W. Campbell, A. E. Derocher, A. Kelly, M. Dumond, D. Allaire, and B. Croft. 2011. <a href="https://doi.org/10.1890/10-1410.1">Subpopulation structure of caribou (<span>Rangifer</span> tarandus <span>L</span>.) in arctic and subarctic <span>Canada</span></a>. Ecological Applications 21:2334–2348.
+</div>
+<div id="ref-Prichard2020" class="csl-entry" role="listitem">
+Prichard, A. K., L. S. Parrett, E. A. Lenart, J. R. Caikoski, K. Joly, and B. T. Person. 2020. <a href="https://doi.org/10.1002/jwmg.21934">Interchange and <span>Overlap Among Four Adjacent Arctic Caribou Herds</span></a>. The Journal of Wildlife Management 84:1500–1514.
+</div>
+</div>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="appendix" class="level1 appendix unnumbered"><h2 class="anchored quarto-appendix-heading">Appendix</h2><div class="quarto-appendix-contents">
+
+<section id="appendix-a-total-number-of-animals-in-each-coastal-area-by-year" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="appendix-a-total-number-of-animals-in-each-coastal-area-by-year"><span class="header-section-number">5.1</span> APPENDIX A: Total number of animals in each coastal area by Year</h2>
+<div class="cell">
+<div id="tbl-AppendixTable" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-AppendixTable-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;4: Total number of collared animals in each coastal area by year.
+</figcaption>
+<div aria-describedby="tbl-AppendixTable-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: right;">TUK</th>
+<th style="text-align: right;">CBT</th>
+<th style="text-align: right;">BLW</th>
+<th style="text-align: right;">BLE</th>
+<th style="text-align: right;">CG</th>
+<th style="text-align: right;">BIW</th>
+<th style="text-align: right;">BIE</th>
+<th style="text-align: right;">QMG</th>
+<th style="text-align: right;">NEM</th>
+<th style="text-align: right;">Outside</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1996</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1997</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">1998</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1999</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2000</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2001</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2003</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2004</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2005</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2006</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2007</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2008</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">18</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2009</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">38</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2010</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2011</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2012</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">39</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2013</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2014</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2015</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2016</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2017</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2018</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2019</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2020</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">38</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2021</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">56</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2022</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">54</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2023</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">56</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">56</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2024</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">52</td>
+<td style="text-align: right;">56</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2025</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">60</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+<section id="appendix-b-calving-dates-across-herds" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="appendix-b-calving-dates-across-herds"><span class="header-section-number">5.2</span> APPENDIX B: Calving dates across herds</h2>
+<p>We applied the method developed in <span class="citation" data-cites="Couriot2023">(<a href="#ref-Couriot2023" role="doc-biblioref">Couriot et al. 2023</a>)</span> and applied it to all data through 2025 to obtain a mean and standard error of calving dates by each coastal area. Summary results below.</p>
+<div class="cell">
+<div id="tbl-CalvingTimeTable" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-CalvingTimeTable-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;5: Summary table of the number and percentage of female barren-ground caribou for which calving events were estimated, peak calving (median date ± SD), interquartile range (IQR; i.e., the number of days within which 50% of the births occurred).
+</figcaption>
+<div aria-describedby="tbl-CalvingTimeTable-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Coastal Area</th>
+<th style="text-align: center;">No.</th>
+<th style="text-align: right;">%</th>
+<th style="text-align: right;">No.</th>
+<th style="text-align: right;">%</th>
+<th style="text-align: right;">Peak date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Tuktoyaktuk Peninsula</td>
+<td style="text-align: center;">63</td>
+<td style="text-align: right;">54</td>
+<td style="text-align: right;">54</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">27 May ± 8.3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Cape Bathurst</td>
+<td style="text-align: center;">201</td>
+<td style="text-align: right;">73</td>
+<td style="text-align: right;">73</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">30 May ± 7.5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Bluenose Lake West</td>
+<td style="text-align: center;">400</td>
+<td style="text-align: right;">80</td>
+<td style="text-align: right;">101</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">02 Jun ± 7.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bluenose Lake East</td>
+<td style="text-align: center;">504</td>
+<td style="text-align: right;">89</td>
+<td style="text-align: right;">65</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">05 Jun ± 6.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Coronation Gulf</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: right;">92</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">08 Jun ± 9.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bathurst Inlet West</td>
+<td style="text-align: center;">266</td>
+<td style="text-align: right;">77</td>
+<td style="text-align: right;">81</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">03 Jun ± 5.8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Bathurst Inlet East</td>
+<td style="text-align: center;">26</td>
+<td style="text-align: right;">84</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">09 Jun ± 8.3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Queen Maud Gulf</td>
+<td style="text-align: center;">339</td>
+<td style="text-align: right;">87</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">07 Jun ± 6.2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Northeast Mainland</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">06 Jun ± 5</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-CalvingDateViolins" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-CalvingDateViolins-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="HerdAssociationAnalysis_active_files/figure-html/fig-CalvingDateViolins-1.png" class="img-fluid figure-img" width="3000">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-CalvingDateViolins-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;13: Violinplot of estimating calving date based on movement analyses across the 9 coastal areas. The widths of the violins is proportional to the sample size, also reported across the top.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="appendix-c-population-interpolation" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="appendix-c-population-interpolation"><span class="header-section-number">5.3</span> APPENDIX C: Population Interpolation</h2>
+<p>Raw numbers of caribou population estimates for the NWT herds were obtained from GNWT-ECC surveys. These surveys are typically conducted every 3-5 years using aerial photography methods, with associated uncertainty estimates (standard errors or confidence intervals). The data span from 2006 to 2025, with some herds having earlier or later initial surveys. Raw population data for the herds are plotted below:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-PopulationEstimates" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-PopulationEstimates-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="HerdAssociationAnalysis_active_files/figure-html/fig-PopulationEstimates-1.png" class="img-fluid figure-img" width="3000">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-PopulationEstimates-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;14: Observed population estimates (points) with 95% confidence intervals (error bars) for six NWT herds from 2006 to 2025.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>We interpolated and extrapolated these estimates over the complete period 2006-2025 using generalized additive models (GAMs) fitted independently for each herd. We modeled observed population counts <span class="math inline">\(N_t\)</span> at time <span class="math inline">\(t\)</span> as:</p>
+<p><span class="math display">\[\log(\mathbb{E}[N_t]) = f(t)\]</span></p>
+<p>where <span class="math inline">\(f(t)\)</span> is a thin-plate regression spline with basis dimension <span class="math inline">\(k = \min(5, \lfloor 0.8n \rfloor)\)</span>, and <span class="math inline">\(n\)</span> is the number of observations for that herd. The log link ensured positive predictions. Models were fitted using restricted maximum likelihood (REML) via the <code>mgcv</code> package in R <span class="citation" data-cites="mgcv">(<a href="#ref-mgcv" role="doc-biblioref"><strong>mgcv?</strong></a>)</span>.</p>
+<p>For herds where survey data began after 2006 (e.g., Bluenose-East: 2010, Beverly: 2011), we imputed values for the missing early years using the earliest available observation. These imputed points—carrying the same estimate and uncertainty as the first survey—were included as input data for model fitting. This assumes approximate population stability prior to the first survey and anchors the spline during periods without observations.</p>
+<p>To ensure prediction intervals reflect observation-level uncertainty, we used a parametric bootstrap. For each of 500 iterations:</p>
+<ol type="1">
+<li><p>Observed population estimates (including imputed early values) were resampled from <span class="math inline">\(N(\hat{N}_t, \text{SE}_t^2)\)</span>, where <span class="math inline">\(\text{SE}_t\)</span> is the reported standard error. For observations lacking reported uncertainty, SE was imputed using the median coefficient of variation (CV) across observations with known SE for that herd. Resampled values were floored at 100 to prevent negative or near-zero populations.</p></li>
+<li><p>A GAM was fitted to the resampled observations.</p></li>
+<li><p>Predictions were extracted for each year in 2006–2025.</p></li>
+</ol>
+<p>Prediction intervals were computed as the 2.5th and 97.5th percentiles of the bootstrap distribution, with point estimates taken as the median. This approach ensured that (a) prediction uncertainty is at least as large as observation uncertainty, (b) the predicted trajectory respects the range of plausible values given the original confidence intervals, and (c) uncertainty in data-sparse periods was appropriately inflated.</p>
+<p>This is a fairly conservative approach to intra/extrapolating population estimates. It assumes:</p>
+<ol type="1">
+<li><p>That population trajectories are reasonably smooth functions of time with high autocorrelation. An inspection of the raw data seems to support this assumptions, though the smooth fails account for a high Tuktoyaktuk Peninsula estimate in 2021 and a low Bathurst one in 2009 for example.</p></li>
+<li><p>For lack of other information, we assume a constant population prior to the first observation (i.e.&nbsp;between 2006 and the next reported estimate), and after the last observation (until 2025). This is a placeholder reflecting absence of information rather than ecological expectation. This means the Beverly and Bluenose East predictions prior to their first reported estimates (2011 and 2010, respectively) may be underestimates, and the apparent uptick in Bluenose East and Beverly numbers is also slowed.</p></li>
+<li><p>Early surveys often lack reported uncertainty. The CV-based imputation assumes these observations have comparable relative precision to later surveys.</p></li>
+</ol>
+<p>The resulting predictions are plotted in figure <a href="#fig-PopPredictions" class="quarto-xref">Figure&nbsp;4</a> and tabulated in table <a href="#tbl-PopPredictionsTable" class="quarto-xref">Table&nbsp;6</a> below. The code to replicate these predictions are in the <code>TuktuData</code> package (available upon request).</p>
+<div class="cell">
+<div id="tbl-PopPredictionsTable" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-PopPredictionsTable-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;6: Predicted caribou population estimates (x1000) with 95% CI.
+</figcaption>
+<div aria-describedby="tbl-PopPredictionsTable-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="table table-striped table-condensed do-not-create-environment cell caption-top table-sm small">
+<thead>
+<tr class="header">
+<th style="text-align: center;" data-quarto-table-cell-role="th">Year</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">Tuktoyaktuk Peninsula</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">Cape Bathurst</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">Bluenose-West</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">Bluenose-East</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">Bathurst</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">Beverly</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">2006</td>
+<td style="text-align: center;">3.3 (2.5–3.9)</td>
+<td style="text-align: center;">2.6 (1.8–3.3)</td>
+<td style="text-align: center;">27 (22.6–31.3)</td>
+<td style="text-align: center;">120.9 (110.4–131.6)</td>
+<td style="text-align: center;">126.1 (73.2–185)</td>
+<td style="text-align: center;">137.6 (126.8–147.6)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2007</td>
+<td style="text-align: center;">3.1 (2.5–3.6)</td>
+<td style="text-align: center;">2.6 (1.9–3.1)</td>
+<td style="text-align: center;">26.6 (22.8–30.6)</td>
+<td style="text-align: center;">120.1 (113.3–127.3)</td>
+<td style="text-align: center;">80.9 (54.4–119.8)</td>
+<td style="text-align: center;">137.3 (130.4–144.1)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2008</td>
+<td style="text-align: center;">2.9 (2.5–3.3)</td>
+<td style="text-align: center;">2.6 (2–3.1)</td>
+<td style="text-align: center;">26.1 (22.4–30.1)</td>
+<td style="text-align: center;">121.4 (114.1–128.7)</td>
+<td style="text-align: center;">55.1 (37.1–81.8)</td>
+<td style="text-align: center;">136.9 (131–144.5)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2009</td>
+<td style="text-align: center;">2.7 (2.4–3.1)</td>
+<td style="text-align: center;">2.6 (2.1–3)</td>
+<td style="text-align: center;">25.7 (22.3–30)</td>
+<td style="text-align: center;">122.8 (115.9–129.3)</td>
+<td style="text-align: center;">42.2 (27.3–58.2)</td>
+<td style="text-align: center;">136.3 (130.9–144.2)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2010</td>
+<td style="text-align: center;">2.6 (2.2–2.9)</td>
+<td style="text-align: center;">2.6 (2.2–3)</td>
+<td style="text-align: center;">25.4 (21.8–30.3)</td>
+<td style="text-align: center;">118.8 (109.5–127.7)</td>
+<td style="text-align: center;">34.9 (26.1–43.9)</td>
+<td style="text-align: center;">135.3 (128.6–143.3)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2011</td>
+<td style="text-align: center;">2.5 (2.1–2.8)</td>
+<td style="text-align: center;">2.6 (2.3–3)</td>
+<td style="text-align: center;">25 (21.2–31.3)</td>
+<td style="text-align: center;">105.9 (94.5–119)</td>
+<td style="text-align: center;">30.9 (22.6–39.2)</td>
+<td style="text-align: center;">133.3 (124.8–142.6)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2012</td>
+<td style="text-align: center;">2.3 (2–2.7)</td>
+<td style="text-align: center;">2.7 (2.3–3.1)</td>
+<td style="text-align: center;">24.5 (20.7–32.4)</td>
+<td style="text-align: center;">87.6 (77–102.1)</td>
+<td style="text-align: center;">27.5 (16.8–40.5)</td>
+<td style="text-align: center;">130.2 (118.9–140)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2013</td>
+<td style="text-align: center;">2.2 (1.9–2.6)</td>
+<td style="text-align: center;">2.8 (2.4–3.3)</td>
+<td style="text-align: center;">24 (20.5–31.9)</td>
+<td style="text-align: center;">68.6 (58.6–80.9)</td>
+<td style="text-align: center;">23.9 (12.5–37.3)</td>
+<td style="text-align: center;">126 (112.5–136.7)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2014</td>
+<td style="text-align: center;">2.2 (1.8–2.6)</td>
+<td style="text-align: center;">2.9 (2.6–3.5)</td>
+<td style="text-align: center;">23.5 (20.2–29)</td>
+<td style="text-align: center;">51.6 (43.9–60.1)</td>
+<td style="text-align: center;">19.8 (9.4–32)</td>
+<td style="text-align: center;">121.5 (105.6–136.7)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2015</td>
+<td style="text-align: center;">2.1 (1.7–2.6)</td>
+<td style="text-align: center;">3.1 (2.7–3.7)</td>
+<td style="text-align: center;">22.9 (19.8–27.2)</td>
+<td style="text-align: center;">38.9 (33.7–44.4)</td>
+<td style="text-align: center;">15.9 (7–25.3)</td>
+<td style="text-align: center;">117.2 (99.8–137)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2016</td>
+<td style="text-align: center;">2.1 (1.7–2.6)</td>
+<td style="text-align: center;">3.4 (2.9–4)</td>
+<td style="text-align: center;">22.4 (19.4–26)</td>
+<td style="text-align: center;">30 (27–34.4)</td>
+<td style="text-align: center;">12.4 (5.3–18.2)</td>
+<td style="text-align: center;">114.3 (96–137.5)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2017</td>
+<td style="text-align: center;">2.1 (1.7–2.6)</td>
+<td style="text-align: center;">3.7 (3.2–4.3)</td>
+<td style="text-align: center;">21.8 (18.9–25)</td>
+<td style="text-align: center;">24.7 (20.8–28.6)</td>
+<td style="text-align: center;">9.7 (4–13.8)</td>
+<td style="text-align: center;">112.3 (95–138.2)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2018</td>
+<td style="text-align: center;">2.2 (1.8–2.6)</td>
+<td style="text-align: center;">4.1 (3.5–4.8)</td>
+<td style="text-align: center;">21.3 (18.6–24)</td>
+<td style="text-align: center;">22.2 (17.9–25.9)</td>
+<td style="text-align: center;">7.6 (3.1–11.7)</td>
+<td style="text-align: center;">112.5 (96.9–138.8)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2019</td>
+<td style="text-align: center;">2.3 (1.9–2.6)</td>
+<td style="text-align: center;">4.5 (3.9–5.3)</td>
+<td style="text-align: center;">20.8 (18.3–23.1)</td>
+<td style="text-align: center;">21.6 (17.6–25)</td>
+<td style="text-align: center;">6.4 (2.3–10.2)</td>
+<td style="text-align: center;">116.3 (102–139.3)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2020</td>
+<td style="text-align: center;">2.3 (2–2.7)</td>
+<td style="text-align: center;">5.1 (4.4–5.8)</td>
+<td style="text-align: center;">20.2 (18–22.3)</td>
+<td style="text-align: center;">22.7 (19.5–25.8)</td>
+<td style="text-align: center;">5.8 (1.8–9)</td>
+<td style="text-align: center;">123 (108.1–140.2)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2021</td>
+<td style="text-align: center;">2.4 (2.1–2.8)</td>
+<td style="text-align: center;">5.8 (5–6.4)</td>
+<td style="text-align: center;">19.7 (17.7–21.6)</td>
+<td style="text-align: center;">25.6 (22.6–28.6)</td>
+<td style="text-align: center;">5.4 (1.3–8.2)</td>
+<td style="text-align: center;">130.8 (115.1–146)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2022</td>
+<td style="text-align: center;">2.5 (2.2–2.9)</td>
+<td style="text-align: center;">6.6 (5.9–7.2)</td>
+<td style="text-align: center;">19.1 (17.3–21)</td>
+<td style="text-align: center;">30 (27.1–34.2)</td>
+<td style="text-align: center;">5.4 (1–8.1)</td>
+<td style="text-align: center;">137.5 (121.6–155.8)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2023</td>
+<td style="text-align: center;">2.6 (2.3–3)</td>
+<td style="text-align: center;">7.5 (6.8–8.2)</td>
+<td style="text-align: center;">18.7 (16.9–20.5)</td>
+<td style="text-align: center;">35.3 (31.4–40.8)</td>
+<td style="text-align: center;">5.2 (0.8–8.3)</td>
+<td style="text-align: center;">143.6 (129.2–165.7)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2024</td>
+<td style="text-align: center;">2.7 (2.4–3.1)</td>
+<td style="text-align: center;">8.7 (7.7–9.6)</td>
+<td style="text-align: center;">18.2 (16.3–20.1)</td>
+<td style="text-align: center;">39.2 (34.7–43.6)</td>
+<td style="text-align: center;">5 (0.6–8.4)</td>
+<td style="text-align: center;">149.7 (134.2–168)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2025</td>
+<td style="text-align: center;">2.8 (2.4–3.3)</td>
+<td style="text-align: center;">10 (8.7–11.4)</td>
+<td style="text-align: center;">17.7 (15.5–20)</td>
+<td style="text-align: center;">40.8 (35.1–46.6)</td>
+<td style="text-align: center;">4.3 (0.4–9.1)</td>
+<td style="text-align: center;">153.7 (136.4–173.8)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div></section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

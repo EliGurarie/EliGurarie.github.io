@@ -10,11 +10,14 @@ header:
   caption: 'Ekwǫ̀ near Wekweètì'
 ---
   
-Below, a list of some of my more favorite ones, but the [Google Scholar](https://scholar.google.com/citations?user=d_G0tbAAAAAJ&hl=en) or [Researchgate](https://www.researchgate.net/profile/Eliezer_Gurarie/research) profiles do a far better job of being up to date (and being consistently formatted).
+Below, a list of some more recent / favorite ones, but the [Google Scholar](https://scholar.google.com/citations?user=d_G0tbAAAAAJ&hl=en) or [Researchgate](https://www.researchgate.net/profile/Eliezer_Gurarie/research) profiles do a far better job of being up to date (and being consistently formatted).
 
 {:smallgrey: style="color:gray; font-size: 80%;"}
 
-
+* Barbour, N, **E Gurarie**, A Kelly, J Hodson (2026). Quantifying permeability of linear barriers to animal movement: The permeability R package. *Methods in Ecology and Evolution*. [link](https://doi.org/10.1111/2041-210x.70339)
+* Joly, K, C Beaupré, TJ Fullman, MD Cameron, N Barbour, **E Gurarie** (2026). Barrier impermeability is associated with migratory ungulate survival rates. *Scientific Reports*, 16, 152. [link](https://doi.org/10.1038/s41598-025-31911-4)
+* Larue, B, A Roberto-Charron, A Dumond, J Adamczewski, R Winter, E Hedlin, M Perra, A Gunn, **E Gurarie**, M Hebblewhite (2026). Predators at the nursery: Grizzly-Caribou spatiotemporal overlap in a declining herd? *Biological Conservation*, 315, 111705.
+* Larue, B, JJ Farr, L Ehlers, J Herriges, T Bentzen, MJ Suitor, K Joly, T Michelot, B Vuillaume, SD Côté, **E Gurarie**, M Hebblewhite (2026). Inferring behavioural states from tracking data with hidden Markov models – a validation study using GPS video-camera collars. *Movement Ecology*, 14, 11. [link](https://doi.org/10.1186/s40462-025-00621-x)
 * Liao, Q, **E Gurarie**, WF Fagan (in press). Dynamic Lake Ice Conditions Shape Caribou Water-Crossing Behavior in the Arctic. *Global Change Biology*.
 * Beaupré, C, K Joly, MD Cameron, O Couriot, WF Fagan, **E Gurarie** (2025). Winter survival shaped by forage abundance and snow depth for a long-distance migratory ungulate. *Polar Biology*. [link](https://doi.org/10.1007/s00300-025-03439-w)
 * Giroux, A, D Valle, **E Gurarie**, MV Vieira, JD Forester, L Börger, R Sepulvida, N Barbour, and others (2025). Sex drives intraspecific scaling of home range size in mammals. *Ecology Letters*, 28: e70245. [link](https://doi.org/10.1111/ele.70245)
@@ -23,14 +26,14 @@ Below, a list of some of my more favorite ones, but the [Google Scholar](https:/
 * Fagan, WF, A Krishnan, Q Liao, CH Fleming, D Liao, C Lamb, B Patterson, T Wheeldon, R Martinez-Garcia, JFS Menezes, MJ Noonan, **E Gurarie**, JM Calabrese (2024). Intraspecific encounters can lead to reduced range overlap. *Movement Ecology* **12**(1), 58. [link](https://doi.org/10.1186/s40462-024-00498-w)
 * Barbour, N, J Bright, J Hervert, **E Gurarie**, S Doerries, A Alvidrez, R Goodwin, S Su, S Lehmuth, C Black, C Fleming, W Fagan (2024). Seasonality in Sonoran pronghorn (*Antilocapra americana sonoriensis*) survival and movement within a managed rangeland. *Journal of Wildlife Management*. [link](https://doi.org/10.1002/jwmg.22609)
 * **Gurarie, E**, C Beaupré, O Couriot, M Cameron, W Fagan, K Joly (2024). Evidence for an adaptive, large-scale range shift in a long-distance terrestrial migrant. *Global Change Biology*. [link](https://onlinelibrary.wiley.com/doi/10.1111/gcb.17589)
-* **Gurarie, E** and T Avgar (2024). “Editorial: Cognitive Movement Ecology.” *Frontiers in Ecology and Evolution*, 12. [link](https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2024.1360427/full)
+* **Gurarie, E** and T Avgar (2024). "Editorial: Cognitive Movement Ecology." *Frontiers in Ecology and Evolution*, 12. [link](https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2024.1360427/full)
 * **Gurarie, E**, C Bracis, A Brilliantova, I Kojola, J Suutarinen, O Ovaskainen, S Potluri, and W Fagan (2022). Spatial memory drives foraging strategies of wolves, but in highly individual ways. *Frontiers in Ecology and Evolution*. [link](https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2022.768478/full)
 * Joly, K, **E Gurarie**, D Hansen, and M Cameron (2021). Seasonal patterns of spatial fidelity and
 temporal consistency in the distribution and movements of a migratory ungulate. *Ecology and
 Evolution*.
 * **Gurarie, E.**, S. Potluri, G.C. Cosner, R.S .Cantrell, W.F. Fagan (2021) Memories of Migrations Past: Sociality and Cognition in Dynamic, Seasonal Environments *Frontiers in Ecology and Evolution* 9: 742920. [link](https://www.frontiersin.org/articles/10.3389/fevo.2021.742920/full)
-* Barry, T.<sup>\*</sup>, **E. Gurarie**<sup>\*</sup>, I. Kojola, F. Cheraghi and W.F. Fagan. (2020) Does dispersal make the heart grow bolder? Gray wolf habitat use before, during, and after dispersal. *Animal Behavior* 166, 219-231. (\* co-first author).
-* Joly, K., O. Couriot, M.D. Cameron, **E. Gurarie.** (2020) Behavioral, Physiological, Demographic and Ecological Impacts of Hematophagous and Endoparasitic Insects on an Arctic Ungulate. *Toxins*, 12 (5), 334.
+* Barry, T.<sup>\*</sup>, **E. Gurarie**<sup>\*</sup>, I. Kojola, F. Cheraghi and W.F. Fagan. (2020) Does dispersal make the heart grow bolder? Gray wolf habitat use before, during, and after dispersal. *Animal Behavior* 166, 219-231. (\* co-first author).
+* Joly, K., O. Couriot, M.D. Cameron, **E. Gurarie.** (2020) Behavioral, Physiological, Demographic and Ecological Impacts of Hematophagous and Endoparasitic Insects on an Arctic Ungulate. *Toxins*, 12 (5), 334.
 * **Gurarie, E.**, Hebblewhite, M., Joly, K., Kelly, A.P., Adamczewski, J., Davidson, S.C., Davison, T., Gunn, A., Suitor, M.J., Fagan, W.F. and Boelman, N., (2019). Tactical departures and strategic arrivals: Divergent effects of climate and weather on caribou spring migrations. _Ecosphere_, 10(12).
 * Joly, K., **Gurarie, E.**, Sorum, M.S., Kaczensky, P., Cameron, M.D., Jakes, A.F., Borg, B.L., Nandintsetseg, D., Hopcraft, J.G.C., Buuveibaatar, B. and Jones, P.F., (2019). Longest terrestrial migrations and movements around the world. _Scientific reports_, 9(1), pp.1-10.
 * **Gurarie, E.**, Thompson, P., Kelly, A. P., Larter, N. C., Fagan, W. F., & Joly, K. (2019). For Everything There is a Season: Analyzing periodic mortality patterns with the cyclomort R package. *Methods in Ecology and Evolution*.
