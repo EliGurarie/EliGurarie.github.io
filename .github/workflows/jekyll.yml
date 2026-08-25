@@ -31,7 +31,7 @@ jobs:
       - name: Configure bundle and install
         run: |
           bundle config set --local frozen false
-          bundle config set --local path vendor/bundle
+          bundle config set --local path /home/runner/bundle
           bundle install
       
       - name: Setup Pages

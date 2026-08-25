@@ -69,6 +69,7 @@ exclude:
    - /dontbuild/
    - /blog/
    - /ignore/
+   - "*.Rmd"
 
 toc:
   enabled: true
@@ -130,5 +131,4 @@ analytics:
   google:
     tracking_id: "G-TF1EE90BWT"
     anonymize_ip: false # default
-exclude:
-  - "*.Rmd"
+
