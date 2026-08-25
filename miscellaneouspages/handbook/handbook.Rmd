@@ -2,7 +2,7 @@
 title: "[Animal Movement and Spatial Ecology Lab](https://eligurarie.github.io/)"
 subtitle: "Values, Commitments, and Practicalities" 
 author: "Elie Gurarie" 
-date: "*drafted: 2025-06-24*"
+date: "*updated: 2026-08-25*"
 output: 
   html_document:
     theme: flatly
@@ -87,7 +87,7 @@ I am your advisor, mentor, collaborator, and advocate.  As such:
 
 ### Your Commitments
 
-- Read and be aware of the [ESF Environmental Biology graduate student handbook](https://www.esf.edu/biology/graduate/documents/2021-2022-EB-Graduate-Handbook.pdf).  Although I am here to help at every step, it is ultimatly the student's responsibility to make sure that all the bureaucratic boxes are being checked (there are *a lot* of forms & deadlines & hoops).
+- Read and be aware of the [ESF Environmental Biology graduate student handbook](https://www.esf.edu/biology/graduate/documents/eb-graduate-handbook-2026.pdf).  Although I am here to help at every step, it is ultimatly the student's responsibility to make sure that all the bureaucratic boxes are being checked (there are *a lot* of forms & deadlines & hoops).
 
 - As a grad student - throughout the year - you are (usually, technically) approximately a 50% *student* pursuing your degree, and 50% either *scholar* (funded Research Assistant) or *educator* (Graduate Teaching Assistant GTA).  Your priority should be your thesis research. If you are supported as a teaching assistant or on a research assistanceship that is not directly related to your thesis work, be sure to give the research work the space and time it needs to progress regularly.  
 
@@ -150,6 +150,16 @@ Authorship is earned through intellectual contribution—idea development, analy
 - Give me a heads-up before being away from work—whether for vacation, family matters, or mental health.
 - You don’t need to disclose personal reasons unless you want to. I’m here to support you either way.
 - Do not rely entirely on your professional network for your mental well-being (none of us are trained!)  SUNY-ESF provides free counseling services, which come recommended: http://www.esf.edu/counseling/. The Academic Mental Health Collective (https://amhcollective.com/) is another good resource.   
+
+
+---
+
+## 7. Conflict Resolution
+
+There is an important section in the [EB Graduate Handbook](https://www.esf.edu/biology/graduate/documents/eb-graduate-handbook-2026.pdf) on the the recommended course of action should a conflict arise between a graduate student and major professor.  Principles of professionalism, respect, collegiality and open lines of communication generally immunize from conflicts, but the flowchart below effectively summarizes the best route for working through conflicts that can't be resolved in person.  In essence the graduate director (Dr. Cohen), other committee members, and the department chair are all there resolve issues that arise:
+
+![](conflict_flowchart.png)
+
 
 ---
 
